@@ -58,3 +58,6 @@ target/
 
 # vscode
 .vscode/
+
+# systrace file
+trace/

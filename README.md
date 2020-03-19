@@ -1,4 +1,17 @@
-# Ftrace
+# Systrace-Analysis
+This is a copy of [ftrace](https://github.com/corakwue/ftrace) ,Since the author of this project is not maintaining, I make a copy for my own use
+
+# How to use
+
+1. install python2
+2. python setup.py build
+3. python setup.py install
+3. python xxxxxxx.py (write by yourself)
+
+Once you change the code of this project, you need to rebuild && reinstall
+
+# The following is the project description of the original project
+## Ftrace
 
 Ftrace is a Python library for parsing and analyzing performance/power of Linux-based platform (e.g.Android).
 It relies on Function Tracer (Ftrace) - an internal tracing framework introduced in Linux kernel (>= 2.6.27).
@@ -8,12 +21,12 @@ Android devices are shipped with ```atrace``` binary that utilizes Ftrace and su
 of useful android events. In addition, [Systrace](developer.android.com/tools/help/systrace.html) tool 
 - Python/HTML-based wrapper - was developed by Google for profiling and visualizing via ```chrome://tracing/``` on Chrome browser.
 
-# Prerequisites
+## Prerequisites
 
-## Ftrace
+### Ftrace
 Ftrace must be configured/enabled in the kernel. This requires CONFIG_FTRACE and other Ftrace options.
 
-## debugfs
+### debugfs
 Requires a kernel with CONFIG_DEBUG_FS option enabled (debugfs was added in 2.6.10-rc3). 
 The debugfs needs to be mounted:
 
@@ -22,7 +35,7 @@ The debugfs needs to be mounted:
 ```
 > Most non-rooted (production) devices ship with some support for Ftrace and restrictions on what can be traced.
 
-# Quick Start
+## Quick Start
 
 Ftrace parsing library provides API for in-depth analysis of both performance/power related issues.
 A version of this tool was used at Qualcomm (by previous employer) for development of big.LITTLE scheduler,
