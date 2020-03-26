@@ -34,6 +34,7 @@ from ftrace.utils.decorators import requires, coroutine, memoize
 from ftrace.atrace import AtraceTag
 from ftrace.common import filter_by_task
 from six import string_types
+from ftrace.task import TaskState
 
 log = Logger('Android')
 
@@ -315,7 +316,6 @@ class Android(FTraceComponent):
         all_aq_events = self.input_events()
         touch_irqs = IntervalList(filter_by_task(
             all_tasks, 'name', irq_name, 'any'))
-
         def _input_intervals():
             """
             Generator that yields intervals when discrete input event(s)
@@ -334,17 +334,16 @@ class Android(FTraceComponent):
             """
             last_timestamp = self._trace.interval.start
             for ir_event in filter_by_task(all_tasks, 'name', 'InputReader', 'any'):
-                yield Interval(last_timestamp, ir_event.interval.end)
-                last_timestamp = ir_event.interval.end
+                if last_timestamp <= ir_event.interval.end:
+                    yield Interval(last_timestamp, ir_event.interval.end)
+                    last_timestamp = ir_event.interval.end
 
         for interval in _input_intervals():
             irqs = touch_irqs.slice(interval=interval, trimmed=False)
             # Necessary as we may be interested in different IRQ name
             if irqs:
                 # Use longest IRQ
-                start_ts = max(irqs, key=lambda x: x.interval.duration).interval.start
-
-
+                start_ts = min(irqs, key=lambda x: x.interval.start).interval.start
                 end_ts = start_ts
                 post_ir_interval = Interval(start_ts, self._trace.duration)
                 di_events = self.event_intervals(name=['deliverInputEvent', 'input'], interval=post_ir_interval)

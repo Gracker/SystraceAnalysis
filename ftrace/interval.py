@@ -129,10 +129,8 @@ class IntervalList(list):
         idx_left = idx_left - 1 if idx_left >= len(self) else idx_left
         idx_right = None if idx_right > len(self) else idx_right
         idx = slice(idx_left, idx_right) if idx_left != idx_right else slice(idx_left - 1, idx_left)
-
         ll = self[idx]
-        rv = IntervalList()
-        
+        rv = IntervalList(ll)
         if trimmed and len(ll):
             for item in ll:
                 trim = False
@@ -145,5 +143,4 @@ class IntervalList(list):
                     rv.append(item._replace(interval=Interval(item_start, item_end)))
                 else:
                     rv.append(item)
-
         return rv
