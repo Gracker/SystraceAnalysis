@@ -381,6 +381,7 @@ class Android(FTraceComponent):
                                 continue # if AQ event exists.
                             post_di_start = di_events[0].interval.start
     
+                        print 'post_di_start = ' + str(post_di_start)
                         post_di_interval = Interval(post_di_start,
                                                     self._trace.duration)
     
@@ -489,6 +490,8 @@ class Android(FTraceComponent):
         """Return launch latency seen in trace"""
         launch_latencies = []
         launched_events = list(self.launched_app_events())
+        print 'start'
+        print launched_events
         launched_events.append(None)
 
         for curr_app_event, next_app_event in zip(launched_events, launched_events[1:]):

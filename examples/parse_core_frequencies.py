@@ -20,6 +20,10 @@ parser.add_argument('-f', '--file', dest='file',
                     help='File to parse')
 parser.add_argument('-pf', '--process file', dest='process_file',
                     help='Process file to parse')
+parser.add_argument('-pid', '--process pid', dest='process_pid',
+                    help='Process pid')          
+parser.add_argument('-pn', '--process name', dest='process_name',
+                    help='Process name')   
 args = parser.parse_args()
 print 'parse argument end'
 
@@ -37,38 +41,60 @@ task_interval = trace.cpu.task_intervals()
 # task_tid_list = process_info.get_all_task_tid()
 print 'cpu.task_intervals end'
 
-# print 'main parse start'
-# for busy_interval_item in task_interval:
-#     if busy_interval_item.state == TaskState.RUNNING:
-#         task_tid = busy_interval_item.task.pid
-#         if task_tid != 0:
-#             task_pid = process_info.get_pid(task_tid)
-#             task_name = process_info.get_taskname_by_tid(task_tid)
-#             process_name = process_info.get_taskname_by_pid(task_pid)
-#             process_info.save_running_info_to_pid_list(task_pid ,task_tid , process_name,task_name , busy_interval_item.interval.duration)
-
-# print 'Total running time = ' + str(process_info.get_total_running_time())
-# process_info.cal_percentage()
-# process_info.print_result_sort_by_pid()
-# print 'main parse end'
-
-print 'target process parse start'
-target_pid = '2738'
-process_name = None
+print 'main parse start'
 for busy_interval_item in task_interval:
     if busy_interval_item.state == TaskState.RUNNING:
         task_tid = busy_interval_item.task.pid
         if task_tid != 0:
             task_pid = process_info.get_pid(task_tid)
-            if task_pid == target_pid:
-                task_name = process_info.get_taskname_by_tid(task_tid)
-                if process_name is None:
-                    process_name = process_info.get_taskname_by_pid(task_pid)
-                process_info.get_process_running_info(task_pid ,task_tid , process_name,task_name , busy_interval_item.interval.duration)
-process_info.print_result_sort_by_process()
-print 'target process parse end'
+            task_name = process_info.get_taskname_by_tid(task_tid)
+            process_name = process_info.get_taskname_by_pid(task_pid)
+            process_info.save_running_info_to_pid_list(task_pid ,task_tid , process_name,task_name , busy_interval_item.interval.duration)
+total_time = process_info.get_total_running_time()
+print 'Total running time = ' + str(total_time)
+process_info.cal_percentage(total_time)
+process_info.print_result_sort_by_pid()
+# process_info.print_result_sort_by_process()
+print 'main parse end'
 
-print "Total trace time = " + str(trace.duration)
+if args.process_pid is not None:
+    print 'target process parse by process pid start'
+    target_pid = args.process_pid  # input your target process id
+    process_name = None
+    for busy_interval_item in task_interval:
+        # print busy_interval_item
+        if busy_interval_item.state == TaskState.RUNNING:
+            task_tid = busy_interval_item.task.pid
+            if task_tid != 0:
+                task_pid = process_info.get_pid(task_tid)
+                if task_pid == target_pid:
+                    task_name = process_info.get_taskname_by_tid(task_tid)
+                    if process_name is None:
+                        process_name = process_info.get_taskname_by_pid(task_pid)
+                    process_info.get_process_running_info(task_pid ,task_tid , process_name,task_name , busy_interval_item.interval.duration)
+    process_info.print_result_sort_by_process()
+    print 'target process parse by process pid end'
+
+if args.process_name is not None:
+    print 'target process parse by process name start'
+    target_process_name = args.process_name
+    target_pid = process_info.get_pid_by_taskname(target_process_name)
+    print 'target_pid : ' + str(target_pid)
+    if target_pid is not None:
+        for busy_interval_item in task_interval:
+            # print busy_interval_item
+            if busy_interval_item.state == TaskState.RUNNING:
+                task_tid = busy_interval_item.task.pid
+                if task_tid != 0:
+                    task_pid = process_info.get_pid(task_tid)
+                    if task_pid == target_pid:
+                        task_name = process_info.get_taskname_by_tid(task_tid)
+                        if process_name is None:
+                            process_name = process_info.get_taskname_by_pid(task_pid)
+                        process_info.get_process_running_info(task_pid ,task_tid , process_name,task_name , busy_interval_item.interval.duration)
+        process_info.print_result_sort_by_process()
+    print 'target process parse by process name end'
+# print "Total trace time = " + str(trace.duration)
 
 # process_info.print_result_sort_by_all()
 # process_info.print_result_sort_by_tid()

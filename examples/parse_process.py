@@ -2,6 +2,8 @@ import sys
 import argparse
 from pandas import DataFrame
 import pandas as pd
+import numpy as np
+import time
 
 class ProcessInfo:
     user = '0'
@@ -80,6 +82,10 @@ class ProcessInfoParse:
       tidList.append(processinfo.tid)
     return tidList
 
+  def get_pid_by_taskname(self, taskname):
+    for processinfo in processInfolist:
+      if processinfo.process_name == str(taskname):
+        return processinfo.pid
 
   def save_running_info_to_tid_list(self , pid , tid , name , duration):
     # record tid
@@ -133,7 +139,11 @@ class ProcessInfoParse:
       # for dic_pid in result_list_pid:
       #   print 'pid = ' + dic_pid['pid']+ '  name = ' + dic_pid['name'] + ' duration = ' + dic_pid['duration']
       df = pd.DataFrame(result_list_pid, columns=['duration','pid','name'])
-      df.to_csv("lock_to_launcher_2020_3_24_16.csv",index=False)
+      df.sort_values("duration",inplace=True, ascending=False)
+
+      now = time.strftime("%Y-%m-%d-%H_%M_%S",time.localtime(time.time())) 
+      fname= now+r"_result_sort_by_pid.csv"
+      df.to_csv(fname,index=False)
 
   def print_result_sort_by_process(self):
     print '# cpu time by process view #'
@@ -141,7 +151,10 @@ class ProcessInfoParse:
       # for dic_pid in result_list_pid:
       #   print 'pid = ' + dic_pid['pid']+ '  name = ' + dic_pid['name'] + ' duration = ' + dic_pid['duration']
       df = pd.DataFrame(result_list_process, columns=['duration','pid','process_name','task_name','tid'])
-      df.to_csv("lock_to_launcher_2020_3_24_16_pid.csv",index=False)
+      df.sort_values("duration",inplace=True , ascending=False)
+      now = time.strftime("%Y-%m-%d-%H_%M_%S",time.localtime(time.time())) 
+      fname= now+r"_result_sort_by_process.csv"
+      df.to_csv(fname,index=False)
 
   def print_result_sort_by_all(self):
     print '# cpu time by pid and tid view #'
