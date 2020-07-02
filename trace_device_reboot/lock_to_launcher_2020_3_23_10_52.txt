@@ -1,0 +1,4467 @@
+root             1     1 init
+root             2     2 kthreadd
+root             3     3 rcu_gp
+root             4     4 rcu_par_gp
+root             5     5 kworker/0:0-events
+root             6     6 kworker/0:0H-events_highpri
+root             7     7 kworker/0:1-sock_diag_events
+root             8     8 kworker/u16:0+LPASS_CNTL
+root             9     9 mm_percpu_wq
+root            10    10 ksoftirqd/0
+root            11    11 rcu_preempt
+root            12    12 rcu_sched
+root            13    13 rcu_bh
+root            14    14 rcuop/0
+root            15    15 rcuos/0
+root            16    16 rcuob/0
+root            17    17 migration/0
+root            18    18 cpuhp/0
+root            19    19 cpuhp/1
+root            20    20 migration/1
+root            21    21 ksoftirqd/1
+root            22    22 kworker/1:0-mm_percpu_wq
+root            23    23 kworker/1:0H-events_highpri
+root            24    24 rcuop/1
+root            25    25 rcuos/1
+root            26    26 rcuob/1
+root            27    27 cpuhp/2
+root            28    28 migration/2
+root            29    29 ksoftirqd/2
+root            30    30 kworker/2:0-mm_percpu_wq
+root            31    31 kworker/2:0H-events_highpri
+root            32    32 rcuop/2
+root            33    33 rcuos/2
+root            34    34 rcuob/2
+root            35    35 cpuhp/3
+root            36    36 migration/3
+root            37    37 ksoftirqd/3
+root            38    38 kworker/3:0-events_power_efficient
+root            39    39 kworker/3:0H-events_highpri
+root            40    40 rcuop/3
+root            41    41 rcuos/3
+root            42    42 rcuob/3
+root            43    43 cpuhp/4
+root            44    44 migration/4
+root            45    45 ksoftirqd/4
+root            46    46 kworker/4:0-mm_percpu_wq
+root            47    47 kworker/4:0H-events_highpri
+root            48    48 rcuop/4
+root            49    49 rcuos/4
+root            50    50 rcuob/4
+root            51    51 cpuhp/5
+root            52    52 migration/5
+root            53    53 ksoftirqd/5
+root            54    54 kworker/5:0-mm_percpu_wq
+root            55    55 kworker/5:0H-events_highpri
+root            56    56 rcuop/5
+root            57    57 rcuos/5
+root            58    58 rcuob/5
+root            59    59 cpuhp/6
+root            60    60 migration/6
+root            61    61 ksoftirqd/6
+root            62    62 kworker/6:0-events
+root            63    63 kworker/6:0H-kblockd
+root            64    64 rcuop/6
+root            65    65 rcuos/6
+root            66    66 rcuob/6
+root            67    67 cpuhp/7
+root            68    68 migration/7
+root            69    69 ksoftirqd/7
+root            70    70 kworker/7:0-events
+root            71    71 kworker/7:0H-events_highpri
+root            72    72 rcuop/7
+root            73    73 rcuos/7
+root            74    74 rcuob/7
+root            75    75 netns
+root            76    76 wakelock_printk
+root            77    77 rcu_tasks_kthre
+root            78    78 kworker/st10:0
+root            79    79 kauditd
+root            80    80 kworker/6:1-events
+root            81    81 kworker/7:1-events_power_efficient
+root            82    82 kworker/u16:1-DIAG_DCI_DATA
+root            83    83 kworker/1:1-events
+root            84    84 kworker/2:1-events
+root            85    85 kworker/3:1-pm
+root            86    86 kworker/4:1-sock_diag_events
+root            87    87 kworker/u17:0-pil_workqueue
+root            88    88 ipa_usb_wq
+root            89    89 phoenix_hlos_wa
+root            90    90 msm_watchdog
+root            91    91 qmp_aop
+root            92    92 khungtaskd
+root            93    93 oom_reaper
+root            94    94 writeback
+root            95    95 kcompactd0
+root            96    96 crypto
+root            97    97 kblockd
+root            98    98 irq/120-arm-smm
+root            99    99 irq/258-capture
+root           100   100 irq/259-capture
+root           101   101 irq/129-arm-smm
+root           102   102 irq/260-capture
+root           103   103 irq/261-capture
+root           104   104 irq/262-capture
+root           105   105 irq/263-capture
+root           106   106 irq/264-capture
+root           107   107 irq/265-capture
+root           108   108 irq/266-capture
+root           109   109 irq/267-capture
+root           111   111 irq/12-tsens-up
+root           112   112 irq/13-tsens-cr
+root           113   113 irq/14-tsens-0C
+root           114   114 irq/15-tsens-up
+root           115   115 irq/16-tsens-cr
+root           116   116 irq/17-tsens-0C
+root           117   117 edac-poller
+root           118   118 ion-pool-uncach
+root           119   119 ion-pool-cached
+root           120   120 system
+root           121   121 ipa_power_mgmt
+root           122   122 transport_power
+root           123   123 ipa_pm_activate
+root           124   124 irq/132-arm-smm
+root           125   125 irq/134-arm-smm
+root           126   126 irq/135-arm-smm
+root           127   127 devfreq_wq
+root           128   128 governor_msm_ad
+root           129   129 irq/136-arm-smm
+root           130   130 kworker/7:2-events
+root           131   131 irq/137-arm-smm
+root           132   132 cfg80211
+root           169   169 panic_flush
+root           170   170 kswapd0
+root           171   171 ecryptfs-kthrea
+root           209   209 irq/138-arm-smm
+root           210   210 irq/139-arm-smm
+root           211   211 irq/210-smp2p
+root           212   212 irq/211-smp2p
+root           213   213 irq/212-smp2p
+root           214   214 mem_share_svc
+root           215   215 irq/140-arm-smm
+root           216   216 hwrng
+root           218   218 diag_real_time_
+root           219   219 diag_wq
+root           220   220 DIAG_USB_diag
+root           221   221 diag_cntl_wq
+root           222   222 diag_dci_wq
+root           223   223 MODEM_CNTL
+root           224   224 MODEM_DATA
+root           225   225 MODEM_CMD
+root           226   226 MODEM_DCI
+root           227   227 MODEM_DCI_CMD
+root           228   228 LPASS_CNTL
+root           229   229 LPASS_DATA
+root           230   230 LPASS_CMD
+root           231   231 LPASS_DCI
+root           232   232 LPASS_DCI_CMD
+root           233   233 WCNSS_CNTL
+root           234   234 WCNSS_DATA
+root           235   235 WCNSS_CMD
+root           236   236 WCNSS_DCI
+root           237   237 WCNSS_DCI_CMD
+root           238   238 SENSORS_CNTL
+root           239   239 SENSORS_DATA
+root           240   240 SENSORS_CMD
+root           241   241 SENSORS_DCI
+root           242   242 SENSORS_DCI_CMD
+root           243   243 DIAG_CTRL
+root           244   244 DIAG_DATA
+root           245   245 DIAG_CMD
+root           246   246 DIAG_DCI_DATA
+root           247   247 DIAG_DCI_CMD
+root           248   248 CDSP_CNTL
+root           249   249 CDSP_DATA
+root           250   250 CDSP_CMD
+root           251   251 CDSP_DCI
+root           252   252 CDSP_DCI_CMD
+root           253   253 NPU_CNTL
+root           254   254 NPU_DATA
+root           255   255 NPU_CMD
+root           256   256 NPU_DCI
+root           257   257 NPU_DCI_CMD
+root           258   258 DIAG_RPMSG_DIAG
+root           259   259 DIAG_RPMSG_DIAG
+root           260   260 DIAG_RPMSG_DIAG
+root           261   261 DIAG_RPMSG_DIAG
+root           262   262 DIAG_RPMSG_DIAG
+root           263   263 kworker/u16:2+CDSP_DCI
+root           264   264 diag_mhi_MDM
+root           265   265 DIAG_USB_diag_m
+root           266   266 kworker/u16:3-ufs_pm_qos_0
+root           267   267 diag_mhi_MDM_DC
+root           268   268 diag_dci_MDM_DC
+root           269   269 diag_mhi_MDM_2
+root           270   270 DIAG_USB_diag_m
+root           271   271 diag_mhi_MDM_DC
+root           272   272 diag_dci_MDM_DC
+root           273   273 kgsl-workqueue
+root           274   274 kgsl-mementry
+root           275   275 kgsl_worker_thr
+root           276   276 kgsl_signal_fen
+root           277   277 kworker/u16:4-adb
+root           278   278 kworker/u16:5+WCNSS_CNTL
+root           279   279 kworker/u16:6-ufs_pm_qos_0
+root           280   280 kworker/u16:7-ufs_clkscaling_0
+root           281   281 qseecom-unreg-l
+root           282   282 qseecom-unload-
+root           283   283 kworker/u16:8-MODEM_DATA
+root           284   284 irq/141-arm-smm
+root           285   285 irq/142-arm-smm
+root           286   286 irq/143-arm-smm
+root           287   287 qcrypto_seq_res
+root           288   288 irq/144-arm-smm
+root           309   309 scsi_eh_0
+root           310   310 scsi_tmf_0
+root           311   311 ufs_pm_qos_0
+root           312   312 kworker/5:1-events
+root           313   313 ufs_recovery_wq
+root           314   314 ufs_clk_gating_
+root           315   315 ice-set-key
+root           316   316 ufs_clkscaling_
+root           317   317 bond0
+root           318   318 irq/145-arm-smm
+root           323   323 k_ipa_usb
+root           326   326 kworker/u16:9+MODEM_DCI_CMD
+root           327   327 tp_async
+root           328   328 kworker/u16:10-ufs_clkscaling_0
+root           329   329 kworker/u16:11+LPASS_DCI
+root           330   330 kworker/2:2-pm
+root           331   331 kworker/u16:12-qmi_msg_handler
+root           332   332 kworker/u16:13-adb
+root           333   333 kworker/u16:14-ufs_clkscaling_0
+root           334   334 kworker/u16:15-ufs_pm_qos_0
+root           335   335 irq/287-touchpa
+root           336   336 speedup_resume_
+root           337   337 lcd_trigger_loa
+root           338   338 touch_up_wq
+root           339   339 irq/288-i2c_pmi
+root           340   340 irq/146-arm-smm
+root           341   341 kworker/2:3-mm_percpu_wq
+root           342   342 irq/49-qcom,tem
+root           343   343 irq/268-limits_
+root           344   344 irq/269-limits_
+root           345   345 irq/269-limits_
+root           346   346 kworker/0:1H-events_highpri
+root           347   347 kworker/1:1H-kblockd
+root           348   348 kworker/2:1H-events_highpri
+root           349   349 kworker/3:1H-kblockd
+root           350   350 kworker/4:1H-kblockd
+root           351   351 kworker/5:1H-kblockd
+root           352   352 kworker/6:1H-kblockd
+root           353   353 kworker/7:1H-kblockd
+root           354   354 dm_bufio_cache
+root           355   355 irq/75-KRYO L3-
+root           356   356 memlat_wq
+root           357   357 irq/147-arm-smm
+root           358   358 irq/148-arm-smm
+root           359   359 uaudio_svc
+root           360   360 msm_vidc_worker
+root           361   361 pm_workerq_venu
+root           362   362 vidc_core_workq
+root           363   363 irq/149-arm-smm
+root           364   364 irq/150-arm-smm
+root           365   365 irq/151-arm-smm
+root           366   366 irq/152-arm-smm
+root           367   367 irq/153-arm-smm
+root           368   368 irq/154-arm-smm
+root           369   369 irq/155-arm-smm
+root           370   370 irq/156-arm-smm
+root           371   371 irq/157-arm-smm
+root           372   372 irq/158-arm-smm
+root           373   373 cam-cpas
+root           374   374 qcom,cam_virtua
+root           375   375 qcom,cam170-cpa
+root           376   376 cam_cci_wq
+root           377   377 cam_cci_wq
+root           378   378 cam_cci_wq
+root           379   379 cam_cci_wq
+root           380   380 dsi_dma_cmd_wor
+root           381   381 dsi_dma_cmd_wor
+root           382   382 oppo_ffl
+root           383   383 irq/133-arm-smm
+root           384   384 irq/159-arm-smm
+root           385   385 crtc_commit:111
+root           386   386 crtc_event:111
+root           387   387 crtc_commit:164
+root           388   388 crtc_event:164
+root           389   389 pp_event
+root           390   390 ipv6_addrconf
+root           391   391 workqueue_sla
+root           392   392 kworker/7:3-events
+root           393   393 irq/121-arm-smm
+root           394   394 irq/122-arm-smm
+root           395   395 irq/123-arm-smm
+root           396   396 kgsl-events
+root           397   397 kgsl_devfreq_wq
+root           404   404 npu_general_wq
+root           405   405 kworker/7:4-events
+root           406   406 kworker/7:5-mm_percpu_wq
+root           407   407 kworker/7:6-cgroup_pidlist_destroy
+root           408   408 kworker/7:7-events
+root           409   409 kworker/7:8-events_power_efficient
+root           410   410 shortc_thread
+root           411   411 kworker/7:9-rcu_gp
+root           412   412 irq/297-chgr-er
+root           413   413 irq/298-chg-sta
+root           414   414 irq/305-otg-fai
+root           415   415 kworker/7:10-events
+root           416   416 irq/309-high-du
+root           417   417 irq/310-input-c
+root           418   418 irq/312-switche
+root           419   419 irq/313-bat-tem
+root           420   420 irq/314-bat-ov
+root           421   421 irq/315-bat-low
+root           422   422 irq/316-bat-the
+root           423   423 irq/317-bat-ter
+root           424   424 irq/320-usbin-c
+root           425   425 irq/321-usbin-v
+root           426   426 irq/322-usbin-u
+root           427   427 irq/323-usbin-o
+root           428   428 irq/324-usbin-p
+root           429   429 irq/326-usbin-s
+root           430   430 irq/327-usbin-i
+root           431   431 irq/329-dcin-uv
+root           432   432 irq/330-dcin-ov
+root           433   433 irq/331-dcin-pl
+root           434   434 irq/333-dcin-po
+root           435   435 irq/334-dcin-en
+root           436   436 irq/335-typec-o
+root           437   437 irq/337-typec-c
+root           438   438 irq/338-typec-v
+root           439   439 irq/340-typec-a
+root           440   440 irq/341-typec-l
+root           441   441 irq/343-wdog-sn
+root           442   442 irq/344-wdog-ba
+root           443   443 irq/346-aicl-do
+root           444   444 irq/347-smb-en
+root           445   445 irq/349-temp-ch
+root           446   446 irq/296-ccdetec
+root           447   447 tbatt_pwroff
+root           448   448 usbtemp_kthread
+root           449   449 irq/28-qcom,tem
+root           450   450 irq/33-qcom,tem
+root           451   451 irq/51-thr-int-
+root           452   452 irq/32-thr-int-
+root           453   453 irq/67-thr-int-
+root           454   454 byte-cntr
+root           455   455 irq/213-smp2p
+root           460   460 irq/41-sig-tx
+root           461   461 irq/42-sig-rx
+root           462   462 irq/215-pwr_eve
+root           463   463 irq/214-dp_hs_p
+root           464   464 irq/217-dm_hs_p
+root           465   465 irq/216-ss_phy_
+root           466   466 core_ctl/0
+root           467   467 core_ctl/6
+root           468   468 core_ctl/7
+root           469   469 rq_stats
+root           470   470 msm_perf:events
+root           471   471 cdsprm-wq
+root           472   472 cdsprm-wq-delay
+root           473   473 irq/160-arm-smm
+root           474   474 irq/161-arm-smm
+root           475   475 irq/162-arm-smm
+root           476   476 irq/163-arm-smm
+root           477   477 irq/164-arm-smm
+root           478   478 irq/165-arm-smm
+root           479   479 irq/166-arm-smm
+root           480   480 irq/167-arm-smm
+root           481   481 irq/168-arm-smm
+root           482   482 irq/169-arm-smm
+root           483   483 irq/170-arm-smm
+root           484   484 irq/171-arm-smm
+root           485   485 irq/351-rf_cabl
+root           486   486 irq/172-arm-smm
+root           487   487 sb-1
+root           488   488 ngd_rx_thread1
+root           489   489 ngd_notify_sl1
+root           490   490 silfp_wq
+root           491   491 irq/70-qpnp_fla
+root           492   492 irq/69-qpnp_fla
+root           493   493 irq/68-qpnp_fla
+root           498   498 kdmflush
+root           499   499 kdmflush
+root           500   500 kdmflush
+root           501   501 kdmflush
+root           502   502 kdmflush
+root           503   503 kdmflush
+root           504   504 kdmflush
+root           505   505 kdmflush
+root           506   506 kdmflush
+root           507   507 jbd2/sda7-8
+root           508   508 ext4-rsv-conver
+root           509   509 ext4_discard-8:
+root           510   510 ext4-rsv-conver
+root           511   511 ext4_discard-25
+root           512   512 ext4-rsv-conver
+root           513   513 ext4_discard-25
+root           514   514 ext4-rsv-conver
+root           515   515 ext4_discard-25
+root           516   516 ext4-rsv-conver
+root           517   517 ext4_discard-25
+root           518   518 ext4-rsv-conver
+root           519   519 ext4_discard-25
+root           520   520 ext4-rsv-conver
+root           521   521 ext4_discard-25
+root           522   522 ext4-rsv-conver
+root           524   524 f2fs_discard-25
+root           525   525 f2fs_gc-253:8
+root           526   526 init
+root           527   527 init
+root           528   528 ueventd
+root           540   540 apr_driver
+root           541   541 kworker/6:2-events
+root           542   542 kworker/2:4-pm
+logd           543   543 logd
+logd           543   552 logd.daemon
+logd           543   553 logd.daemon
+logd           543   554 logd.reader
+logd           543   555 logd.writer
+logd           543   556 logd.control
+logd           543   557 logd.auditd
+logd           543  7665 logd.reader.per
+root           544   544 kworker/6:3-events
+system         545   545 servicemanager
+system         546   546 hwservicemanage
+system         547   547 vndservicemanag
+system         548   548 qseecomd
+system         548   563 qseecomd
+system         548   564 qseecomd
+system         548   565 qseecomd
+system         548   567 qseecomd
+system         548   568 qseecomd
+system         548   569 qseecomd
+system         548   570 qseecomd
+system         548   571 qseecomd
+system         548   572 qseecomd
+system         549   549 keymaster@4.0-s
+system         550   550 qseecom@1.0-ser
+system         550   566 HwBinder:550_1
+root           558   558 Binder:558_2
+root           558   587 Binder:558_1
+root           558   588 Binder:558_2
+root           558   591 Binder:558_3
+root           573   573 jbd2/sda6-8
+root           574   574 ext4-rsv-conver
+root           575   575 ext4_discard-8:
+root           576   576 ext4-rsv-conver
+root           577   577 ext4_discard-25
+root           578   578 ext4-rsv-conver
+root           579   579 ext4_discard-25
+root           581   581 jbd2/sda2-8
+root           582   582 ext4-rsv-conver
+root           583   583 ext4_discard-8:
+root           584   584 jbd2/sde9-8
+root           585   585 ext4-rsv-conver
+root           586   586 ext4_discard-8:
+root           593   593 jbd2/sdf7-8
+root           594   594 ext4-rsv-conver
+root           595   595 ext4_discard-8:
+root           597   597 kworker/u17:1-pil_workqueue
+radio          598   598 ipacm-diag
+system         600   600 sscrpcd
+system         600   892 sscrpcd
+system         600   893 sscrpcd
+system         601   601 atrace@1.0-serv
+system         602   602 gatekeeper@1.0-
+root           612   612 kworker/u17:2-pil_workqueue
+root           613   613 kworker/u17:3-pil_workqueue
+root           617   617 ipa_interrupt_w
+root           618   618 ipawq36
+root           619   619 iparepwq36
+root           620   620 ipawq33
+root           621   621 iparepwq33
+root           622   622 ipawq32
+root           623   623 iparepwq32
+root           624   624 ipa_ut_dbgfs
+root           625   625 kworker/1:2-mm_percpu_wq
+root           626   626 clnt_req
+root           628   628 f2fs_discard-8:
+root           629   629 f2fs_gc-8:10
+root           642   642 apexd
+root           642   643 Binder:642_1
+root           642   644 Binder:642_2
+root           667   667 kworker/3:2-events
+system         720   720 time_daemon
+system         720   732 time_daemon
+system         720  1004 time_daemon
+system         720  1007 time_daemon
+system         720  1008 time_daemon
+system         720  1009 time_daemon
+system         720  1010 time_daemon
+system         720  1011 time_daemon
+system         720  1815 time_daemon
+root           783   783 Binder:783_3
+root           783  1681 netd
+root           783  1689 SkDestroyListen
+root           783  1704 netd
+root           783  1705 netd
+root           783  1706 netd
+root           783  1707 netd
+root           783  1708 NFLogListener
+root           783  1709 netd
+root           783  1710 Binder:783_1
+root           783  1711 Binder:783_2
+root           783  1712 Binder:783_2
+root           783  1713 Binder:783_2
+root           783  1714 HwBinder:783_1
+root           783  3891 Binder:783_4
+root           783  7027 netd
+root           783  8420 netd
+root           783  8421 netd
+root           784   784 main
+root           784 10798 HeapTaskDaemon
+root           784 10799 ReferenceQueueD
+root           784 10800 FinalizerDaemon
+root           784 10801 FinalizerWatchd
+root           784 10802 Jit thread pool
+root           785   785 main
+root           785  9598 HeapTaskDaemon
+root           785  9599 ReferenceQueueD
+root           785  9600 FinalizerDaemon
+root           785  9601 FinalizerWatchd
+root           785  9602 Jit thread pool
+system         786   786 bspFwUpdate
+system         786   853 bspFwUpdate
+root           789   789 kworker/u17:4-pil_workqueue
+root           793   793 kworker/u17:5-pil_workqueue
+root           796   796 kworker/u17:6-pil_workqueue
+root           798   798 kworker/u17:7-pil_workqueue
+root           802   802 kworker/u17:8-pil_workqueue
+root           806   806 kworker/u17:9-pil_workqueue
+root           807   807 kworker/u17:10-pil_workqueue
+root           809   809 kworker/u17:11-pil_workqueue
+root           811   811 kworker/u17:12-pil_workqueue
+root           813   813 kworker/u17:13-pil_workqueue
+root           815   815 kworker/u17:14-pil_workqueue
+root           818   818 kworker/u17:15-pil_workqueue
+root           819   819 kworker/u17:16-pil_workqueue
+root           821   821 kworker/u17:17-pil_workqueue
+root           823   823 kworker/u17:18-pil_workqueue
+root           825   825 kworker/u17:19-dwc_wq
+root           829   829 kworker/u17:20-pil_workqueue
+root           832   832 kworker/u17:21-pil_workqueue
+root           839   839 glink_cdsp
+root           841   841 kworker/0:2-events
+root           842   842 qrtr_rx
+root           874   874 glink_adsp
+root           875   875 qrtr_rx
+root           888   888 glink_npu
+audioserver    891   891 audio@2.0-servi
+audioserver    891   951 Binder:891_1
+audioserver    891   954 Binder:891_2
+audioserver    891   960 HwBinder:891_1
+audioserver    891   961 HwBinder:891_2
+audioserver    891  1650 OPPO KTV thread
+audioserver    891  2370 audio@2.0-servi
+audioserver    891  2375 audio@2.0-servi
+audioserver    891  2377 HwBinder:891_2
+audioserver    891  2380 HwBinder:891_2
+audioserver    891  2381 HwBinder:891_2
+audioserver    891  2383 HwBinder:891_3
+audioserver    891  2384 HwBinder:891_4
+audioserver    891  5913 writer
+audioserver    891  6130 HwBinder:891_5
+system         894   894 allocator@1.0-s
+system         895   895 suspend@1.0-ser
+system         895   919 Binder:895_1
+system         895   922 Binder:895_2
+bluetooth      896   896 bluetooth@1.0-s
+cameraserver   897   897 provider@2.4-se
+cameraserver   897   927 HwBinder:897_1
+cameraserver   897   928 HwBinder:897_2
+cameraserver   897  1069 provider@2.4-se
+cameraserver   897  1088 SyncManager_0
+cameraserver   897  1089 provider@2.4-se
+cameraserver   897  2206 provider@2.4-se
+cameraserver   897  2338 provider@2.4-se
+cameraserver   897  2339 provider@2.4-se
+cameraserver   897  2340 provider@2.4-se
+cameraserver   897  2341 provider@2.4-se
+cameraserver   897  2342 provider@2.4-se
+cameraserver   897  2343 provider@2.4-se
+cameraserver   897  2344 provider@2.4-se
+cameraserver   897  2345 provider@2.4-se
+cameraserver   897  2346 provider@2.4-se
+cameraserver   897  2347 provider@2.4-se
+cameraserver   897  2348 provider@2.4-se
+cameraserver   897  2349 provider@2.4-se
+cameraserver   897  2350 provider@2.4-se
+cameraserver   897  2351 provider@2.4-se
+cameraserver   897  2352 provider@2.4-se
+cameraserver   897  2353 provider@2.4-se
+cameraserver   897  2354 provider@2.4-se
+cameraserver   897  2355 provider@2.4-se
+cameraserver   897  2356 provider@2.4-se
+media          898   898 cas@1.1-service
+media          898   920 HwBinder:898_1
+media          898   926 HwBinder:898_2
+system         899   899 configstore@1.1
+system         899   932 HwBinder:899_1
+system         899  1903 HwBinder:899_2
+media          901   901 drm@1.0-service
+media          901   946 HwBinder:901_1
+media          902   902 drm@1.2-service
+media          902   921 HwBinder:902_1
+media          902  5871 HwBinder:902_2
+media          903   903 drm@1.2-service
+media          903   934 HwBinder:903_1
+media          903   935 HwBinder:903_2
+gps            904   904 gnss@2.0-servic
+gps            904   948 Loc_hal_worker
+gps            904   966 LocApiMsgTask
+gps            904   967 LocIpc-/dev/soc
+gps            904   968 LocTimerPollTas
+gps            904   969 LocTimerMsgTask
+gps            904   973 LocApiMsgTask
+gps            904   976 gnss@2.0-servic
+gps            904  2111 LocApiMsgTask
+gps            904  2301 Loc_hal_worker
+gps            904  2302 Loc_hal_worker
+gps            904  3023 Binder:904_1
+gps            904  3024 Binder:904_2
+system         905   905 health@2.0-serv
+root           906   906 qrtr_rx
+system         907   907 light@2.0-servi
+system         908   908 memtrack@1.0-se
+system         909   909 neuralnetworks@
+system         909  1003 HwBinder:909_1
+system         909  5872 HwBinder:909_2
+system         911   911 power@1.2-servi
+system         912   912 sensors@2.0-ser
+system         912   956 sensors@2.0-ser
+system         912  2402 motion_detect
+system         912  2405 sig_motion
+system         912  2406 sensors@2.0-ser
+system         912  2407 sensors@2.0-ser
+system         912  2408 sensors@2.0-ser
+system         912  2409 POSIX timer 4
+system         912  2410 POSIX timer 5
+system         912  2470 sensors@2.0-ser
+system         912  3974 sensors@2.0-ser
+system         912  3975 sensors@2.0-ser
+system         912  3977 POSIX timer 6
+system         912  4586 sensors@2.0-ser
+system         912  4587 sensors@2.0-ser
+system         912  4588 POSIX timer 8
+system         912  4589 sensors@2.0-ser
+system         912  4590 sensors@2.0-ser
+system         912  4591 POSIX timer 9
+system         912  6989 sensors@2.0-ser
+system         912  6991 sensors@2.0-ser
+system         912  6992 POSIX timer 19
+system         912 10190 sensors@2.0-ser
+system         912 10192 sensors@2.0-ser
+system         912 10193 POSIX timer 22
+system         915   915 thermal@1.0-ser
+root           916   916 usb@1.1-service
+root           916   942 HwBinder:916_1
+root           916  2586 HwBinder:916_1
+system         917   917 vibrator@1.0-se
+wifi           918   918 wifi@1.0-servic
+wifi           918  3057 wifi@1.0-servic
+system         923   923 color@1.0-servi
+media          925   925 dms@1.0-service
+media          925   952 DolbyManagerSer
+nfc            930   930 nfc@1.2-service
+system         931   931 eid@1.0-service
+system         933   933 hypnus@1.0-serv
+audioserver    936   936 ktv@1.0-service
+system         937   937 mmdisplayfeatur
+system         937  4971 ODisplayMessage
+nfc            938   938 nfc@1.0-service
+system         940   940 oiface@1.0-serv
+system         941   941 esepowermanager
+system         943   943 capabilityconfi
+system         943   972 HwBinder:943_1
+system         943  1082 HwBinder:943_2
+system         944   944 cvp@1.0-service
+system         944   965 HwBinder:944_1
+system         945   945 allocator-servi
+system         945   975 HwBinder:945_1
+system         945  1907 HwBinder:945_2
+system         947   947 composer-servic
+system         947  1034 HWC_UeventThrea
+system         947  1035 Binder:947_1
+system         947  1038 Binder:947_2
+system         947  1058 composer-servic
+system         947  1084 SDM_EventThread
+system         947  1091 HwBinder:947_1
+system         947  1904 HwBinder:947_2
+system         947  2170 DPPS_THREAD
+system         947  2514 LTM_THREAD
+system         947  3383 HwBinder:947_3
+root           949   949 perf@2.0-servic
+root           949   990 perf@2.0-servic
+root           949   991 lmCoreThread
+root           949  4816 perf@2.0-servic
+root           949  4818 AdaptLaunch Vm
+root           949  4819 AdaptLaunch Vm
+root           949  4827 GameOptimizati
+root           949  4828 GameOptimizati
+root           949  4829 GameOptimizati
+root           949  4830 GameOptimizati
+root           949  4831 lmCoreThread
+root           949  4866 POSIX timer 0
+system         950   950 qteeconnector@1
+system         950   978 HwBinder:950_1
+system         950   980 HwBinder:950_2
+system         953   953 objecttracker@1
+system         957   957 panorama@1.0-se
+system         958   958 sensorscalibrat
+system         959   959 servicetracker@
+system         959   996 HwBinder:959_1
+system         959  2911 HwBinder:959_2
+system         962   962 soter@1.0-servi
+system         971   971 tui_comm@1.0-se
+system         974   974 pasrmanager@1.0
+system         977   977 qspmhal@1.0-ser
+system         979   979 vendor.qti.secu
+system         979  1031 HwBinder:979_1
+media          981   981 vppservice
+media          981  1068 HwBinder:981_1
+media          981  1073 HwBinder:981_2
+vendor_qrtr    985   985 qrtr-ns
+system         994   994 pd-mapper
+system         994  1006 pd-mapper
+system         995   995 pm-service
+system         995  1053 POSIX timer 0
+system         995  1056 pm-service
+system         995  1057 Binder:995_1
+system         995  1063 Binder:995_2
+system         995  1529 Binder:995_3
+system         995  1532 Binder:995_4
+nobody        1012  1012 ashmemd
+root          1014  1014 kworker/5:2-mm_percpu_wq
+root          1017  1017 modem
+root          1018  1018 adsp
+root          1019  1019 adsp
+root          1020  1020 irq/173-arm-smm
+audioserver   1021  1021 audioserver
+audioserver   1021  1572 HwBinder:1021_1
+audioserver   1021  1575 ApmAudio
+audioserver   1021  1576 ApmOutput
+audioserver   1021  1579 HwBinder:1021_2
+audioserver   1021  1597 Binder:1021_1
+audioserver   1021  1599 Binder:1021_2
+audioserver   1021  2393 FastMixer
+audioserver   1021  2394 AudioOut_D
+audioserver   1021  2398 AudioOut_15
+audioserver   1021  2403 FastMixer
+audioserver   1021  2404 AudioOut_1D
+audioserver   1021  2411 FastMixer
+audioserver   1021  2412 AudioOut_25
+audioserver   1021  2471 soundTrigger cb
+audioserver   1021  2577 TimeCheckThread
+audioserver   1021  2580 Binder:1021_3
+audioserver   1021  2583 Binder:1021_4
+audioserver   1021  2584 Binder:1021_5
+system        1023  1023 common_dcs
+system        1023  1059 common_dcs
+system        1023  1060 Binder:1023_1
+gpu_service   1033  1033 Binder:1033_2
+gpu_service   1033  1062 Binder:1033_1
+lmkd          1036  1036 lmkd
+system        1037  1037 surfaceflinger
+system        1037  1130 Binder:1037_1
+system        1037  1131 Binder:1037_2
+system        1037  1132 HwBinder:1037_1
+system        1037  1133 Monitor0
+system        1037  1134 Monitor1
+system        1037  1135 DispSync
+system        1037  1136 surfaceflinger
+system        1037  1137 app
+system        1037  1138 sf
+system        1037  1139 surfaceflinger
+system        1037  1140 surfaceflinger
+system        1037  1906 ImageManager
+system        1037  1967 DispPerfHandler
+system        1037  1968 DispPerfHandler
+system        1037  1969 DispPerfHandler
+system        1037  1970 DispPerfHandler
+system        1037  1971 DispPerfHandler
+system        1037  1972 DispPerfHandler
+system        1037  1973 DispPerfHandler
+system        1037  1974 DispPerfHandler
+system        1037  1975 DispPerfHandler
+system        1037  1976 DispPerfHandler
+system        1037  1979 DispPerfTask
+system        1037  2002 nwatchcall
+system        1037  2122 Binder:1037_3
+system        1037  2140 Binder:1037_4
+system        1037  2503 Binder:1037_5
+system        1037  4581 ScreenShotThrea
+system        1037  5832 oidisplayservic
+system        1037  6766 HWC release
+system        1037  6767 GPU completion
+nobody        1040  1040 rmt_storage
+nobody        1040  1782 rmt_storage
+nobody        1040  1783 rmt_storage
+nobody        1040  1811 rmt_storage
+vendor_rfs    1052  1052 tftp_server
+system        1055  1055 sensors.qti
+system        1055  1078 sensors.qti
+system        1055  1079 sensors.qti
+system        1055  1080 sensors.qti
+system        1055  1081 sensors.qti
+root          1061  1061 psimon
+root          1066  1066 kworker/2:5-events
+root          1067  1067 kworker/2:6-pm
+root          1070  1070 irq/355-swr_mas
+root          1072  1072 irq/356-swr_mas
+root          1085  1085 f_mtp
+root          1090  1090 at_usb0
+root          1093  1093 at_usb1
+root          1094  1094 at_usb2
+root          1095  1095 qdss
+root          1096  1096 qdss_mdm
+root          1144  1144 cds_recovery_wo
+root          1146  1146 wlan_logging_th
+system        1159  1159 pm-proxy
+system        1159  1171 Binder:1159_1
+system        1159  1175 Binder:1159_2
+system        1159  1179 Binder:1159_3
+system        1167  1167 junklogcollecto
+system        1167  1205 junklogThread
+system        1167  1207 Binder:1167_1
+root          1168  1168 autochmod.sh
+system        1192  1192 asserttip
+system        1192  2004 Binder:1192_1
+system        1194  1194 feature_enabler
+system        1194  1224 Binder:1194_1
+system        1194  1231 Binder:1194_2
+system        1194  1602 feature_enabler
+system        1194  1603 feature_enabler
+system        1194  1604 feature_enabler
+system        1194  1606 feature_enabler
+system        1194  1607 feature_enabler
+system        1194  1608 feature_enabler
+system        1194  1609 feature_enabler
+system        1194  1610 feature_enabler
+system        1194  1611 feature_enabler
+system        1194  1612 feature_enabler
+system        1194  1613 feature_enabler
+system        1194  1614 feature_enabler
+system        1194  1615 feature_enabler
+system        1194  1616 feature_enabler
+system        1194  1617 feature_enabler
+system        1194  1618 feature_enabler
+system        1242  1242 bspCriticalLog
+system        1242  1281 bspCriticalLog
+system        1242  1282 bspCriticalLog
+system        1242  1283 bspCriticalLog
+system        1242  1284 bspCriticalLog
+system        1242  1285 bspCriticalLog
+system        1243  1243 criticallog
+root          1251  1251 atlasservice
+root          1251  1299 Binder:1251_1
+root          1251  1300 atlas_looper
+root          1251  1305 Binder:1251_2
+root          1251  1306 atlasservice
+cameraserver  1258  1258 cameraserver
+cameraserver  1258  1486 HwBinder:1258_1
+cameraserver  1258  1491 HwBinder:1258_2
+cameraserver  1258  3854 HwBinder:1258_3
+cameraserver  1258  3856 Binder:1258_1
+cameraserver  1258  3857 Binder:1258_2
+cameraserver  1258  3999 Binder:1258_3
+cameraserver  1258  6139 Binder:1258_4
+cameraserver  1258  6409 Binder:1258_5
+drm           1259  1259 drmserver
+drm           1259  1601 Binder:1259_1
+incidentd     1270  1270 Binder:1270_2
+incidentd     1270  1307 Binder:1270_1
+incidentd     1270  1311 Binder:1270_3
+root          1272  1272 Binder:1272_2
+root          1272  1301 Binder:1272_1
+root          1272  2518 Binder:1272_3
+root          1272  5819 Binder:1272_4
+root          1272  6606 Binder:1272_5
+keystore      1274  1274 keystore
+keystore      1274  1355 HwBinder:1274_1
+media         1280  1280 mediadrmserver
+media         1280  1327 Binder:1280_1
+media         1280 10119 HwBinder:1280_1
+media         1280 10120 Binder:1280_2
+mediaex       1286  1286 mediaextractor
+mediaex       1286  1669 Binder:1286_1
+mediaex       1286  3672 Binder:1286_2
+mediaex       1286  3685 Binder:1286_3
+mediaex       1286  4399 Binder:1286_4
+mediaex       1286  4580 Binder:1286_5
+media         1295  1295 mediametrics
+media         1295  1354 Binder:1295_1
+media         1296  1296 mediaserver
+media         1296  1625 Binder:1296_1
+media         1296  2936 HwBinder:1296_1
+media         1296  3219 Binder:1296_2
+media         1296  3220 Binder:1296_3
+media         1296  3640 Binder:1296_4
+system        1297  1297 perfservice
+system        1297  1308 Binder:1297_1
+system        1297  1322 Binder:1297_2
+statsd        1309  1309 Binder:1309_2
+statsd        1309  1351 Binder:1309_1
+statsd        1309  1352 Binder:1309_2
+statsd        1309  1353 HwBinder:1309_1
+statsd        1309  1359 statsd.writer
+statsd        1309  1360 HwBinder:1309_2
+statsd        1309  1362 Binder:1309_3
+root          1310  1310 storaged
+root          1310  1428 storaged
+root          1310  1431 Binder:1310_1
+root          1310  2456 HwBinder:1310_1
+root          1310  5869 Binder:1310_2
+wifi          1316  1316 wificond
+mediacodec    1317  1317 omx@1.0-service
+mediacodec    1317  1446 Binder:1317_1
+mediacodec    1317  1463 Binder:1317_2
+mediacodec    1317  1484 HwBinder:1317_1
+mediacodec    1317  1485 HwBinder:1317_2
+mediacodec    1317  2954 HwBinder:1317_3
+mediacodec    1317  3036 HwBinder:1317_4
+mediacodec    1317  3647 HwBinder:1317_5
+mediacodec    1317  3671 HwBinder:1317_6
+mediacodec    1317  4407 HwBinder:1317_7
+mediacodec    1317  4410 HwBinder:1317_8
+mediacodec    1317  4413 HwBinder:1317_9
+system        1323  1323 cnd
+system        1323  1383 HwBinder:1323_1
+system        1323  1387 cnd
+system        1323  1388 cnd
+system        1323  2076 cnd
+system        1323  2089 cnd
+system        1323  2110 cnd
+system        1323  2117 cnd
+system        1323  2125 cnd
+system        1323  2129 cnd
+system        1323  2132 cnd
+system        1323  2137 cnd
+system        1323  2141 cnd
+system        1323  2144 cnd
+system        1324  1324 wifidisplayhals
+system        1324  1403 HwBinder:1324_1
+system        1324  5873 HwBinder:1324_2
+system        1325  1325 dpmQmiMgr
+system        1325  1365 HwBinder:1325_1
+radio         1338  1338 imsqmidaemon
+radio         1338  1363 imsqmidaemon
+root          1342  1342 thermal-engine
+root          1342  1381 thermal-engine
+root          1342  1386 thermal-engine
+root          1342  1390 thermal-engine
+root          1342  1391 thermal-engine
+root          1342  1392 thermal-engine
+root          1342  1393 thermal-engine
+root          1342  1394 thermal-engine
+root          1342  1395 thermal-engine
+root          1342  1396 thermal-engine
+root          1342  1397 thermal-engine
+root          1342  1398 thermal-engine
+root          1342  1399 thermal-engine
+root          1342  1400 thermal-engine
+root          1342  1401 thermal-engine
+root          1342  1402 thermal-engine
+root          1342  1406 thermal-engine
+root          1342  1408 thermal-engine
+root          1342  1409 thermal-engine
+root          1342  1410 thermal-engine
+root          1342  1411 thermal-engine
+root          1342  1412 thermal-engine
+root          1342  1413 thermal-engine
+root          1342  1414 thermal-engine
+root          1342  1415 thermal-engine
+root          1342  1416 thermal-engine
+root          1342  1418 thermal-engine
+root          1342  1419 thermal-engine
+root          1342  1420 thermal-engine
+root          1342  1421 thermal-engine
+root          1342  1422 thermal-engine
+root          1342  1423 thermal-engine
+root          1342  1424 thermal-engine
+root          1342  1426 thermal-engine
+root          1342  1427 thermal-engine
+root          1342  1429 thermal-engine
+root          1342  1432 thermal-engine
+root          1342  1433 thermal-engine
+root          1342  1434 thermal-engine
+root          1342  1435 thermal-engine
+root          1342  1437 thermal-engine
+root          1342  1438 thermal-engine
+root          1342  1439 thermal-engine
+root          1342  1440 thermal-engine
+root          1342  1441 thermal-engine
+root          1342  1442 thermal-engine
+root          1342  1443 thermal-engine
+root          1342  1444 thermal-engine
+root          1342  1445 thermal-engine
+root          1342  1447 thermal-engine
+root          1342  1453 thermal-engine
+root          1342  1455 thermal-engine
+root          1342  1457 thermal-engine
+root          1342  1458 thermal-engine
+root          1342  1459 thermal-engine
+root          1342  1460 thermal-engine
+root          1342  1461 thermal-engine
+root          1342  1462 thermal-engine
+root          1342  1467 thermal-engine
+root          1342  1468 thermal-engine
+root          1342  1814 thermal-engine
+radio         1344  1344 ipacm
+radio         1344  1911 HwBinder:1344_1
+radio         1344  1912 ipacm
+radio         1344  1913 netlink socket
+radio         1344  1914 ipa driver ntfy
+radio         1345  1345 netmgrd
+root          1345  1465 netmgrd
+radio         1345  1512 netmgrd
+radio         1345  1513 netmgrd
+radio         1345  1514 netmgrd
+radio         1345  1515 netmgrd
+radio         1345  1516 netmgrd
+radio         1345  1517 netmgrd
+radio         1345  2074 netmgrd
+radio         1345  2177 HwBinder:1345_1
+radio         1345  2181 netmgrd
+radio         1345  2183 netmgrd
+radio         1345  2184 netmgrd
+radio         1345  2185 netmgrd
+radio         1345  2187 netmgrd
+radio         1345  2197 netmgrd
+radio         1345  2219 netmgrd
+radio         1345  2221 netmgrd
+radio         1345  2225 netmgrd
+radio         1345  2226 netmgrd
+radio         1345  2252 netmgrd
+radio         1345  2254 netmgrd
+radio         1345  2255 netmgrd
+radio         1345  2256 netmgrd
+radio         1345  2267 netmgrd
+radio         1345  2268 netmgrd
+radio         1345  2271 netmgrd
+radio         1345  2274 netmgrd
+radio         1345  2290 netmgrd
+radio         1345  2292 netmgrd
+radio         1345  2293 netmgrd
+radio         1345  2294 netmgrd
+radio         1345  2313 netmgrd
+radio         1345  2314 netmgrd
+radio         1345  2315 netmgrd
+radio         1345  2317 netmgrd
+radio         1345  2330 netmgrd
+radio         1345  2331 netmgrd
+radio         1345  2332 netmgrd
+radio         1345  2333 netmgrd
+radio         1345  2362 netmgrd
+radio         1345  2363 netmgrd
+radio         1345  2364 netmgrd
+radio         1345  2365 netmgrd
+radio         1345  2371 netmgrd
+radio         1345  2373 netmgrd
+radio         1345  2374 netmgrd
+radio         1345  2376 netmgrd
+radio         1345  2396 netmgrd
+radio         1345  2397 netmgrd
+radio         1345  2399 netmgrd
+radio         1345  2400 netmgrd
+radio         1345  2417 netmgrd
+radio         1367  1367 port-bridge
+radio         1367  1384 port-bridge
+radio         1367  1385 port-bridge
+system        1368  1368 engineer@1.0-se
+system        1372  1372 engsensor@1.0-s
+system        1404  1404 cryptoeng@1.0-s
+system        1404  1501 HwBinder:1404_1
+system        1448  1448 transmessage@1.
+root          1454  1454 vendor.oppo.wif
+system        1456  1456 adsprpcd
+system        1456  1476 adsprpcd
+system        1456  1477 adsprpcd
+system        1456  1482 adsprpcd
+media         1464  1464 adsprpcd
+media         1464  1566 adsprpcd
+media         1464  1567 adsprpcd
+system        1471  1471 cdsprpcd
+system        1471  1487 cdsprpcd
+system        1471  1489 cdsprpcd
+system        1471  1500 cdsprpcd
+mediacodec    1473  1473 mediaswcodec
+mediacodec    1473  1693 HwBinder:1473_1
+mediacodec    1473  3500 HwBinder:1473_1
+mediacodec    1473  3604 HwBinder:1473_2
+mediacodec    1473  3605 HwBinder:1473_3
+mediacodec    1473  3612 HwBinder:1473_4
+mediacodec    1473  3613 HwBinder:1473_5
+mediacodec    1473  3615 HwBinder:1473_6
+mediacodec    1473  3622 HwBinder:1473_7
+system        1478  1478 cnss-daemon
+system        1478  1534 cnss-daemon
+system        1478  1778 Binder:1478_1
+system        1478  1781 cnss-daemon
+system        1478  1784 Binder:1478_2
+system        1478  2156 cnss-daemon
+system        1478  2896 cnss-daemon
+radio         1479  1479 ssgqmigd
+root          1483  1483 tfa98xx
+root          1497  1497 tfa98xx
+system        1499  1499 ssgtzd
+system        1499  1546 ssgtzd
+system        1499  1547 ssgtzd
+system        1499  1548 ssgtzd
+system        1499  1549 ssgtzd
+system        1499  1550 ssgtzd
+system        1499  1551 ssgtzd
+system        1499  1552 ssgtzd
+system        1499  1553 ssgtzd
+system        1499  1554 ssgtzd
+system        1499  1555 ssgtzd
+system        1499  1556 ssgtzd
+system        1499  1557 ssgtzd
+system        1499  1558 ssgtzd
+system        1499  1559 ssgtzd
+system        1499  1560 ssgtzd
+system        1499  1561 ssgtzd
+system        1499  1658 ssgtzd
+root          1504  1504 kworker/u17:22-dwc_wq
+gps           1507  1507 mlid
+gps           1507  1541 mlid
+gps           1507  1543 mlid
+root          1521  1521 kworker/u17:23-pil_workqueue
+root          1522  1522 kworker/u17:24-pil_workqueue
+root          1523  1523 kworker/u17:25-pil_workqueue
+gps           1524  1524 loc_launcher
+gps           1524  1571 loc_launcher
+gps           1524  1592 loc_sig_hndlr
+root          1525  1525 kworker/u17:26
+root          1574  1574 irq/124-arm-smm
+system        1580  1580 ATFWD-daemon
+system        1580  1648 ATFWD-daemon
+system        1580  2861 ATFWD-daemon
+system        1585  1585 gatekeeperd
+system        1596  1596 oppo_kevent
+gps           1605  1605 xtra-daemon
+gps           1605  1656 pcid-loc-api
+gps           1605  1657 LocApiMsgTask
+gps           1605  1659 LocApiMsgTask
+gps           1605  1664 LocTimerPollTas
+gps           1605  1665 LocTimerMsgTask
+gps           1605  2112 LocApiMsgTask
+tombstoned    1634  1634 tombstoned
+root          1636  1636 dpmd
+system        1642  1642 fingerprint@2.1
+system        1642  1726 fingerprint@2.1
+system        1642  1984 fingerprint@2.1
+system        1642  1994 fingerprint@2.1
+system        1642  1999 fingerprint@2.1
+system        1642  2000 fingerprint@2.1
+system        1642  2085 fingerprint@2.1
+system        1642  2086 fingerprint@2.1
+system        1642  2098 HwBinder:1642_1
+system        1644  1644 fingerprintpay@
+system        1644  1982 HwBinder:1644_1
+system        1652  1652 dpmd
+root          1652  1660 HwBinder:1652_1
+root          1680  1680 ip6tables-resto
+radio         1690  1690 imsdatadaemon
+radio         1690  1735 imsdatadaemon
+radio         1690  1740 imsdatadaemon
+radio         1690  2084 imsdatadaemon
+radio         1690  2135 imsdatadaemon
+radio         1690  2136 imsdatadaemon
+radio         1690  2138 imsdatadaemon
+radio         1690  2142 imsdatadaemon
+radio         1690  2451 imsdatadaemon
+radio         1690  2452 imsdatadaemon
+radio         1690  2453 imsdatadaemon
+root          1699  1699 msm_irqbalance
+radio         1701  1701 main
+radio         1701  1801 qcrild
+radio         1701  1803 DispatcherModul
+radio         1701  1805 DispatcherModul
+radio         1701  1830 qcrild
+radio         1701  1832 Binder:1701_1
+radio         1701  1833 ipc_receiver
+radio         1701  1834 rild
+radio         1701  1835 rild
+radio         1701  1836 rild
+radio         1701  1837 Binder:1701_2
+radio         1701  1841 file_observer
+radio         1701  1842 HwBinder:1701_1
+radio         1701  1843 rild
+radio         1701  1845 OemModemEndPoin
+radio         1701  1846 VoiceModemEndPo
+radio         1701  1847 NasModemEndPoin
+radio         1701  1848 ImsaModemEndPoi
+radio         1701  1849 ImssModemEndPoi
+radio         1701  1851 PbmModemEndPoin
+radio         1701  1853 WDSModemEndPoin
+radio         1701  1854 DSDModemEndPoin
+radio         1701  1855 AuthModemEndPoi
+radio         1701  1856 SmsModemEndPoin
+radio         1701  1859 main
+radio         1701  1861 UimModule-Loope
+radio         1701  1862 GstkModule-Loop
+radio         1701  1863 UimServiceModul
+radio         1701  1864 DataModule-Loop
+radio         1701  1865 DataConnectionS
+radio         1701  1866 IWlanModule-Loo
+radio         1701  1867 SapModule-Loope
+radio         1701  1868 UimRemoteClient
+radio         1701  1869 UimRemoteServer
+radio         1701  1870 SecureElementMo
+radio         1701  1871 UimHttpModemEnd
+radio         1701  1872 PdcModemEndPoin
+radio         1701  1873 UimRemoteModemE
+radio         1701  1875 PdcModemEndPoin
+radio         1701  2061 OemModemEndPoin
+radio         1701  2064 CatModemEndPoin
+radio         1701  2069 UimModemEndPoin
+radio         1701  2077 UimRemoteModemE
+radio         1701  2080 NasModemEndPoin
+radio         1701  2081 WDSModemEndPoin
+radio         1701  2091 UimModemEndPoin
+radio         1701  2092 CatModemEndPoin
+radio         1701  2093 PbmModemEndPoin
+radio         1701  2094 DSDModemEndPoin
+radio         1701  2096 VoiceModemEndPo
+radio         1701  2100 SmsModemEndPoin
+radio         1701  2104 AuthModemEndPoi
+radio         1701  2115 qmi_cb
+radio         1701  2119 qcrild
+radio         1701  2126 qcrild
+radio         1701  2128 ImsaModemEndPoi
+radio         1701  2133 ImssModemEndPoi
+radio         1701  2212 pil_monitor
+radio         1701  2215 DispatcherModul
+radio         1701  2218 DispatcherModul
+radio         1701  2220 DispatcherModul
+radio         1701  2222 DataModule-Loop
+radio         1701  2224 DataModule-Loop
+radio         1701  2459 RadioConfigModu
+radio         1701  2461 UimHttpModemEnd
+radio         1701  3438 DataModule-Loop
+radio         1701  3439 DataModule-Loop
+radio         1701  3440 DataModule-Loop
+radio         1701  3442 DataModule-Loop
+radio         1701  3444 DataModule-Loop
+radio         1701  3446 ThreadPoolManag
+radio         1701  3447 DedicatedThread
+radio         1701  3453 DataModule-Loop
+radio         1701  3461 DataModule-Loop
+radio         1701  3813 VoiceCallModemE
+radio         1701  3814 VoiceCallModemE
+radio         1701  3815 VoiceCallModemE
+radio         1701  3816 VoiceCallModemE
+root          1727  1727 irq/257-gf
+radio         1739  1739 main
+radio         1739  1800 qcrild
+radio         1739  1802 DispatcherModul
+radio         1739  1804 DispatcherModul
+radio         1739  1812 qcrild
+radio         1739  1816 Binder:1739_1
+radio         1739  1817 ipc_receiver
+radio         1739  1818 rild
+radio         1739  1819 rild
+radio         1739  1821 Binder:1739_2
+radio         1739  2026 file_observer
+radio         1739  2027 HwBinder:1739_1
+radio         1739  2028 rild
+radio         1739  2031 OemModemEndPoin
+radio         1739  2032 VoiceModemEndPo
+radio         1739  2033 NasModemEndPoin
+radio         1739  2034 ImsaModemEndPoi
+radio         1739  2035 ImssModemEndPoi
+radio         1739  2036 PbmModemEndPoin
+radio         1739  2037 WDSModemEndPoin
+radio         1739  2038 DSDModemEndPoin
+radio         1739  2039 AuthModemEndPoi
+radio         1739  2040 SmsModemEndPoin
+radio         1739  2041 main
+radio         1739  2043 UimModule-Loope
+radio         1739  2044 GstkModule-Loop
+radio         1739  2045 UimServiceModul
+radio         1739  2046 DataModule-Loop
+radio         1739  2047 DataConnectionS
+radio         1739  2048 IWlanModule-Loo
+radio         1739  2049 SapModule-Loope
+radio         1739  2050 UimRemoteClient
+radio         1739  2051 UimRemoteServer
+radio         1739  2052 SecureElementMo
+radio         1739  2058 UimHttpModemEnd
+radio         1739  2059 UimRemoteModemE
+radio         1739  2065 CatModemEndPoin
+radio         1739  2071 UimModemEndPoin
+radio         1739  2075 NasModemEndPoin
+radio         1739  2088 OemModemEndPoin
+radio         1739  2097 PbmModemEndPoin
+radio         1739  2099 WDSModemEndPoin
+radio         1739  2101 SmsModemEndPoin
+radio         1739  2102 UimRemoteModemE
+radio         1739  2106 UimModemEndPoin
+radio         1739  2107 CatModemEndPoin
+radio         1739  2114 DSDModemEndPoin
+radio         1739  2116 VoiceModemEndPo
+radio         1739  2123 AuthModemEndPoi
+radio         1739  2124 DispatcherModul
+radio         1739  2127 ImsaModemEndPoi
+radio         1739  2131 ImssModemEndPoi
+radio         1739  2232 DispatcherModul
+radio         1739  2233 DataModule-Loop
+radio         1739  2234 DataModule-Loop
+radio         1739  2236 pil_monitor
+radio         1739  2239 DispatcherModul
+radio         1739  2272 qmi_cb
+radio         1739  2273 qcrild
+radio         1739  2275 qcrild
+radio         1739  2460 UimHttpModemEnd
+radio         1739  3454 ThreadPoolManag
+radio         1739  3455 DataModule-Loop
+radio         1739  3456 DataModule-Loop
+radio         1739  3463 DataModule-Loop
+radio         1739  3464 DedicatedThread
+radio         1739  3466 DataModule-Loop
+radio         1739  3468 DataModule-Loop
+radio         1739  3478 DataModule-Loop
+radio         1739  3486 DataModule-Loop
+radio         1745  1745 qti
+radio         1745  3960 qti
+radio         1745  3962 qti
+radio         1749  1749 adpl
+radio         1749  1760 adpl
+radio         1749  2083 adpl
+system        1762  1762 system_server
+system        1762  1785 Jit thread pool
+system        1762  1786 Runtime worker 
+system        1762  1787 Runtime worker 
+system        1762  1788 Runtime worker 
+system        1762  1789 Runtime worker 
+system        1762  1790 Signal Catcher
+system        1762  1791 ADB-JDWP Connec
+system        1762  1792 HeapTaskDaemon
+system        1762  1793 ReferenceQueueD
+system        1762  1794 FinalizerDaemon
+system        1762  1795 FinalizerWatchd
+system        1762  1798 Binder:1762_1
+system        1762  1799 Binder:1762_2
+system        1762  1985 android.fg
+system        1762  1986 android.ui
+system        1762  1987 android.io
+system        1762  1988 android.display
+system        1762  1989 android.anim
+system        1762  1991 android.anim.lf
+system        1762  1992 watchdog
+system        1762  1995 OppoCheckBlocke
+system        1762  1998 AccessControlHa
+system        1762  2001 statistics-thre
+system        1762  2003 HwBinder:1762_1
+system        1762  2006 android.bg
+system        1762  2012 FileObserver
+system        1762  2014 ColorEdgeTouchM
+system        1762  2015 ActivityManager
+system        1762  2016 ActivityManager
+system        1762  2018 ActivityManager
+system        1762  2019 Thread-2
+system        1762  2020 OomAdjuster
+system        1762  2021 BroadcastQueue
+system        1762  2022 foreground
+system        1762  2024 Timer-0
+system        1762  2053 batterystats-wo
+system        1762  2054 batterystats-wo
+system        1762  2109 CpuTracker
+system        1762  2113 ns
+system        1762  2118 PowerManagerSer
+system        1762  2130 BatteryStats_wa
+system        1762  2134 LightService th
+system        1762  2153 PackageManager
+system        1762  2162 CptSendDcs
+system        1762  2163 Thread-4
+system        1762  2164 CommonSendDcs
+system        1762  2167 PackageManager
+system        1762  2458 PackageInstalle
+system        1762  2468 OppoBatteryServ
+system        1762  2472 HealthServiceRe
+system        1762  2473 SensorEventAckR
+system        1762  2474 SensorService
+system        1762  2477 RollbackManager
+system        1762  2478 RollbackPackage
+system        1762  2483 OppoExService
+system        1762  2486 OppoNetworkingC
+system        1762  2489 AccountManagerS
+system        1762  2490 SettingsProvide
+system        1762  2491 OppoAlarmHandle
+system        1762  2493 AlarmManager
+system        1762  2494 AppSnapshotPers
+system        1762  2497 pool-4-thread-1
+system        1762  2498 ToastWindowThre
+system        1762  2499 UserFileChnageT
+system        1762  2500 ThreadFloatWind
+system        1762  2501 Timer-1
+system        1762  2504 ENG_PWK_MONITOR
+system        1762  2505 UEventObserver
+system        1762  2506 OppoAppFrozen
+system        1762  2508 InputDispatcher
+system        1762  2509 InputReader
+system        1762  2510 NetworkWatchlis
+system        1762  2511 EventHandlerThr
+system        1762  2512 HwBinder:1762_2
+system        1762  2513 hidl_ssvc_poll
+system        1762  2516 StorageManagerS
+system        1762  2521 ColorClickTopTh
+system        1762  2523 NetworkStats
+system        1762  2524 NetworkPolicy
+system        1762  2525 tworkPolicy.uid
+system        1762  2526 WifiService
+system        1762  2527 ClientModeImpl
+system        1762  2528 WifiP2pService
+system        1762  2529 ClientModeImpl2
+system        1762  2531 WifiSharingThre
+system        1762  2532 Mtuprobe
+system        1762  2533 CheckInternetAc
+system        1762  2534 WifiNetCheckInt
+system        1762  2535 WifiNetBroad
+system        1762  2536 DumpTcpInfo
+system        1762  2537 ocalAsyncThread
+system        1762  2538 OppoSlaManager
+system        1762  2540 Thread-13
+system        1762  2541 OppoNfHooksHelp
+system        1762  2542 Thread-14
+system        1762  2543 DatastallCheckI
+system        1762  2548 Mtuprobe
+system        1762  2549 CheckInternetAc
+system        1762  2551 WifiNetCheckInt
+system        1762  2552 WifiNetBroad
+system        1762  2553 DumpTcpInfo
+system        1762  2554 OppoLimitSpeedM
+system        1762  2555 OppoWifiAutoUpd
+system        1762  2556 GetApProductVer
+system        1762  2557 WifiScanningSer
+system        1762  2558 ConnectivityThr
+system        1762  2560 ConnectivitySer
+system        1762  2561 roid.pacmanager
+system        1762  2563 OPPODnsSelfreco
+system        1762  2564 OppoPrivateDnsH
+system        1762  2565 OppoAutoConCapt
+system        1762  2566 OppoDualWifiSta
+system        1762  2567 NsdService
+system        1762  2568 mDnsConnector
+system        1762  2571 OppoNotificatio
+system        1762  2572 notification-sq
+system        1762  2573 ranker
+system        1762  2574 onProviders.ECP
+system        1762  2576 OppoDeviceStora
+system        1762  2578 AudioService
+system        1762  2579 AudioDeviceBrok
+system        1762  2581 Binder:1762_3
+system        1762  2587 CpuJob
+system        1762  2588 ColorJobSchedul
+system        1762  2589 backup
+system        1762  2592 OppoService
+system        1762  2594 Thread-15
+system        1762  2595 DcsThread
+system        1762  2596 OppoStamp
+system        1762  2598 TorchManagerSer
+system        1762  2600 pool-7-thread-1
+system        1762  2602 Thread-17
+system        1762  2603 OppoNecConnectM
+system        1762  2604 GraphicsStats-d
+system        1762  2606 AtlasServiceThr
+system        1762  2608 MMDisplayHandle
+system        1762  2610 aceService.Main
+system        1762  2611 FaceServiceSub
+system        1762  2612 FaceServiceHand
+system        1762  2613 e.HealthMonitor
+system        1762  2614 DcsUtil thread
+system        1762  2615 aceRecoginition
+system        1762  2616 .CaptureManager
+system        1762  2617 ptureManagerSub
+system        1762  2618 ureManagerFrame
+system        1762  2619 SensorManagerCl
+system        1762  2620 e.HealthMonitor
+system        1762  2621 FingerprintServ
+system        1762  2622 rintService.sub
+system        1762  2624 TouchEventMonit
+system        1762  2625 DcsFingerprintS
+system        1762  2626 BiometricWakeup
+system        1762  2627 OppoEngineerSer
+system        1762  2629 SecrecyService
+system        1762  2630 SliceManagerSer
+system        1762  2631 CameraService_p
+system        1762  2632 StatsCompanionS
+system        1762  2633 SyncHandler-0
+system        1762  2634 RedirectListene
+system        1762  2635 wifiAwareServic
+system        1762  2636 EthernetService
+system        1762  2637 TaskSnapshotPer
+system        1762  2638 RenderThread
+system        1762  2639 OppoWakeLockChe
+system        1762  2640 OsuServerHandle
+system        1762  2641 auto_brightness
+system        1762  2643 Timer-2
+system        1762  2644 PhotonicModulat
+system        1762  2645 batterySaveExte
+system        1762  2646 BackTouchSensor
+system        1762  2647 ProximitySensor
+system        1762  2648 ColorEapTask #1
+system        1762  2657 ColorListManage
+system        1762  2658 OppoFloatWindow
+system        1762  2659 pool-10-thread-
+system        1762  2770 Binder:1762_4
+system        1762  2814 Binder:1762_5
+system        1762  2864 SyncManager
+system        1762  2871 DeviceIdleHelpe
+system        1762  2872 UsbService host
+system        1762  2903 SoundPool
+system        1762  2904 SoundPoolThread
+system        1762  2910 Thread-21
+system        1762  2914 AsyncTask #1
+system        1762  2929 NetworkStatsObs
+system        1762  2951 EventHandler
+system        1762  2984 EmergencyAfford
+system        1762  2987 UIFirstUtils
+system        1762  3000 Binder:1762_6
+system        1762  3017 NetworkTimeUpda
+system        1762  3060 ColorAppStartup
+system        1762  3075 AutoStartupMana
+system        1762  3111 Binder:1762_7
+system        1762  3125 HansManagerHand
+system        1762  3157 oppocrashclear
+system        1762  3223 Binder:1762_8
+system        1762  3224 Binder:1762_9
+system        1762  3225 Binder:1762_A
+system        1762  3234 Binder:1762_B
+system        1762  3261 Binder:1762_C
+system        1762  3263 Binder:1762_D
+system        1762  3266 gameSpaceThread
+system        1762  3280 ColorCommonList
+system        1762  3289 Binder:1762_E
+system        1762  3296 Binder:1762_F
+system        1762  3297 Binder:1762_10
+system        1762  3301 PermissionThrea
+system        1762  3303 PermissionMsgPe
+system        1762  3304 PermissionTimer
+system        1762  3308 Binder:1762_11
+system        1762  3392 ColorAppSwitchM
+system        1762  3420 Binder:1762_12
+system        1762  3458 BluetoothRouteM
+system        1762  3459 AudioPortEventH
+system        1762  3487 uteStateMachine
+system        1762  3493 CallAudioModeSt
+system        1762  3494 ConnectionSvrFo
+system        1762  3496 AsyncQueryWorke
+system        1762  3517 pool-9-thread-1
+system        1762  3715 HwBinder:1762_3
+system        1762  3718 queued-work-loo
+system        1762  3724 IpClient.wlan0
+system        1762  3736 SyncHandler-1
+system        1762  3755 SyncHandler-2
+system        1762  3878 OppoNetworkMoni
+system        1762  3885 Thread-28
+system        1762  3890 Thread-29
+system        1762  3932 TcmReceiver
+system        1762  3963 OkHttp Connecti
+system        1762  3965 OkHttp Connecti
+system        1762  4000 Binder:1762_13
+system        1762  4015 Okio Watchdog
+system        1762  4593 pool-11-thread-
+system        1762  4596 StateMachineHan
+system        1762  4932 LBSSystemMonito
+system        1762  4933 LocationService
+system        1762  5831 oidisplayinput
+system        1762  5870 HwBinder:1762_4
+system        1762  5917 LazyTaskWriterT
+system        1762  6011 backup-0
+system        1762  6015 pool-6-thread-1
+system        1762  6069 Binder:1762_14
+system        1762  6072 Binder:1762_15
+system        1762  6073 Binder:1762_16
+system        1762  6074 Binder:1762_17
+system        1762  6195 Binder:1762_18
+system        1762  6213 Binder:1762_19
+system        1762  6239 Binder:1762_1A
+system        1762  6802 Binder:1762_1B
+system        1762  6803 Binder:1762_1C
+system        1762  6805 Binder:1762_1D
+system        1762  7232 OppoSafeDbReade
+system        1762  7320 pool-8-thread-1
+root          1776  1776 glink_modem
+root          1777  1777 qrtr_rx
+root          1820  1820 kworker/6:2H
+root          1887  1887 irq/369-swr_wak
+root          1990  1990 sh
+radio         2147  2147 imsrcsd
+radio         2147  2874 imsrcsd
+radio         2147  2875 imsrcsd
+radio         2147  2878 imsrcsd
+radio         2147  2886 imsrcsd
+root          2159  2159 dsi_err_workq
+root          2178  2178 rmnet_shs_wq
+root          2189  2189 ipawq34
+root          2190  2190 iparepwq34
+root          2191  2191 ipawq35
+root          2192  2192 iparepwq35
+root          2435  2435 dfc_wq
+root          2436  2436 wda_wq
+root          2437  2437 rmnet_powersave
+radio         2440  2440 ims_rtp_daemon
+radio         2440  2442 ims_rtp_daemon
+radio         2440  2443 ims_rtp_daemon
+radio         2440  2444 ims_rtp_daemon
+radio         2440  2445 ims_rtp_daemon
+radio         2440  2446 HwBinder:2440_1
+radio         2440  2448 ims_rtp_daemon
+radio         2440  2449 ims_rtp_daemon
+radio         2440  5874 HwBinder:2440_2
+root          2464  2464 oae_server
+root          2464  2465 Binder:2464_1
+system        2466  2466 face@1.0-servic
+system        2466  2476 face@1.0-servic
+system        2466  2480 face@1.0-servic
+system        2466  2481 SenseTimeEngine
+system        2466  2482 HwBinder:2466_1
+system        2466  3408 HealthMonitor
+system        2721  2721 .statistics.rom
+system        2721  2752 Jit thread pool
+system        2721  2757 Signal Catcher
+system        2721  2758 ADB-JDWP Connec
+system        2721  2759 HeapTaskDaemon
+system        2721  2760 ReferenceQueueD
+system        2721  2761 FinalizerDaemon
+system        2721  2762 FinalizerWatchd
+system        2721  2763 Binder:2721_1
+system        2721  2766 Binder:2721_2
+system        2721  2767 Binder:2721_3
+system        2721  2808 Profile Saver
+system        2721  2810 HwBinder:2721_1
+system        2721  2813 Dcs-work-thread
+system        2721  2815 queued-work-loo
+system        2721  2819 pool-2-thread-1
+system        2721  2820 pool-2-thread-2
+system        2721  2825 OCloudSyncManag
+system        2721  2839 FeedbackUploadH
+system        2721  2840 pool-1-thread-1
+system        2721  2848 pool-4-thread-1
+system        2722  2722 oros.appmanager
+system        2722  2768 Jit thread pool
+system        2722  2777 Signal Catcher
+system        2722  2778 ADB-JDWP Connec
+system        2722  2779 HeapTaskDaemon
+system        2722  2780 ReferenceQueueD
+system        2722  2781 FinalizerDaemon
+system        2722  2785 FinalizerWatchd
+system        2722  2786 Binder:2722_1
+system        2722  2788 Binder:2722_2
+system        2722  2790 Binder:2722_3
+system        2722  2806 Profile Saver
+system        2722  2809 HwBinder:2722_1
+system        2722  3586 Binder:2722_4
+system        2722  4151 Binder:2722_5
+system        2722  6308 queued-work-loo
+system        2722  8494 Binder:2722_6
+system        2723  2723 exsystemservice
+system        2723  2769 Jit thread pool
+system        2723  2789 Signal Catcher
+system        2723  2791 ADB-JDWP Connec
+system        2723  2792 HeapTaskDaemon
+system        2723  2793 ReferenceQueueD
+system        2723  2794 FinalizerDaemon
+system        2723  2795 FinalizerWatchd
+system        2723  2796 Binder:2723_1
+system        2723  2799 Binder:2723_2
+system        2723  2800 Binder:2723_3
+system        2723  2801 Binder:2723_4
+system        2723  2802 Profile Saver
+system        2723  2804 HwBinder:2723_1
+u0_a64        2724  2724 ndroid.systemui
+u0_a64        2724  2873 Jit thread pool
+u0_a64        2724  2881 Signal Catcher
+u0_a64        2724  2882 ADB-JDWP Connec
+u0_a64        2724  2883 HeapTaskDaemon
+u0_a64        2724  2884 ReferenceQueueD
+u0_a64        2724  2885 FinalizerDaemon
+u0_a64        2724  2887 FinalizerWatchd
+u0_a64        2724  2889 Binder:2724_1
+u0_a64        2724  2890 Binder:2724_2
+u0_a64        2724  2901 Binder:2724_3
+u0_a64        2724  2909 Profile Saver
+u0_a64        2724  2915 HwBinder:2724_1
+u0_a64        2724  2963 Keyguard Biomet
+u0_a64        2724  2964 Keyguard Finger
+u0_a64        2724  2966 Keyguard Face W
+u0_a64        2724  3009 ThreadManager
+u0_a64        2724  3012 ImageWallpaper
+u0_a64        2724  3018 KeyguardFakeApp
+u0_a64        2724  3019 OnScreenFingerp
+u0_a64        2724  3025 SoundPool
+u0_a64        2724  3026 SoundPoolThread
+u0_a64        2724  3027 OnScreenFingerp
+u0_a64        2724  3031 KeyguardWorkerT
+u0_a64        2724  3067 pool-2-thread-1
+u0_a64        2724  3116 SysUiBg
+u0_a64        2724  3179 SoundPool
+u0_a64        2724  3180 SoundPoolThread
+u0_a64        2724  3262 ColorVolumeDial
+u0_a64        2724  3320 queued-work-loo
+u0_a64        2724  3375 RenderThread
+u0_a64        2724  3387 async_sensor
+u0_a64        2724  3397 Timer-0
+u0_a64        2724  3399 SysUiQsBg
+u0_a64        2724  3400 StatusBarWorkTh
+u0_a64        2724  3401 AodWorkerThread
+u0_a64        2724  3417 pool-6-thread-1
+u0_a64        2724  3421 ConnectivityThr
+u0_a64        2724  3423 WifiTracker{a6c
+u0_a64        2724  3499 TimeTick
+u0_a64        2724  3596 pool-7-thread-1
+u0_a64        2724  3598 SoundPool
+u0_a64        2724  3599 SoundPoolThread
+u0_a64        2724  3623 FlashlightContr
+u0_a64        2724  3635 GestureBg
+u0_a64        2724  3645 GestureBg
+u0_a64        2724  3646 GestureUI
+u0_a64        2724  3684 Binder:2724_4
+u0_a64        2724  3704 PrivacyHelper
+u0_a64        2724  3735 Keyboard
+u0_a64        2724  3737 Binder:2724_5
+u0_a64        2724  3743 recents.fg
+u0_a64        2724  3746 ScreenDecoratio
+u0_a64        2724  3747 Binder:2724_6
+u0_a64        2724  3748 EdgePanelHelper
+u0_a64        2724  3783 pool-4-thread-1
+u0_a64        2724  3969 hwuiTask0
+u0_a64        2724  3970 hwuiTask1
+u0_a64        2724  4019 notification-st
+u0_a64        2724  4020 pool-11-thread-
+u0_a64        2724  4021 Thread-3
+u0_a64        2724  4315 AsyncTask #3
+u0_a64        2724  4440 Binder:2724_7
+u0_a64        2724  4572 Binder:2724_8
+u0_a64        2724  4834 Binder:2724_9
+u0_a64        2724  5880 HWC release
+u0_a64        2724  5881 GPU completion
+u0_a64        2724  5882 Keyguard FaceUn
+u0_a64        2724  5907 AudioTrack
+u0_a64        2724  5922 pool-3-thread-1
+radio         2726  2726 .dataservices
+radio         2726  3039 Jit thread pool
+radio         2726  3044 Signal Catcher
+radio         2726  3045 ADB-JDWP Connec
+radio         2726  3046 HeapTaskDaemon
+radio         2726  3047 ReferenceQueueD
+radio         2726  3048 FinalizerDaemon
+radio         2726  3049 FinalizerWatchd
+radio         2726  3050 Binder:2726_1
+radio         2726  3051 Binder:2726_2
+radio         2726  3110 Profile Saver
+radio         2726  3123 HwBinder:2726_1
+radio         2726  4940 Binder:2726_3
+radio         2726  4941 MainEventThread
+radio         2726  4943 queued-work-loo
+radio         2726  7418 DPMSender
+radio         2726  7428 ConnectivityThr
+radio         2726  7451 DPMReceiver
+radio         2727  2727 qtidataservices
+radio         2727  3071 Jit thread pool
+radio         2727  3077 Signal Catcher
+radio         2727  3081 ADB-JDWP Connec
+radio         2727  3082 HeapTaskDaemon
+radio         2727  3083 ReferenceQueueD
+radio         2727  3084 FinalizerDaemon
+radio         2727  3085 FinalizerWatchd
+radio         2727  3086 Binder:2727_1
+radio         2727  3090 Binder:2727_2
+radio         2727  3127 Profile Saver
+radio         2727  3167 HwBinder:2727_1
+radio         2727  3820 Binder:2727_3
+radio         2727  3824 QualifiedNetwor
+radio         2727  3825 NetworkService
+radio         2727  3842 DataService
+radio         2727  3903 IWlanProxy
+radio         2727  3904 QualifiedNetwor
+radio         2727  3912 IWlanNetworkSer
+radio         2727  3914 IWlanDataServic
+radio         2727  3920 IWlanProxy
+radio         2727  3921 Binder:2727_4
+radio         2727  3923 QualifiedNetwor
+radio         2727  3924 IWlanNetworkSer
+radio         2727  3925 IWlanDataServic
+radio         2727  4935 ServiceFetcher
+radio         2727  4936 NativeReceiver
+radio         2727  4937 ConnectivityThr
+radio         2727  4939 FrameworkReceiv
+radio         2727  4944 WiFiDiscThread
+radio         2727  4945 queued-work-loo
+radio         2727  4947 qtidataservices
+radio         2727  4948 qtidataservices
+radio         2727  4949 qtidataservices
+radio         2728  2728 elephonyservice
+radio         2728  3088 Jit thread pool
+radio         2728  3095 Signal Catcher
+radio         2728  3097 ADB-JDWP Connec
+radio         2728  3098 HeapTaskDaemon
+radio         2728  3099 ReferenceQueueD
+radio         2728  3100 FinalizerDaemon
+radio         2728  3101 FinalizerWatchd
+radio         2728  3108 Binder:2728_1
+radio         2728  3112 Binder:2728_2
+radio         2728  3226 Profile Saver
+radio         2728  3242 HwBinder:2728_1
+radio         2728  4938 Binder:2728_3
+radio         2728  4946 queued-work-loo
+radio         2729  2729 .entitlement.o2
+radio         2729  3102 Jit thread pool
+radio         2729  3107 Signal Catcher
+radio         2729  3114 ADB-JDWP Connec
+radio         2729  3115 HeapTaskDaemon
+radio         2729  3117 ReferenceQueueD
+radio         2729  3119 FinalizerDaemon
+radio         2729  3121 FinalizerWatchd
+radio         2729  3122 Binder:2729_1
+radio         2729  3124 Binder:2729_2
+radio         2729  3126 Binder:2729_3
+radio         2729  3221 Profile Saver
+radio         2729  3229 HwBinder:2729_1
+radio         2729  3275 ConnectivityThr
+radio         2729  3279 EntitlementHand
+radio         2729  3281 queued-work-loo
+radio         2729  4169 Binder:2729_4
+radio         2729  4194 Binder:2729_5
+radio         2730  2730 atisticsservice
+radio         2730  3128 Jit thread pool
+radio         2730  3132 Runtime worker 
+radio         2730  3133 Runtime worker 
+radio         2730  3134 Runtime worker 
+radio         2730  3135 Runtime worker 
+radio         2730  3137 Signal Catcher
+radio         2730  3143 ADB-JDWP Connec
+radio         2730  3144 HeapTaskDaemon
+radio         2730  3146 ReferenceQueueD
+radio         2730  3148 FinalizerDaemon
+radio         2730  3150 FinalizerWatchd
+radio         2730  3153 Binder:2730_1
+radio         2730  3163 Binder:2730_2
+radio         2730  3232 HwBinder:2730_1
+u0_a54        2738  2738 d.process.acore
+u0_a54        2738  4100 Jit thread pool
+u0_a54        2738  4105 Signal Catcher
+u0_a54        2738  4106 ADB-JDWP Connec
+u0_a54        2738  4107 HeapTaskDaemon
+u0_a54        2738  4108 ReferenceQueueD
+u0_a54        2738  4109 FinalizerDaemon
+u0_a54        2738  4112 FinalizerWatchd
+u0_a54        2738  4113 Binder:2738_1
+u0_a54        2738  4114 Binder:2738_2
+u0_a54        2738  4120 Binder:2738_3
+u0_a54        2738  4139 Profile Saver
+u0_a54        2738  4143 HwBinder:2738_1
+u0_a54        2738  6047 Binder:2738_4
+u0_a54        2738  6128 ContactsProvide
+u0_a54        2738  6129 AffiliatedThrea
+u0_a54        2738  6138 Worker-1
+u0_a54        2738  6211 Worker-1
+u0_a54        2738  6970 ContactsProvide
+u0_a54        2738  6971 AffiliatedThrea
+u0_a54        2738  7335 pool-4-thread-1
+u0_a54        2738  7336 queued-work-loo
+u0_a54        2738  7356 pool-6-thread-1
+u0_a54        2738  7515 Worker-1
+u0_a54        2738 10267 Worker-1
+u0_a125       2741  2741 eytap.pictorial
+u0_a125       2741  6245 Jit thread pool
+u0_a125       2741  6250 Signal Catcher
+u0_a125       2741  6254 ADB-JDWP Connec
+u0_a125       2741  6255 HeapTaskDaemon
+u0_a125       2741  6256 ReferenceQueueD
+u0_a125       2741  6257 FinalizerDaemon
+u0_a125       2741  6258 FinalizerWatchd
+u0_a125       2741  6259 Binder:2741_1
+u0_a125       2741  6260 Binder:2741_2
+u0_a125       2741  6274 Binder:2741_3
+u0_a125       2741  6352 Profile Saver
+u0_a125       2741  6498 DownloadManager
+u0_a125       2741  6548 pool-1-thread-1
+u0_a125       2741  6549 pool-1-thread-2
+u0_a125       2741  6551 pool-1-thread-3
+u0_a125       2741  6553 pool-2-thread-1
+u0_a125       2741  6753 FileObserver
+u0_a125       2741  6754 RxSchedulerPurg
+u0_a125       2741  6757 RxCachedWorkerP
+u0_a125       2741  6758 RxCachedThreadS
+u0_a125       2741  6764 AppExecutors_ba
+u0_a125       2741  6780 RxComputationTh
+u0_a125       2741  6781 SingleThreadExe
+u0_a125       2741  6791 queued-work-loo
+u0_a125       2741  6845 CrAsyncTask #1
+u0_a125       2741  6852 RxComputationTh
+u0_a125       2741  6853 RxSingleSchedul
+u0_a125       2741  6946 eytap.pictorial
+u0_a125       2741  6955 eytap.pictorial
+u0_a125       2741  6990 RxComputationTh
+u0_a125       2741  7013 RxCachedThreadS
+u0_a125       2741  7016 ConnectivityThr
+u0_a125       2741  7024 RxComputationTh
+u0_a125       2741  7069 pool-5-thread-1
+u0_a125       2741  7099 Binder:2741_4
+u0_a125       2741  7134 RecordThread
+u0_a125       2741  7149 HttpThread
+u0_a125       2741  7381 OkHttp Connecti
+u0_a125       2741  7382 Okio Watchdog
+u0_a125       2741  7668 RxComputationTh
+u0_a125       2741  7703 RxComputationTh
+u0_a125       2741  8410 HandlerThread
+u0_a125       2741  8443 Chrome_ProcessL
+u0_a125       2741  8445 CrAsyncTask #2
+u0_a125       2741  8448 GoogleApiHandle
+u0_a125       2741  8497 TaskSchedulerSe
+u0_a125       2741  8498 TaskSchedulerFo
+u0_a125       2741  8499 Chrome_IOThread
+u0_a125       2741  8502 TaskSchedulerFo
+u0_a125       2741  8511 AudioThread
+u0_a125       2741  8512 TaskSchedulerSi
+u0_a125       2741  8513 TaskSchedulerFo
+u0_a125       2741  8514 TaskSchedulerFo
+u0_a125       2741  8515 PlatformService
+u0_a125       2741  8516 TaskSchedulerFo
+u0_a125       2741  8518 TaskSchedulerSi
+u0_a125       2741  8519 GAC_Executor[0]
+u0_a125       2741  8527 GAC_Executor[1]
+u0_a125       2741  8564 OkHttp Connecti
+u0_a125       2741  8598 RxComputationTh
+u0_a125       2741  8630 RxComputationTh
+u0_a49        2742  2742 ytap.usercenter
+u0_a49        2742  6305 Jit thread pool
+u0_a49        2742  6315 Signal Catcher
+u0_a49        2742  6317 ADB-JDWP Connec
+u0_a49        2742  6318 HeapTaskDaemon
+u0_a49        2742  6319 ReferenceQueueD
+u0_a49        2742  6320 FinalizerDaemon
+u0_a49        2742  6321 FinalizerWatchd
+u0_a49        2742  6328 Binder:2742_1
+u0_a49        2742  6333 Binder:2742_2
+u0_a49        2742  6350 Binder:2742_3
+u0_a49        2742  6403 Profile Saver
+u0_a49        2742  6405 HwBinder:2742_1
+u0_a49        2742  6499 BackgroundExecu
+u0_a49        2742  6534 .1, thread No.1
+u0_a235       2744  2744 nt.mobileqq:MSF
+u0_a235       2744  6375 Jit thread pool
+u0_a235       2744  6380 Signal Catcher
+u0_a235       2744  6387 ADB-JDWP Connec
+u0_a235       2744  6388 HeapTaskDaemon
+u0_a235       2744  6389 ReferenceQueueD
+u0_a235       2744  6390 FinalizerDaemon
+u0_a235       2744  6391 FinalizerWatchd
+u0_a235       2744  6392 Binder:2744_1
+u0_a235       2744  6394 Binder:2744_2
+u0_a235       2744  6688 Profile Saver
+u0_a235       2744  6777 logWriteThread
+u0_a235       2744  7141 QQ_DISPATCHER
+u0_a235       2744  7145 QQ_SUB
+u0_a235       2744  7156 QQ_FILE_RW
+u0_a235       2744  7183 CheckNetFlowSta
+u0_a235       2744  7213 NotificationRep
+u0_a235       2744  7220 Binder:2744_3
+u0_a235       2744  7263 BuglyThread-1
+u0_a235       2744  7265 FileObserver
+u0_a235       2744  7266 BuglyThread-2
+u0_a235       2744  7267 BuglyThread-3
+u0_a235       2744  7315 pref-queue-work
+u0_a235       2744  7319 MSFSubHandlerTh
+u0_a235       2744  7333 FileTracer
+u0_a235       2744  7339 ConnectivityThr
+u0_a235       2744  7470 MSF_StatReportT
+u0_a235       2744  7528 MsfCoreTimeoutC
+u0_a235       2744  7538 Binder:2744_4
+u0_a235       2744  7543 MSFNetHandlerTh
+u0_a235       2744  7563 mergehandle
+u0_a235       2744  7571 MsfCoreMsgSende
+u0_a235       2744  7572 LightTcpSenderT
+u0_a235       2744  7588 process reaper
+u0_a235       2744  7615 MsfCorePushMana
+u0_a235       2744  7622 TcmReceiver
+u0_a235       2744  7623 MsfCoreHttpTime
+u0_a235       2744  7632 MsfServiceAppMs
+u0_a235       2744  7636 monitor_dataflo
+u0_a235       2744  7638 MonitorSocketSt
+u0_a235       2744  7661 MsfServiceRespH
+u0_a235       2744  7685 MsfCoreSocketRe
+u0_a235       2744  7686 OkHttp Connecti
+u0_a235       2744  7702 queued-work-loo
+u0_a235       2744  7709 Okio Watchdog
+u0_a235       2744  7716 beacon-thread-1
+u0_a235       2744  7717 MsfCheckDeepSle
+u0_a235       2744  7722 beacon-thread-2
+u0_a235       2744  7727 beacon-thread-3
+u0_a235       2744  8255 Binder:2744_5
+u0_a235       2744  8324 Binder:2744_6
+u0_a235       2744  8437 Binder:2744_7
+u0_a235       2744  8547 unified-monitor
+u0_a235       2744  8562 Normal_HandlerT
+u0_a235       2744  8563 qzone_thread_mo
+u0_a235       2744  8593 Binder:2744_8
+u0_a235       2744  8610 Thread-21
+u0_a60        2745  2745 com.android.mms
+u0_a60        2745  6410 Jit thread pool
+u0_a60        2745  6416 Signal Catcher
+u0_a60        2745  6419 ADB-JDWP Connec
+u0_a60        2745  6420 HeapTaskDaemon
+u0_a60        2745  6421 ReferenceQueueD
+u0_a60        2745  6422 FinalizerDaemon
+u0_a60        2745  6423 FinalizerWatchd
+u0_a60        2745  6424 Binder:2745_1
+u0_a60        2745  6431 Binder:2745_2
+u0_a60        2745  6512 Profile Saver
+u0_a60        2745  6517 HwBinder:2745_1
+u0_a60        2745  6658 pool-1-thread-1
+u0_a60        2745  6665 pool-1-thread-2
+u0_a60        2745  6700 k worker thread
+u0_a60        2745  6701 k worker thread
+u0_a60        2745  6707 pool-1-thread-3
+u0_a60        2745  6724 pool-1-thread-4
+u0_a60        2745  6725 pool-1-thread-5
+u0_a60        2745  7041 AsyncTask #1
+u0_a60        2745  7085 queued-work-loo
+u0_a60        2745  7093 SoundPool
+u0_a60        2745  7094 SoundPoolThread
+u0_a60        2745  7151 TMS_THREAD_POOL
+u0_a60        2745  7154 ri-Shark-Looper
+u0_a60        2745  7155 sdk.common-oaid
+u0_a60        2745  7164 ocolQueue async
+u0_a60        2745  7203 k.common-icheck
+u0_a60        2745  7210 tencent.meri-bd
+u0_a60        2745  7211 sdk.common-nmct
+u0_a60        2745  7234 ConnectivityThr
+u0_a60        2745  7242 ndHandlerThread
+u0_a60        2745  7246 Binder:2745_3
+u0_a60        2745  7264 sms_entity_load
+u0_a60        2745  7268 sms_entity_load
+u0_a60        2745  7274 sms_entity_load
+u0_a60        2745  7307 SmsParserThread
+u0_a60        2745  8178 Binder:2745_4
+u0_a60        2745 10320 t-HandlerThread
+u0_a60        2745 10329 pool-5-thread-1
+u0_a60        2745 10339 pool-4-thread-1
+u0_a60        2745 10407 RcvThread
+u0_a60        2745 10426 eceive-callback
+u0_a60        2745 10468 eceive-callback
+u0_a60        2745 10482 -shark callback
+u0_a60        2745 10483 eceive-callback
+u0_a60        2745 10489 -shark callback
+u0_a111       2746  2746 pos.ads:service
+u0_a111       2746  6447 Jit thread pool
+u0_a111       2746  6452 Signal Catcher
+u0_a111       2746  6459 ADB-JDWP Connec
+u0_a111       2746  6460 HeapTaskDaemon
+u0_a111       2746  6461 ReferenceQueueD
+u0_a111       2746  6462 FinalizerDaemon
+u0_a111       2746  6463 FinalizerWatchd
+u0_a111       2746  6464 Binder:2746_1
+u0_a111       2746  6467 Binder:2746_2
+u0_a111       2746  6485 Binder:2746_3
+u0_a111       2746  6511 Profile Saver
+u0_a111       2746  6567 queued-work-loo
+u0_a111       2746  6615 cmn_net_1
+root          2888  2888 scheduler_threa
+root          2891  2891 cds_ol_rx_threa
+root          2912  2912 kworker/4:2-mm_percpu_wq
+radio         2947  2947 com.oppo.nhs
+radio         2947  3159 Jit thread pool
+radio         2947  3165 Signal Catcher
+radio         2947  3168 ADB-JDWP Connec
+radio         2947  3170 HeapTaskDaemon
+radio         2947  3172 ReferenceQueueD
+radio         2947  3176 FinalizerDaemon
+radio         2947  3178 FinalizerWatchd
+radio         2947  3188 Binder:2947_1
+radio         2947  3192 Binder:2947_2
+radio         2947  3207 Binder:2947_3
+radio         2947  3227 Profile Saver
+radio         2947  3243 HwBinder:2947_1
+radio         2947  3253 EventCore
+radio         2947  3264 OppoNecCellular
+radio         2947  3270 NecCellularTrig
+radio         2947  3290 OppoNecGnss
+radio         2947  3299 NecRilEvent
+radio         2947  4439 Binder:2947_4
+radio         2947  4579 Binder:2947_5
+radio         2947  4964 Binder:2947_6
+radio         2947  8878 Binder:2947_7
+radio         2952  2952 m.android.phone
+radio         2952  3129 Jit thread pool
+radio         2952  3140 Signal Catcher
+radio         2952  3141 ADB-JDWP Connec
+radio         2952  3145 HeapTaskDaemon
+radio         2952  3149 ReferenceQueueD
+radio         2952  3151 FinalizerDaemon
+radio         2952  3152 FinalizerWatchd
+radio         2952  3154 Binder:2952_1
+radio         2952  3158 Binder:2952_2
+radio         2952  3181 Binder:2952_3
+radio         2952  3241 Profile Saver
+radio         2952  3256 HwBinder:2952_1
+radio         2952  3386 queued-work-loo
+radio         2952  3411 simsettings_thr
+radio         2952  3430 android.bg
+radio         2952  3480 TeleController
+radio         2952  3482 OppoFiveGHelper
+radio         2952  3503 GsmCellBroadcas
+radio         2952  3519 GsmInboundSmsHa
+radio         2952  3555 CellBroadcastHa
+radio         2952  3556 CdmaInboundSmsH
+radio         2952  3561 CdmaServiceCate
+radio         2952  3588 Binder:2952_4
+radio         2952  3590 DcHandlerThread
+radio         2952  3603 DcHandlerThread
+radio         2952  3617 ConnectivityThr
+radio         2952  3625 GsmCellBroadcas
+radio         2952  3627 GsmInboundSmsHa
+radio         2952  3630 CellBroadcastHa
+radio         2952  3631 CdmaInboundSmsH
+radio         2952  3633 CdmaServiceCate
+radio         2952  3675 DcHandlerThread
+radio         2952  3692 DcHandlerThread
+radio         2952  3740 uiccManagerHand
+radio         2952  3756 EndcThread
+radio         2952  3770 Binder:2952_5
+radio         2952  3780 MainServiceImpl
+radio         2952  3894 ImsServiceContr
+radio         2952  3902 NetworkService
+radio         2952  3905 Binder:2952_6
+radio         2952  3911 DataService
+radio         2952  3949 org.codeaurora.
+radio         2952  3950 ImsConfigImplHa
+radio         2952  3952 ImsSmsImpl
+radio         2952  3953 org.codeaurora.
+radio         2952  3954 ImsConfigImplHa
+radio         2952  3955 ImsSmsImpl
+radio         2952  3971 Binder:2952_7
+radio         2952  3972 Binder:2952_8
+radio         2952  3980 Binder:2952_9
+radio         2952  3997 Binder:2952_A
+radio         2952  4026 CellularNetwork
+radio         2952  4027 CellularNetwork
+radio         2952  4050 pool-1-thread-1
+radio         2952  4052 CellularDataSer
+radio         2952  4053 CellularDataSer
+radio         2952  4057 AudioTrack
+radio         2952  4068 Binder:2952_B
+radio         2952  4072 pool-1-thread-2
+radio         2952  4079 pool-1-thread-3
+radio         2952  4088 pool-1-thread-4
+radio         2952  4092 Binder:2952_C
+radio         2952  4138 pool-4-thread-1
+radio         2952  4577 NetworkDs
+radio         2952  4578 OppoTeleohonyEx
+radio         2952  4773 ONSNetworkScanC
+radio         2952  4775 ONSProfileSelec
+radio         2952  6141 AsyncTask #2
+radio         2952  7657 ervice.Executor
+system        2957  2957 olor.eyeprotect
+system        2957  3169 Jit thread pool
+system        2957  3177 Signal Catcher
+system        2957  3183 ADB-JDWP Connec
+system        2957  3184 HeapTaskDaemon
+system        2957  3185 ReferenceQueueD
+system        2957  3186 FinalizerDaemon
+system        2957  3187 FinalizerWatchd
+system        2957  3191 Binder:2957_1
+system        2957  3202 Binder:2957_2
+system        2957  3257 Profile Saver
+system        2957  3269 HwBinder:2957_1
+system        2957  3285 DefaultDispatch
+system        2957  3286 DefaultDispatch
+system        2957  3287 DefaultDispatch
+system        2957  3300 pool-1-thread-1
+system        2957  3377 queued-work-loo
+u0_a67        2969  2969 m.oppo.launcher
+u0_a67        2969  3193 Jit thread pool
+u0_a67        2969  3199 Signal Catcher
+u0_a67        2969  3200 ADB-JDWP Connec
+u0_a67        2969  3201 HeapTaskDaemon
+u0_a67        2969  3203 ReferenceQueueD
+u0_a67        2969  3204 FinalizerDaemon
+u0_a67        2969  3205 FinalizerWatchd
+u0_a67        2969  3206 Binder:2969_1
+u0_a67        2969  3210 Binder:2969_2
+u0_a67        2969  3260 Binder:2969_3
+u0_a67        2969  3272 Profile Saver
+u0_a67        2969  3278 HwBinder:2969_1
+u0_a67        2969  3306 download
+u0_a67        2969  3313 launcher-loader
+u0_a67        2969  3314 badge-loader
+u0_a67        2969  3318 pool-3-thread-1
+u0_a67        2969  3323 badge_loader
+u0_a67        2969  3359 RenderThread
+u0_a67        2969  3418 UiThreadHelper
+u0_a67        2969  3419 FileObserver
+u0_a67        2969  3426 pool-1-thread-1
+u0_a67        2969  3435 TaskThumbnailIc
+u0_a67        2969  3451 SoundPool
+u0_a67        2969  3452 SoundPoolThread
+u0_a67        2969  3457 trace-logger
+u0_a67        2969  3465 wallpaper_bitma
+u0_a67        2969  3474 ThreadPoolManag
+u0_a67        2969  3479 pool-1-ThreadPo
+u0_a67        2969  3521 hwuiTask0
+u0_a67        2969  3522 hwuiTask1
+u0_a67        2969  3595 GrallocUploadTh
+u0_a67        2969  3608 uiengine_global
+u0_a67        2969  3707 pool-1-ThreadPo
+u0_a67        2969  3717 queued-work-loo
+u0_a67        2969  3731 Binder:2969_4
+u0_a67        2969  3742 magnifier pixel
+u0_a67        2969  5898 pool-1-ThreadPo
+u0_a67        2969  5901 HWC release
+u0_a67        2969  5903 GPU completion
+u0_a67        2969  5910 pool-1-ThreadPo
+u0_a67        2969  5911 AsyncTask #1
+u0_a67        2969  6816 Binder:2969_5
+u0_a67        2969  6818 pool-6-thread-1
+u0_a67        2969  6819 pool-6-thread-2
+u0_a67        2969  6869 Binder:2969_6
+system        2974  2974 .persist.system
+system        2974  3325 Jit thread pool
+system        2974  3326 Runtime worker 
+system        2974  3327 Runtime worker 
+system        2974  3328 Runtime worker 
+system        2974  3329 Runtime worker 
+system        2974  3330 Signal Catcher
+system        2974  3331 ADB-JDWP Connec
+system        2974  3332 HeapTaskDaemon
+system        2974  3334 ReferenceQueueD
+system        2974  3335 FinalizerDaemon
+system        2974  3336 FinalizerWatchd
+system        2974  3337 Binder:2974_1
+system        2974  3339 Binder:2974_2
+system        2974  3374 Binder:2974_3
+system        2974  3428 HwBinder:2974_1
+system        2974  3580 FileObserver
+system        2974  3583 HandlerThreadTo
+system        2974  3585 queued-work-loo
+system        2974  3913 zoom app backgr
+system        2974  3916 app switch back
+system        2974  3917 Binder:2974_4
+system        2974  3919 Thread-3
+system        2974  3926 RenderThread
+system        2974  3931 Thread-4
+system        2974  3936 addPointerEvent
+system        2974  3937 set rus config 
+system        2974  4924 Controller thre
+system        2974  4925 DataDispatchHan
+system        2974  4926 TopActivityMoni
+system        2974  6400 SafeCenter-thre
+system        2974  6667 thermal_worker
+system        2974  6750 ConnectivityThr
+system        2974  6756 AthenaTask #1
+system        2974  6772 VirusDetect-Dow
+system        2974  6982 appusage
+system        2974  6998 HandlerSchedule
+system        2974  7006 HandlerSchedule
+system        2974  7009 HandlerSchedule
+system        2974  7081 disable_time
+system        2974  7209 family_guard_th
+system        2974  7306 ResmonHandler
+system        2974  7311 OppoGuardElfHan
+system        2974  7325 BenchHelper
+system        2974  7329 powerSaveMode
+system        2974  7332 AbnormalPower
+system        2974  7340 GuardElfCpu
+system        2974  7348 deepsleep
+system        2974  7380 HardwareStateOb
+system        2974  7408 DeviceStorageMo
+system        2974  7415 OppoGuardElfMon
+system        2974  7438 google_check
+system        2974  7449 pool-3-thread-1
+system        2974  7457 aab_predict
+system        2974  7469 AbnormalManager
+system        2974  7519 functionThread
+system        2974  7542 PrivateSafeMode
+system        2974  7646 frameHandleThre
+system        2974  7647 receiverThread
+system        2974  7648 frameThread
+system        2974  7650 profileThread
+system        2974  7651 process reaper
+system        2974  7744 athena_handler_
+system        2974  7752 app_predict_man
+system        2974  7753 smart_clear_ht
+system        2974  7755 app_change_mana
+system        2974  7764 hans_main
+system        2974  7767 hans_record
+system        2974  7860 memory_compress
+system        2974  7898 process reaper
+system        2974  7899 process reaper
+system        2974  8049 Binder:2974_5
+system        2974  8388 AthenaTask #2
+system        2974  8399 AthenaTask #3
+system        2974  8402 AthenaTask #4
+system        2974  8576 Binder:2974_6
+system        2974  8725 work
+system        2974  8727 pool-11-thread-
+system        2974 10101 pool-13-thread-
+webview_zygote 2997 2997 webview_zygote
+webview_zygote 2997 10534 HeapTaskDaemon
+webview_zygote 2997 10535 ReferenceQueueD
+webview_zygote 2997 10536 FinalizerDaemon
+webview_zygote 2997 10537 FinalizerWatchd
+webview_zygote 2997 10538 Jit thread pool
+wifi          3014  3014 wpa_supplicant
+wifi          3014  3062 wpa_supplicant
+wifi          3014  3063 wpa_supplicant
+wifi          3014  3064 wpa_supplicant
+wifi          3014  3065 wpa_supplicant
+wifi          3014  3066 wpa_supplicant
+wifi          3014  8449 wpa_supplicant
+wifi          3014  8452 wpa_supplicant
+wifi          3014  8453 wpa_supplicant
+wifi          3014  8454 wpa_supplicant
+radio         3182  3182 .qcrilmsgtunnel
+radio         3182  3504 Jit thread pool
+radio         3182  3509 Signal Catcher
+radio         3182  3510 ADB-JDWP Connec
+radio         3182  3512 HeapTaskDaemon
+radio         3182  3513 ReferenceQueueD
+radio         3182  3515 FinalizerDaemon
+radio         3182  3516 FinalizerWatchd
+radio         3182  3518 Binder:3182_1
+radio         3182  3520 Binder:3182_2
+radio         3182  3551 Binder:3182_3
+radio         3182  3554 Profile Saver
+radio         3182  3558 HwBinder:3182_1
+radio         3182  3579 queued-work-loo
+system        3209  3209 ecuritykeyboard
+system        3209  3533 Jit thread pool
+system        3209  3543 Signal Catcher
+system        3209  3545 ADB-JDWP Connec
+system        3209  3546 HeapTaskDaemon
+system        3209  3547 ReferenceQueueD
+system        3209  3548 FinalizerDaemon
+system        3209  3549 FinalizerWatchd
+system        3209  3552 Binder:3209_1
+system        3209  3553 Binder:3209_2
+system        3209  3560 Binder:3209_3
+system        3209  3582 Profile Saver
+system        3209  3594 HwBinder:3209_1
+u0_a81        3228  3228 id.ext.services
+u0_a81        3228  3562 Jit thread pool
+u0_a81        3228  3567 Signal Catcher
+u0_a81        3228  3568 ADB-JDWP Connec
+u0_a81        3228  3569 HeapTaskDaemon
+u0_a81        3228  3570 ReferenceQueueD
+u0_a81        3228  3571 FinalizerDaemon
+u0_a81        3228  3572 FinalizerWatchd
+u0_a81        3228  3573 Binder:3228_1
+u0_a81        3228  3574 Binder:3228_2
+u0_a81        3228  3576 Binder:3228_3
+u0_a81        3228  3584 Profile Saver
+u0_a81        3228  3591 HwBinder:3228_1
+u0_a81        3228  3730 AsyncTask #1
+u0_a81        3228  3739 queued-work-loo
+u0_a81        3228  3877 pool-1-thread-1
+u0_a81        3228  6844 pool-2-thread-1
+system        3237  3237 m.oppo.tzupdate
+system        3237  3656 Jit thread pool
+system        3237  3661 Signal Catcher
+system        3237  3662 ADB-JDWP Connec
+system        3237  3664 HeapTaskDaemon
+system        3237  3665 ReferenceQueueD
+system        3237  3666 FinalizerDaemon
+system        3237  3667 FinalizerWatchd
+system        3237  3668 Binder:3237_1
+system        3237  3669 Binder:3237_2
+system        3237  3677 Profile Saver
+system        3237  3679 HwBinder:3237_1
+system        3237  3701 AsyncHandler
+system        3237  3711 pool-2-thread-1
+system        3237  3721 queued-work-loo
+system        3237  4063 Binder:3237_3
+system        3237  4085 TcmReceiver
+system        3237  9282 OkHttp Connecti
+system        3237  9283 OkHttp Connecti
+system        3237  9284 OkHttp Connecti
+system        3237  9448 Okio Watchdog
+radio         3333  3333 ndroid.incallui
+radio         3333  3796 Jit thread pool
+radio         3333  3801 Signal Catcher
+radio         3333  3802 ADB-JDWP Connec
+radio         3333  3803 HeapTaskDaemon
+radio         3333  3804 ReferenceQueueD
+radio         3333  3805 FinalizerDaemon
+radio         3333  3806 FinalizerWatchd
+radio         3333  3807 Binder:3333_1
+radio         3333  3808 Binder:3333_2
+radio         3333  3809 Binder:3333_3
+radio         3333  3821 Profile Saver
+radio         3333  3829 HwBinder:3333_1
+radio         3333  3830 AsyncTask #1
+radio         3333  3832 .1, thread No.1
+radio         3333  3834 AsyncQueryWorke
+u0_a155       3354  3354 .gms.persistent
+u0_a155       3354  4003 Jit thread pool
+u0_a155       3354  4008 Signal Catcher
+u0_a155       3354  4009 ADB-JDWP Connec
+u0_a155       3354  4010 HeapTaskDaemon
+u0_a155       3354  4011 ReferenceQueueD
+u0_a155       3354  4012 FinalizerDaemon
+u0_a155       3354  4013 FinalizerWatchd
+u0_a155       3354  4014 Binder:3354_1
+u0_a155       3354  4016 Binder:3354_2
+u0_a155       3354  4089 Profile Saver
+u0_a155       3354  4094 HwBinder:3354_1
+u0_a155       3354  4142 FileObserver
+u0_a155       3354  4179 GlobalDispatchi
+u0_a155       3354  4203 GlobalScheduler
+u0_a155       3354  4205 queued-work-loo
+u0_a155       3354  5924 Binder:3354_3
+u0_a155       3354  5925 [dvv] operation
+u0_a155       3354  6132 [dvv] idle
+u0_a155       3354  6304 GoogleApiHandle
+u0_a155       3354  6332 ConnectivityThr
+u0_a155       3354  6353 Binder:3354_4
+u0_a155       3354  6417 highpool[0]
+u0_a155       3354  6545 Binder:3354_5
+u0_a155       3354  6783 Binder:3354_6
+u0_a155       3354  6995 lowpool[0]
+u0_a155       3354  7057 lowpool[1]
+u0_a155       3354  7058 lowpool[2]
+u0_a155       3354  7086 GoogleLocationS
+u0_a155       3354  7114 netscheduler-qu
+u0_a155       3354  7561 MSMuxTR-0
+u0_a155       3354  7879 lowpool[4]
+u0_a155       3354  7919 highpool[1]
+u0_a155       3354  7935 highpool[2]
+u0_a155       3354  7939 highpool[3]
+u0_a155       3354  8251 Binder:3354_7
+u0_a155       3354  8263 Binder:3354_8
+u0_a155       3354 10331 [dvv] idle
+u0_a155       3354 10332 [dvv] idle
+u0_a155       3354 10333 [dvv] idle
+system        3357  3357 ros.deepthinker
+system        3357  4028 Jit thread pool
+system        3357  4033 Signal Catcher
+system        3357  4034 ADB-JDWP Connec
+system        3357  4036 HeapTaskDaemon
+system        3357  4037 ReferenceQueueD
+system        3357  4038 FinalizerDaemon
+system        3357  4039 FinalizerWatchd
+system        3357  4042 Binder:3357_1
+system        3357  4049 Binder:3357_2
+system        3357  4051 Binder:3357_3
+system        3357  4077 Profile Saver
+system        3357  4080 HwBinder:3357_1
+system        3357  4097 ConnectivityThr
+system        3357  4118 DBCacheManager
+system        3357  4217 pool-1-thread-1
+system        3357  4219 queued-work-loo
+system        3357  4220 EventHubService
+system        3357  4222 SensorState
+u0_a99        3363  3363 rrierdefaultapp
+u0_a99        3363  4145 Jit thread pool
+u0_a99        3363  4150 Signal Catcher
+u0_a99        3363  4152 ADB-JDWP Connec
+u0_a99        3363  4153 HeapTaskDaemon
+u0_a99        3363  4154 ReferenceQueueD
+u0_a99        3363  4155 FinalizerDaemon
+u0_a99        3363  4156 FinalizerWatchd
+u0_a99        3363  4157 Binder:3363_1
+u0_a99        3363  4160 Binder:3363_2
+u0_a99        3363  4175 Profile Saver
+u0_a99        3363  4182 HwBinder:3363_1
+system        3759  3759 sist.multimedia
+system        3759  4598 Jit thread pool
+system        3759  4603 Signal Catcher
+system        3759  4607 ADB-JDWP Connec
+system        3759  4608 HeapTaskDaemon
+system        3759  4609 ReferenceQueueD
+system        3759  4610 FinalizerDaemon
+system        3759  4611 FinalizerWatchd
+system        3759  4615 Binder:3759_1
+system        3759  4616 Binder:3759_2
+system        3759  4638 Profile Saver
+system        3759  4640 HwBinder:3759_1
+system        3759  7225 Binder:3759_3
+system        3759  7226 AtlasMainThread
+system        3759  7262 oppo_atlasServi
+system        3759  7322 queued-work-loo
+system        3759  7343 Binder:3759_4
+system        3773  3773 po.engineermode
+system        3773  4604 Jit thread pool
+system        3773  4614 Signal Catcher
+system        3773  4617 ADB-JDWP Connec
+system        3773  4618 HeapTaskDaemon
+system        3773  4619 ReferenceQueueD
+system        3773  4620 FinalizerDaemon
+system        3773  4621 FinalizerWatchd
+system        3773  4622 Binder:3773_1
+system        3773  4626 Binder:3773_2
+system        3773  4630 Binder:3773_3
+system        3773  4705 Profile Saver
+system        3773  4712 HwBinder:3773_1
+system        3773  4732 queued-work-loo
+system        3786  3786 i.poweroffalarm
+system        3786  4836 Jit thread pool
+system        3786  4842 Signal Catcher
+system        3786  4843 ADB-JDWP Connec
+system        3786  4844 HeapTaskDaemon
+system        3786  4845 ReferenceQueueD
+system        3786  4846 FinalizerDaemon
+system        3786  4847 FinalizerWatchd
+system        3786  4848 Binder:3786_1
+system        3786  4849 Binder:3786_2
+system        3786  4893 Profile Saver
+system        3786  4895 HwBinder:3786_1
+u0_a155       4161  4161 gle.android.gms
+u0_a155       4161  4852 Jit thread pool
+u0_a155       4161  4857 Signal Catcher
+u0_a155       4161  4858 ADB-JDWP Connec
+u0_a155       4161  4859 HeapTaskDaemon
+u0_a155       4161  4860 ReferenceQueueD
+u0_a155       4161  4861 FinalizerDaemon
+u0_a155       4161  4862 FinalizerWatchd
+u0_a155       4161  4864 Binder:4161_1
+u0_a155       4161  4865 Binder:4161_2
+u0_a155       4161  4870 Binder:4161_3
+u0_a155       4161  4901 Profile Saver
+u0_a155       4161  4902 HwBinder:4161_1
+u0_a155       4161  4908 FileObserver
+u0_a155       4161  4913 GlobalDispatchi
+u0_a155       4161  4929 queued-work-loo
+u0_a155       4161  6518 [dvv] operation
+u0_a155       4161  6571 [dvv] idle
+u0_a155       4161  6590 GoogleApiHandle
+u0_a155       4161  6595 [dvv] idle
+u0_a155       4161  6769 lowpool[0]
+u0_a155       4161  6784 Binder:4161_4
+u0_a155       4161  6838 Binder:4161_5
+u0_a155       4161  6868 Binder:4161_6
+u0_a155       4161  7599 ConnectivityThr
+u0_a155       4161  7652 GlobalScheduler
+u0_a155       4161  7731 lowpool[1]
+u0_a155       4161  7738 lowpool[2]
+u0_a155       4161  7745 lowpool[3]
+u0_a155       4161  7973 Measurement Wor
+u0_a155       4161  8099 highpool[0]
+u0_a155       4161  8100 highpool[1]
+u0_a155       4161  8137 highpool[2]
+u0_a155       4161  8176 Binder:4161_7
+u0_a155       4161  8249 Binder:4161_8
+u0_a155       4161  8262 Binder:4161_9
+u0_a155       4161  8264 Binder:4161_A
+u0_a155       4161  8331 DG
+u0_a155       4161  8532 highpool[3]
+u0_a155       4161  8867 TcmReceiver
+u0_a155       4161  8890 OkHttp Connecti
+u0_a155       4161 10336 [dvv] idle
+u0_a155       4161 10348 [dvv] idle
+u0_a155       4161 10351 [dvv] idle
+u0_a155       4161 10396 lowpool[4]
+u0_a155       4161 10397 lowpool[5]
+u0_a155       4161 10398 lowpool[6]
+u0_a155       4161 10451 lowpool[7]
+system        4162  4162 com.heytap.mcs
+system        4162  4872 Jit thread pool
+system        4162  4878 Signal Catcher
+system        4162  4886 ADB-JDWP Connec
+system        4162  4887 HeapTaskDaemon
+system        4162  4888 ReferenceQueueD
+system        4162  4889 FinalizerDaemon
+system        4162  4890 FinalizerWatchd
+system        4162  4891 Binder:4162_1
+system        4162  4892 Binder:4162_2
+system        4162  4894 Binder:4162_3
+system        4162  4905 Profile Saver
+system        4162  4907 HwBinder:4162_1
+system        4162  4911 pool-1-thread-1
+system        4162  4912 pool-1-thread-2
+system        4162  4914 pool-1-thread-3
+system        4162  4917 pool-1-thread-4
+system        4162  4918 pool-1-thread-5
+system        4162  4919 pool-3-thread-1
+system        4162  4920 queued-work-loo
+system        4162  4921 pool-4-thread-1
+system        4162  4922 ConnectivityThr
+system        4162  4931 nioEventLoopGro
+system        4162  4934 pool-2-thread-1
+system        4162  4953 HttpThread
+system        4162  4990 httpThread
+system        4162  4993 pool-5-thread-1
+system        4162  4995 RecordThread
+system        4162  5037 OkHttp Connecti
+system        4162  5058 Okio Watchdog
+system        4162  6077 Measurement Wor
+system        4162  6095 FirebaseInstanc
+system        4162  6101 firebase-iid-ex
+system        4162  6162 firebase-iid-ex
+system        4162  6212 MessengerIpcCli
+system        4162  6785 Binder:4162_4
+system        4162  6996 HandlerThread
+system        4162  7015 RecordThread
+system        4162  8250 Binder:4162_5
+system        4165  4165 .heytap.mcs:dcs
+system        4165  5000 Jit thread pool
+system        4165  5005 Signal Catcher
+system        4165  5006 ADB-JDWP Connec
+system        4165  5007 HeapTaskDaemon
+system        4165  5008 ReferenceQueueD
+system        4165  5009 FinalizerDaemon
+system        4165  5010 FinalizerWatchd
+system        4165  5011 Binder:4165_1
+system        4165  5012 Binder:4165_2
+system        4165  5015 Binder:4165_3
+system        4165  5016 Profile Saver
+system        4165  5017 HwBinder:4165_1
+system        4165  5020 queued-work-loo
+u0_a155       4168  4168 ocess.gservices
+u0_a155       4168  5946 Jit thread pool
+u0_a155       4168  5952 Signal Catcher
+u0_a155       4168  5954 ADB-JDWP Connec
+u0_a155       4168  5955 HeapTaskDaemon
+u0_a155       4168  5956 ReferenceQueueD
+u0_a155       4168  5957 FinalizerDaemon
+u0_a155       4168  5959 FinalizerWatchd
+u0_a155       4168  5960 Binder:4168_1
+u0_a155       4168  5968 Binder:4168_2
+u0_a155       4168  5971 Binder:4168_3
+u0_a155       4168  5987 Profile Saver
+u0_a155       4168  5992 HwBinder:4168_1
+u0_a155       4168  6330 Binder:4168_4
+u0_a155       4168  6612 Binder:4168_5
+u0_a155       4168  6987 Binder:4168_6
+u0_a155       4168  7061 Binder:4168_7
+u0_a155       4168  7138 Binder:4168_8
+u0_a155       4168  7152 Binder:4168_9
+u0_a155       4168  7182 Binder:4168_A
+u0_a155       4168  7453 Binder:4168_B
+u0_a155       4168  8007 Binder:4168_C
+u0_a155       4168  8091 Binder:4168_D
+u0_a155       4168  8949 Binder:4168_E
+u0_a155       4168 10439 Binder:4168_F
+u0_a155       4168 10491 Binder:4168_10
+u0_a58        4172  4172 iders.downloads
+u0_a58        4172  5994 Jit thread pool
+u0_a58        4172  6001 Signal Catcher
+u0_a58        4172  6002 ADB-JDWP Connec
+u0_a58        4172  6003 HeapTaskDaemon
+u0_a58        4172  6004 ReferenceQueueD
+u0_a58        4172  6005 FinalizerDaemon
+u0_a58        4172  6007 FinalizerWatchd
+u0_a58        4172  6008 Binder:4172_1
+u0_a58        4172  6009 Binder:4172_2
+u0_a58        4172  6040 Profile Saver
+u0_a58        4172  6043 HwBinder:4172_1
+u0_a58        4172  6099 Binder:4172_3
+u0_a58        4172  6125 sAsyncHandlerTh
+u0_a58        4172  6226 queued-work-loo
+system        4627  4627 Binder:4627_2
+system        4627  4657 HwBinder:4627_1
+system        4627  4659 work
+system        4627  4660 stat
+system        4627  4662 Binder:4627_4
+system        4627  4663 POSIX timer 0
+system        4627  4664 Binder:4627_1
+system        4627  4665 Binder:4627_3
+system        4627  4668 horae_work
+system        4627  4674 st-fitting
+system        4631  4631 Binder:4631_2
+system        4631  4658 HwBinder:4631_1
+system        4631  4661 oiface
+system        4631  4666 Binder:4631_1
+system        4632  4632 qspmsvc
+system        4632  4639 Binder:4632_1
+root          4679  4679 phoenix_log_man
+root          4769  4769 irq/101-90b6300
+root          4774  4774 irq/102-90cd000
+u0_a58        4850  4850 d.process.media
+u0_a58        4850  6016 Jit thread pool
+u0_a58        4850  6021 Signal Catcher
+u0_a58        4850  6023 ADB-JDWP Connec
+u0_a58        4850  6024 HeapTaskDaemon
+u0_a58        4850  6025 ReferenceQueueD
+u0_a58        4850  6026 FinalizerDaemon
+u0_a58        4850  6027 FinalizerWatchd
+u0_a58        4850  6028 Binder:4850_1
+u0_a58        4850  6030 Binder:4850_2
+u0_a58        4850  6102 Profile Saver
+u0_a58        4850  6359 Binder:4850_3
+u0_a58        4850  6364 IntentService[M
+u0_a58        4850  6369 queued-work-loo
+u0_a58        4850  6934 MtpDatabase
+u0_a58        4850  6961 MtpServer
+u0_a58        4850  7908 pool-2-thread-1
+u0_a58        4850 10388 android.bg
+u0_a58        4850 10464 MediaStorage-tr
+u0_a58        4850 11015 ent.InfoHandler
+u0_a58        4850 11018 nt.EventHandler
+u0_a157       4863  4863 olby.daxservice
+u0_a157       4863  6049 Jit thread pool
+u0_a157       4863  6054 Signal Catcher
+u0_a157       4863  6055 ADB-JDWP Connec
+u0_a157       4863  6056 HeapTaskDaemon
+u0_a157       4863  6057 ReferenceQueueD
+u0_a157       4863  6058 FinalizerDaemon
+u0_a157       4863  6059 FinalizerWatchd
+u0_a157       4863  6060 Binder:4863_1
+u0_a157       4863  6067 Binder:4863_2
+u0_a157       4863  6086 Binder:4863_3
+u0_a157       4863  6103 Profile Saver
+u0_a157       4863  6105 HwBinder:4863_1
+u0_a157       4863  6131 Binder:4863_4
+u0_a157       4863  6356 queued-work-loo
+nfc           4867  4867 com.android.nfc
+nfc           4867  6080 Jit thread pool
+nfc           4867  6085 Signal Catcher
+nfc           4867  6087 ADB-JDWP Connec
+nfc           4867  6088 HeapTaskDaemon
+nfc           4867  6089 ReferenceQueueD
+nfc           4867  6090 FinalizerDaemon
+nfc           4867  6091 FinalizerWatchd
+nfc           4867  6092 Binder:4867_1
+nfc           4867  6094 Binder:4867_2
+nfc           4867  6100 Binder:4867_3
+nfc           4867  6135 Profile Saver
+nfc           4867  6145 HwBinder:4867_1
+nfc           4867  6649 AsyncTask #1
+nfc           4867  6690 DeviceRecorderT
+nfc           4867  6737 HwBinder:4867_2
+u0_a170       4869  4869 mhelper_service
+u0_a170       4869  6107 Jit thread pool
+u0_a170       4869  6112 Signal Catcher
+u0_a170       4869  6113 ADB-JDWP Connec
+u0_a170       4869  6114 HeapTaskDaemon
+u0_a170       4869  6115 ReferenceQueueD
+u0_a170       4869  6116 FinalizerDaemon
+u0_a170       4869  6117 FinalizerWatchd
+u0_a170       4869  6119 Binder:4869_1
+u0_a170       4869  6126 Binder:4869_2
+u0_a170       4869  6202 Profile Saver
+u0_a170       4869  6233 HwBinder:4869_1
+u0_a170       4869  7434 Binder:4869_3
+u0_a170       4869  7435 Thread-2
+u0_a170       4869  7436 queued-work-loo
+system        4880  4880 ultimedia.dolby
+system        4880  6171 Jit thread pool
+system        4880  6176 Signal Catcher
+system        4880  6178 ADB-JDWP Connec
+system        4880  6179 HeapTaskDaemon
+system        4880  6180 ReferenceQueueD
+system        4880  6181 FinalizerDaemon
+system        4880  6182 FinalizerWatchd
+system        4880  6190 Binder:4880_1
+system        4880  6194 Binder:4880_2
+system        4880  6240 Profile Saver
+system        4880  6244 HwBinder:4880_1
+system        4880  7230 Binder:4880_3
+system        4880  7231 dolby operation
+system        4880  7260 Binder:4880_4
+system        4880  7298 queued-work-loo
+root          5824  5824 sleep
+system        5935  5935 .habit.analysis
+system        5935  6578 Jit thread pool
+system        5935  6583 Signal Catcher
+system        5935  6584 ADB-JDWP Connec
+system        5935  6585 HeapTaskDaemon
+system        5935  6586 ReferenceQueueD
+system        5935  6588 FinalizerDaemon
+system        5935  6589 FinalizerWatchd
+system        5935  6591 Binder:5935_1
+system        5935  6593 Binder:5935_2
+system        5935  6632 Profile Saver
+system        5935  6646 HwBinder:5935_1
+system        5935  6655 NewsTask_HabitA
+system        5935  6740 HabitTaskWorker
+system        5935  6747 RxSchedulerPurg
+system        5935  6748 RxCachedWorkerP
+system        5935  6749 RxCachedThreadS
+u0_a91        5937  5937 weather.service
+u0_a91        5937  6626 Jit thread pool
+u0_a91        5937  6631 Signal Catcher
+u0_a91        5937  6635 ADB-JDWP Connec
+u0_a91        5937  6638 HeapTaskDaemon
+u0_a91        5937  6639 ReferenceQueueD
+u0_a91        5937  6640 FinalizerDaemon
+u0_a91        5937  6641 FinalizerWatchd
+u0_a91        5937  6642 Binder:5937_1
+u0_a91        5937  6644 Binder:5937_2
+u0_a91        5937  6652 Binder:5937_3
+u0_a91        5937  6734 Profile Saver
+u0_a91        5937  6774 ConnectivityThr
+u0_a91        5937  6822 pool-1-thread-1
+u0_a91        5937  6823 pool-1-thread-2
+u0_a91        5937  6848 pool-1-thread-3
+u0_a91        5937  6855 pool-1-thread-4
+u0_a91        5937  7611 queued-work-loo
+u0_a145       5940  5940 method.sogouoem
+u0_a145       5940  6668 Jit thread pool
+u0_a145       5940  6673 Signal Catcher
+u0_a145       5940  6694 ADB-JDWP Connec
+u0_a145       5940  6695 HeapTaskDaemon
+u0_a145       5940  6696 ReferenceQueueD
+u0_a145       5940  6697 FinalizerDaemon
+u0_a145       5940  6710 FinalizerWatchd
+u0_a145       5940  6712 Binder:5940_1
+u0_a145       5940  6722 Binder:5940_2
+u0_a145       5940  6741 Binder:5940_3
+u0_a145       5940  6778 Profile Saver
+u0_a145       5940  6811 matrix_time_upd
+u0_a145       5940  6815 queued-work-loo
+u0_a145       5940  6840 dbCache
+u0_a145       5940  6891 HandlerThread
+u0_a145       5940  6894 ConnectivityThr
+u0_a145       5940  6913 Thread-3
+u0_a145       5940  6935 default_matrix_
+u0_a145       5940  6957 upload_check_th
+u0_a145       5940  6983 process reaper
+u0_a145       5940  6984 FileObserver
+u0_a145       5940  6997 pool-1-thread-1
+u0_a145       5940  7007 pool-2-thread-1
+u0_a145       5940  7117 pool-4-thread-1
+u0_a145       5940  7123 Binder:5940_4
+u0_a145       5940  7476 Looper Thread
+u0_a145       5940  7705 AsyncTask #1
+u0_a145       5940  7721 OkHttp Dispatch
+u0_a145       5940  7801 OkHttp Connecti
+u0_a145       5940  7802 Okio Watchdog
+u0_a235       5953  5953 encent.mobileqq
+u0_a235       5953  6824 Jit thread pool
+u0_a235       5953  6829 Signal Catcher
+u0_a235       5953  6830 ADB-JDWP Connec
+u0_a235       5953  6831 HeapTaskDaemon
+u0_a235       5953  6832 ReferenceQueueD
+u0_a235       5953  6833 FinalizerDaemon
+u0_a235       5953  6834 FinalizerWatchd
+u0_a235       5953  6835 Binder:5953_1
+u0_a235       5953  6836 Binder:5953_2
+u0_a235       5953  6846 Binder:5953_3
+u0_a235       5953  7008 Profile Saver
+u0_a235       5953  7049 logWriteThread
+u0_a235       5953  7059 QQ_DISPATCHER
+u0_a235       5953  7063 QQ_SUB
+u0_a235       5953  7080 QQ_FILE_RW
+u0_a235       5953  7110 CheckNetFlowSta
+u0_a235       5953  7124 NotificationRep
+u0_a235       5953  7707 MsfServiceTimeo
+u0_a235       5953  7708 AppNetHandlerTh
+u0_a235       5953  7712 ConnectivityThr
+u0_a235       5953  7726 property-saver
+u0_a235       5953  7733 ServletForward
+u0_a235       5953  7811 beacon-thread-1
+u0_a235       5953  7825 beacon-thread-2
+u0_a235       5953  7831 beacon-thread-3
+u0_a235       5953  7832 BuglyThread-1
+u0_a235       5953  7833 BuglyThread-2
+u0_a235       5953  7834 FileObserver
+u0_a235       5953  7835 BuglyThread-3
+u0_a235       5953  7900 TbsHandlerThrea
+u0_a235       5953  7944 MSF-Receiver
+u0_a235       5953  7949 Automator_1
+u0_a235       5953  8014 Binder:5953_4
+u0_a235       5953  8015 queued-work-loo
+u0_a235       5953  8019 FileTracer
+u0_a235       5953  8044 QQ_PLUGIN
+u0_a235       5953  8095 MonitorSocketSt
+u0_a235       5953  8116 VasFont
+u0_a235       5953  8136 Binder:5953_5
+u0_a235       5953  8139 Recent_Handler
+u0_a235       5953  8167 httpcommunicato
+u0_a235       5953  8168 httpcommunicato
+u0_a235       5953  8169 httpcommunicato
+u0_a235       5953  8173 httpcommunicato
+u0_a235       5953  8218 Thread-11
+u0_a235       5953  8220 ArkAppThread
+u0_a235       5953  8245 QQ_Timer
+u0_a235       5953  8301 Binder:5953_6
+u0_a235       5953  8357 QQ_DB
+u0_a235       5953  8401 process reaper
+u0_a235       5953  8405 Thread-14
+u0_a235       5953  8407 Thread-13
+u0_a235       5953  8408 hardcoder-0
+u0_a235       5953  8429 Binder:5953_7
+u0_a235       5953  8531 Binder:5953_8
+u0_a235       5953  8544 readinjoy-commo
+u0_a235       5953  8545 readinjoy-commo
+u0_a235       5953  8552 QQ_FTS_Sync
+u0_a235       5953  8632 Binder:5953_9
+u0_a235       5953  8710 Highway-BDH-Wea
+u0_a235       5953  8712 Highway-BDH-REQ
+u0_a235       5953  8718 Highway-BDH-HwN
+u0_a235       5953  8783 Highway-BDH-CON
+u0_a235       5953  8791 Highway-BDH-CON
+u0_a235       5953  8792 MsfSocketTimeou
+u0_a235       5953  8906 Highway-BDH-rea
+u0_a235       5953  8910 Highway-BDH-rea
+u0_a235       5953  8958 ArkAnalyseThrea
+u0_a235       5953  8963 QQ_SUB
+u0_a235       5953  9043 BackGround_Hand
+u0_a235       5953  9046 qzone_thread_mo
+u0_a235       5953  9047 download_async
+u0_a235       5953  9055 Thread-46
+u0_a235       5953  9056 Normal_HandlerT
+u0_a235       5953  9057 Thread-25
+u0_a235       5953  9058 Thread-24
+u0_a235       5953  9090 smart-check-thr
+u0_a235       5953  9104 resolver_thread
+u0_a235       5953  9149 DoutuManager
+u0_a235       5953  9158 RefQueueWorker@
+u0_a235       5953  9159 IdleConnectionM
+u0_a235       5953  9291 TVK_SDKReportTh
+u0_a235       5953  9319 TVK_Proc-Thread
+u0_a235       5953  9320 TVK_UpdateRev_T
+u0_a235       5953  9322 TVK_DownloadPro
+u0_a235       5953  9323 pool-2-thread-1
+u0_a235       5953  9324 pool-2-thread-2
+u0_a235       5953  9325 Timer-0
+u0_a235       5953  9346 TVK_NetworkDisp
+u0_a235       5953  9347 TVK_NetworkDisp
+u0_a235       5953  9348 TVK_NetworkDisp
+u0_a235       5953  9350 TVK_NetworkDisp
+u0_a235       5953  9353 TcmReceiver
+u0_a235       5953  9383 pref-queue-work
+u0_a235       5953  9413 OkHttp Connecti
+u0_a235       5953  9481 TTIOThread
+u0_a235       5953  9487 Okio Watchdog
+u0_a235       5953  9493 mini_program_re
+u0_a235       5953  9611 player_odk_main
+u0_a235       5953  9633 player_odk_data
+u0_a235       5953  9644 player_odk_stat
+u0_a235       5953  9648 player_odk_erro
+u0_a235       5953  9664 player_odk_norm
+u0_a235       5953  9683 kandian_network
+u0_a235       5953  9713 TuringFdCore
+u0_a235       5953  9740 ReporterMachine
+u0_a235       5953  9744 unified-monitor
+u0_a235       5953  9745 player_odk_send
+u0_a235       5953  9752 player_odk_chec
+u0_a235       5953  9758 um-stack-fetche
+u0_a235       5953  9759 um-stack-fetche
+u0_a235       5953  9760 um-stack-fetche
+u0_a235       5953  9762 um-stack-fetche
+u0_a235       5953  9843 um-stack-fetche
+u0_a235       5953 10272 Binder:5953_A
+u0_a235       5953 10295 Binder:5953_B
+u0_a235       5953 10749 Binder:5953_C
+u0_a235       5953 10865 Automator_4
+u0_a235       5953 10866 Automator_5
+u0_a235       5953 10960 Binder:5953_D
+u0_a235       5953 10987 Binder:5953_E
+u0_a235       5953 10999 thread_sp_db_11
+u0_a235       5953 11008 thread_heavy_6
+u0_a235       5953 11009 QZONE_UNDEALCOU
+u0_a235       5953 11011 thread_sp_net_1
+u0_a235       5953 11012 thread_heavy_7
+u0_a235       5953 11020 thread_heavy_8
+u0_a235       5953 11021 thread_heavy_9
+u0_a235       5953 11060 thread_sp_net_1
+u0_a235       5953 11067 RefQueueWorker@
+u0_a235       5953 11128 thread_heavy_10
+u0_a235       5953 11156 thread_sp_net_1
+u0_a235       5953 11186 TbsLogReportThr
+u0_a132       5962  5962 oloros.calendar
+u0_a132       5962  6914 Jit thread pool
+u0_a132       5962  6919 Signal Catcher
+u0_a132       5962  6924 ADB-JDWP Connec
+u0_a132       5962  6925 HeapTaskDaemon
+u0_a132       5962  6926 ReferenceQueueD
+u0_a132       5962  6927 FinalizerDaemon
+u0_a132       5962  6928 FinalizerWatchd
+u0_a132       5962  6929 Binder:5962_1
+u0_a132       5962  6933 Binder:5962_2
+u0_a132       5962  7040 Profile Saver
+u0_a132       5962  7143 Binder:5962_3
+u0_a132       5962  7147 Binder:5962_4
+u0_a132       5962  7163 queued-work-loo
+u0_a132       5962  7338 app_block_monit
+u0_a132       5962  8569 pool-1-thread-1
+secure_element 6010 6010 com.android.se
+secure_element 6010 6150 Jit thread pool
+secure_element 6010 6155 Signal Catcher
+secure_element 6010 6157 ADB-JDWP Connec
+secure_element 6010 6158 HeapTaskDaemon
+secure_element 6010 6159 ReferenceQueueD
+secure_element 6010 6160 FinalizerDaemon
+secure_element 6010 6161 FinalizerWatchd
+secure_element 6010 6163 Binder:6010_1
+secure_element 6010 6177 Binder:6010_2
+secure_element 6010 6241 Profile Saver
+secure_element 6010 6253 HwBinder:6010_1
+secure_element 6010 6276 Binder:6010_3
+secure_element 6010 6277 OmaRecord
+secure_element 6010 6278 esePowerSupervi
+secure_element 6010 6297 queued-work-loo
+secure_element 6010 6901 pool-1-thread-1
+system        6013  6013 o.ovoicemanager
+system        6013  6165 Jit thread pool
+system        6013  6170 Signal Catcher
+system        6013  6183 ADB-JDWP Connec
+system        6013  6184 HeapTaskDaemon
+system        6013  6185 ReferenceQueueD
+system        6013  6186 FinalizerDaemon
+system        6013  6187 FinalizerWatchd
+system        6013  6188 Binder:6013_1
+system        6013  6192 Binder:6013_2
+system        6013  6261 Profile Saver
+system        6013  6268 HwBinder:6013_1
+system        6013  8756 Binder:6013_3
+system        6013  8763 pool-2-thread-1
+system        6013  8764 queued-work-loo
+u0_a117       6022  6022 ndroid.location
+u0_a117       6022  6196 Jit thread pool
+u0_a117       6022  6201 Signal Catcher
+u0_a117       6022  6203 ADB-JDWP Connec
+u0_a117       6022  6204 HeapTaskDaemon
+u0_a117       6022  6205 ReferenceQueueD
+u0_a117       6022  6207 FinalizerDaemon
+u0_a117       6022  6208 FinalizerWatchd
+u0_a117       6022  6209 Binder:6022_1
+u0_a117       6022  6210 Binder:6022_2
+u0_a117       6022  6228 Binder:6022_3
+u0_a117       6022  6242 Profile Saver
+u0_a117       6022  6252 HwBinder:6022_1
+u0_a117       6022  6440 log_worker
+u0_a117       6022  6442 ConnectivityThr
+u0_a117       6022  6444 halley_100_Temp
+u0_a117       6022  6445 halley_100_Http
+u0_a117       6022  6453 TencentNLPPoolT
+u0_a117       6022  6454 CollectionServi
+u0_a117       6022  6513 Binder:6022_4
+u0_a117       6022  6751 LocationService
+u0_a117       6022  6789 BuglyThread-1
+u0_a117       6022  6796 BuglyThread-2
+u0_a117       6022  6797 BuglyThread-3
+u0_a117       6022  6798 FileObserver
+u0_a117       6022  6813 beacon-thread-1
+u0_a117       6022  6820 halley_100_Busi
+u0_a117       6022  6850 beacon-thread-2
+u0_a117       6022  6851 beacon-thread-3
+u0_a117       6022  6856 TcmReceiver
+u0_a117       6022  6900 OkHttp Connecti
+u0_a117       6022  6968 process reaper
+u0_a117       6022  7039 Okio Watchdog
+u0_a122       6031  6031 android.smspush
+u0_a122       6031  6221 Jit thread pool
+u0_a122       6031  6227 Signal Catcher
+u0_a122       6031  6231 ADB-JDWP Connec
+u0_a122       6031  6232 HeapTaskDaemon
+u0_a122       6031  6234 ReferenceQueueD
+u0_a122       6031  6235 FinalizerDaemon
+u0_a122       6031  6236 FinalizerWatchd
+u0_a122       6031  6237 Binder:6031_1
+u0_a122       6031  6238 Binder:6031_2
+u0_a122       6031  6302 Profile Saver
+system        6034  6034 er:clear_filter
+system        6034  6262 Jit thread pool
+system        6034  6263 Runtime worker 
+system        6034  6264 Runtime worker 
+system        6034  6265 Runtime worker 
+system        6034  6266 Runtime worker 
+system        6034  6267 Signal Catcher
+system        6034  6269 ADB-JDWP Connec
+system        6034  6270 HeapTaskDaemon
+system        6034  6271 ReferenceQueueD
+system        6034  6272 FinalizerDaemon
+system        6034  6273 FinalizerWatchd
+system        6034  6275 Binder:6034_1
+system        6034  6281 Binder:6034_2
+system        6034  6351 HwBinder:6034_1
+system        6034  6407 Binder:6034_3
+system        6034  6408 SafeCenter-thre
+system        6034  6415 queued-work-loo
+system        6034  8177 Binder:6034_4
+radio         6143  6143 i.modemtestmode
+radio         6143  6299 Jit thread pool
+radio         6143  6300 Runtime worker 
+radio         6143  6309 Runtime worker 
+radio         6143  6310 Runtime worker 
+radio         6143  6311 Runtime worker 
+radio         6143  6312 Signal Catcher
+radio         6143  6322 ADB-JDWP Connec
+radio         6143  6323 HeapTaskDaemon
+radio         6143  6324 ReferenceQueueD
+radio         6143  6325 FinalizerDaemon
+radio         6143  6326 FinalizerWatchd
+radio         6143  6327 Binder:6143_1
+radio         6143  6331 Binder:6143_2
+radio         6143  6399 HwBinder:6143_1
+radio         6143  6486 queued-work-loo
+u0_a240       6156  6156 com.tencent.mm
+u0_a240       6156  6335 Jit thread pool
+u0_a240       6156  6340 Signal Catcher
+u0_a240       6156  6342 ADB-JDWP Connec
+u0_a240       6156  6343 HeapTaskDaemon
+u0_a240       6156  6344 ReferenceQueueD
+u0_a240       6156  6345 FinalizerDaemon
+u0_a240       6156  6346 FinalizerWatchd
+u0_a240       6156  6347 Binder:6156_1
+u0_a240       6156  6348 Binder:6156_2
+u0_a240       6156  6587 Profile Saver
+u0_a240       6156  7205 matrix_time_upd
+u0_a240       6156  7227 Vending-LogicTh
+u0_a240       6156  7229 Vending-HeavyWo
+u0_a240       6156  7247 com.tencent.mm
+u0_a240       6156  7248 com.tencent.mm
+u0_a240       6156  7249 com.tencent.mm
+u0_a240       6156  7253 com.tencent.mm
+u0_a240       6156  7288 [GT]worker
+u0_a240       6156  7399 pool-2-thread-1
+u0_a240       6156  7411 pool-1-thread-1
+u0_a240       6156  7420 pool-3-thread-1
+u0_a240       6156  7455 Measurement Wor
+u0_a240       6156  7560 VFS.Maintenance
+u0_a240       6156  7576 parallels-0
+u0_a240       6156  7577 parallels-1
+u0_a240       6156  7578 parallels-2
+u0_a240       6156  7579 parallels-3
+u0_a240       6156  7580 parallels-4
+u0_a240       6156  7581 parallels-5
+u0_a240       6156  7774 [GT]Startup-Sid
+u0_a240       6156  7777 InflateThread
+u0_a240       6156  7806 parallels-0
+u0_a240       6156  7810 [GT]OrderWorker
+u0_a240       6156  7813 [GT]HandlerThre
+u0_a240       6156  7823 Thread-3
+u0_a240       6156  7824 mmt_fHCPerfMana
+u0_a240       6156  7826 Thread-4
+u0_a240       6156  7827 [GT]HandlerThre
+u0_a240       6156  7856 parallels-5
+u0_a240       6156  7868 parallels-5
+u0_a240       6156  7886 mars::7886
+u0_a240       6156  7889 parallels-5
+u0_a240       6156  7890 mars::webnet
+u0_a240       6156  7902 mars::7902
+u0_a240       6156  7903 parallels-5
+u0_a240       6156  8008 [GT]HandlerThre
+u0_a240       6156  8024 IPCBridgeThread
+u0_a240       6156  8025 queued-work-loo
+u0_a240       6156  8032 mars::8032
+u0_a240       6156  8040 mmt_hhellhound_
+u0_a240       6156  8043 mmt_fhellhound-
+u0_a240       6156  8046 default_matrix_
+u0_a240       6156  8055 [GT]HandlerThre
+u0_a240       6156  8061 parallels-4
+u0_a240       6156  8109 ConfigStorage
+u0_a240       6156  8272 [GT]HandlerThre
+u0_a240       6156  8308 mmt_fSearchImag
+u0_a240       6156  8309 mmt_fSearchImag
+u0_a240       6156  8310 mmt_fSearchImag
+u0_a240       6156  8335 [GT]NormsgWorke
+u0_a240       6156  8406 [GT]pending-sta
+u0_a240       6156  8416 luckmoney
+u0_a240       6156  8419 AsyncTask #1
+u0_a240       6156  8440 audio_mix_contr
+u0_a240       6156  8442 Binder:6156_3
+u0_a240       6156  8461 [GT]ThreadPoolP
+u0_a240       6156  8501 [GT]dignostic-f
+u0_a240       6156  8571 FileObserver
+u0_a240       6156  8573 [GT]HandlerThre
+u0_a240       6156  8584 [GT]HandlerThre
+u0_a240       6156  8585 [GT]AppBrandSim
+u0_a240       6156  8586 mmt_hSIRWorker
+u0_a240       6156  8592 WxaCgiServiceWC
+u0_a240       6156  8614 [GT]SubCoreAppB
+u0_a240       6156  8637 [GT]ExdeviceHan
+u0_a240       6156  8644 mmt_hwifi_devic
+u0_a240       6156  8654 mmt_fSnsCore_ta
+u0_a240       6156  8692 [GT]CDNDownload
+u0_a240       6156  8694 [GT]HandlerThre
+u0_a240       6156  8700 [GT]HandlerThre
+u0_a240       6156  8701 [GT]calc-wx
+u0_a240       6156  8702 [GT]HandlerThre
+u0_a240       6156  8709 ConnectivityThr
+u0_a240       6156  8714 [GT]HandlerThre
+u0_a240       6156  8723 mmt_hFreeWifiHa
+u0_a240       6156  8726 [GT]TopStoryRep
+u0_a240       6156  8728 [GT]HandlerThre
+u0_a240       6156  8733 [GT]HandlerThre
+u0_a240       6156  8734 [GT]HandlerThre
+u0_a240       6156  8751 [GT]HandlerThre
+u0_a240       6156  8758 [GT]HandlerThre
+u0_a240       6156  8761 [GT]HandlerThre
+u0_a240       6156  8768 [GT]HandlerThre
+u0_a240       6156  8779 [GT]HandlerThre
+u0_a240       6156  8789 mmt_hWearWorker
+u0_a240       6156  8790 [GT]HandlerThre
+u0_a240       6156  8803 [GT]HandlerThre
+u0_a240       6156  8806 [GT]HandlerThre
+u0_a240       6156  8807 HwBinder:6156_1
+u0_a240       6156  8827 mmt_hVideoServi
+u0_a240       6156  8829 TalkRoomService
+u0_a240       6156  8831 TalkRoomService
+u0_a240       6156  8832 TalkRoomService
+u0_a240       6156  8847 [GT]RecommendLo
+u0_a240       6156  8869 [GT]HandlerThre
+u0_a240       6156  8896 orityTaskRunner
+u0_a240       6156  8898 mmt_hVoipDevice
+u0_a240       6156  8899 [GT]ResDownload
+u0_a240       6156  8900 [GT]HandlerThre
+u0_a240       6156  8908 [GT]ResDownload
+u0_a240       6156  8911 [GT]HandlerThre
+u0_a240       6156  8917 [GT]HandlerThre
+u0_a240       6156  8939 [GT]HandlerThre
+u0_a240       6156  8944 [GT]HandlerThre
+u0_a240       6156  8970 [GT]HandlerThre
+u0_a240       6156  8972 [GT]HandlerThre
+u0_a240       6156  9127 SearchDaemon
+u0_a240       6156  9150 ThreadCaller#Wo
+u0_a240       6156  9153 ThreadPool#Inne
+u0_a240       6156  9154 ThreadPool#Work
+u0_a240       6156  9155 ThreadPool#Thre
+u0_a240       6156  9160 ThreadPool#Thre
+u0_a240       6156  9221 [GT]HandlerThre
+u0_a240       6156  9381 SoterGenKeyHand
+u0_a240       6156  9476 ThreadPool#Work
+u0_a240       6156  9484 ThreadPool#Thre
+u0_a240       6156  9923 Binder:6156_4
+u0_a240       6156 10167 ThreadPool#Thre
+u0_a240       6156 10502 [GT]HandlerThre
+u0_a240       6156 10506 [GT]HandlerThre
+u0_a240       6156 10604 i
+u0_a240       6156 10606 [GT]HandlerThre
+u0_a240       6156 10613 [GT]HandlerThre
+u0_a240       6156 10617 [GT]HandlerThre
+u0_a240       6156 10619 [GT]HandlerThre
+u0_a240       6156 10626 [GT]HandlerThre
+u0_a240       6156 10634 [GT]HandlerThre
+u0_a240       6156 10641 [GT]HandlerThre
+u0_a240       6156 10656 [GT]HandlerThre
+u0_a240       6156 10807 [GT]HandlerThre
+u0_a240       6156 10839 [GT]RWCache_tim
+u0_a240       6156 10863 cronet
+u0_a240       6156 10889 [GT]HandlerThre
+u0_a240       6156 11107 [GT]HandlerThre
+u0_a121       6191  6191 t.local.service
+u0_a121       6191  6368 Jit thread pool
+u0_a121       6191  6374 Signal Catcher
+u0_a121       6191  6382 ADB-JDWP Connec
+u0_a121       6191  6383 HeapTaskDaemon
+u0_a121       6191  6384 ReferenceQueueD
+u0_a121       6191  6385 FinalizerDaemon
+u0_a121       6191  6386 FinalizerWatchd
+u0_a121       6191  6396 Binder:6191_1
+u0_a121       6191  6397 Binder:6191_2
+u0_a121       6191  6406 Binder:6191_3
+u0_a121       6191  6457 Profile Saver
+u0_a121       6191  6493 HwBinder:6191_1
+u0_a121       6191  6504 ServerThread
+u0_a121       6191  7010 LocalServer Mai
+u0_a70        6206  6206 os.sceneservice
+u0_a70        6206  6425 Jit thread pool
+u0_a70        6206  6430 Signal Catcher
+u0_a70        6206  6432 ADB-JDWP Connec
+u0_a70        6206  6433 HeapTaskDaemon
+u0_a70        6206  6434 ReferenceQueueD
+u0_a70        6206  6435 FinalizerDaemon
+u0_a70        6206  6436 FinalizerWatchd
+u0_a70        6206  6437 Binder:6206_1
+u0_a70        6206  6441 Binder:6206_2
+u0_a70        6206  6455 Binder:6206_3
+u0_a70        6206  6497 Profile Saver
+u0_a70        6206  6506 HwBinder:6206_1
+u0_a70        6206  6602 .1, thread No.1
+u0_a70        6206  6605 .1, thread No.2
+u0_a70        6206  6634 AsyncTask #1
+u0_a70        6206  6651 queued-work-loo
+u0_a70        6206  6730 pool-1-thread-1
+u0_a70        6206  6752 .1, thread No.3
+u0_a70        6206  6775 Binder:6206_4
+u0_a70        6206  6857 .1, thread No.4
+u0_a70        6206  6859 pool-1-thread-2
+u0_a70        6206  6860 .1, thread No.5
+u0_a70        6206  6861 SceneData_Sms
+u0_a70        6206  6862 SceneData_Onlin
+u0_a70        6206  6870 pool-1-thread-3
+u0_a70        6206  6892 .1, thread No.6
+u0_a70        6206  6896 .1, thread No.7
+u0_a70        6206  6923 .1, thread No.8
+u0_a70        6206  6930 pool-4-thread-1
+u0_a70        6206  6954 SmsParserThread
+u0_a70        6206  7064 pool-5-thread-1
+u0_a70        6206  7065 pool-7-thread-1
+u0_a70        6206  7075 TcmReceiver
+u0_a70        6206  7095 VIMsgThread
+u0_a70        6206  7100 Tmcom-Socket
+u0_a70        6206  7122 com.baidu.taskq
+u0_a70        6206  7140 OkHttp Connecti
+u0_a70        6206  7162 Tmcom-MapData
+u0_a70        6206  7168 .1, thread No.9
+u0_a70        6206  7243 Okio Watchdog
+u0_a70        6206 10079 pool-8-thread-1
+u0_a70        6206 10085 app_log_monitor
+u0_a57        6280  6280 ros.findmyphone
+u0_a57        6280  6478 Jit thread pool
+u0_a57        6280  6483 Signal Catcher
+u0_a57        6280  6487 ADB-JDWP Connec
+u0_a57        6280  6490 HeapTaskDaemon
+u0_a57        6280  6491 ReferenceQueueD
+u0_a57        6280  6494 FinalizerDaemon
+u0_a57        6280  6495 FinalizerWatchd
+u0_a57        6280  6496 Binder:6280_1
+u0_a57        6280  6503 Binder:6280_2
+u0_a57        6280  6508 Binder:6280_3
+u0_a57        6280  6520 Profile Saver
+u0_a57        6280  6564 HwBinder:6280_1
+u0_a57        6280  6603 findMyPhone-Req
+u0_a129       6296  6296 assistantscreen
+u0_a129       6296  6521 Jit thread pool
+u0_a129       6296  6526 Signal Catcher
+u0_a129       6296  6535 ADB-JDWP Connec
+u0_a129       6296  6536 HeapTaskDaemon
+u0_a129       6296  6537 ReferenceQueueD
+u0_a129       6296  6538 FinalizerDaemon
+u0_a129       6296  6539 FinalizerWatchd
+u0_a129       6296  6540 Binder:6296_1
+u0_a129       6296  6544 Binder:6296_2
+u0_a129       6296  6598 Profile Saver
+u0_a129       6296  6698 AssistantExtend
+u0_a129       6296  6839 AppCardDomestic
+u0_a129       6296  6841 AsyncTask #2
+u0_a129       6296  6956 StepCounterThre
+u0_a129       6296  6979 queued-work-loo
+u0_a129       6296  7005 app_log_monitor
+u0_a159       6341  6341 id.partnersetup
+u0_a159       6341  6527 Jit thread pool
+u0_a159       6341  6532 Signal Catcher
+u0_a159       6341  6542 ADB-JDWP Connec
+u0_a159       6341  6550 HeapTaskDaemon
+u0_a159       6341  6552 ReferenceQueueD
+u0_a159       6341  6554 FinalizerDaemon
+u0_a159       6341  6555 FinalizerWatchd
+u0_a159       6341  6556 Binder:6341_1
+u0_a159       6341  6565 Binder:6341_2
+u0_a159       6341  6617 Profile Saver
+u0_a159       6341  6636 HwBinder:6341_1
+u0_a174       6354  6354 helper:register
+u0_a174       6354  6604 Jit thread pool
+u0_a174       6354  6611 Signal Catcher
+u0_a174       6354  6618 ADB-JDWP Connec
+u0_a174       6354  6619 HeapTaskDaemon
+u0_a174       6354  6620 ReferenceQueueD
+u0_a174       6354  6621 FinalizerDaemon
+u0_a174       6354  6622 FinalizerWatchd
+u0_a174       6354  6623 Binder:6354_1
+u0_a174       6354  6625 Binder:6354_2
+u0_a174       6354  6715 Profile Saver
+u0_a174       6354  6732 HwBinder:6354_1
+system        6358  6358 m.heytap.openid
+system        6358  6675 Jit thread pool
+system        6358  6680 Signal Catcher
+system        6358  6699 ADB-JDWP Connec
+system        6358  6702 HeapTaskDaemon
+system        6358  6703 ReferenceQueueD
+system        6358  6704 FinalizerDaemon
+system        6358  6706 FinalizerWatchd
+system        6358  6709 Binder:6358_1
+system        6358  6716 Binder:6358_2
+system        6358  6733 Binder:6358_3
+system        6358  6765 Profile Saver
+system        6358  6770 HwBinder:6358_1
+system        6358  6794 Binder:6358_4
+system        6358  6795 Binder:6358_5
+system        6358  6808 Binder:6358_6
+root          6402  6402 sleep
+u0_a184       6443  6443 ealth:transport
+u0_a184       6443  6659 Jit thread pool
+u0_a184       6443  6664 Signal Catcher
+u0_a184       6443  6682 ADB-JDWP Connec
+u0_a184       6443  6683 HeapTaskDaemon
+u0_a184       6443  6684 ReferenceQueueD
+u0_a184       6443  6685 FinalizerDaemon
+u0_a184       6443  6686 FinalizerWatchd
+u0_a184       6443  6689 Binder:6443_1
+u0_a184       6443  6693 Binder:6443_2
+u0_a184       6443  6809 Profile Saver
+u0_a184       6443  7011 .1, thread No.1
+u0_a184       6443  7033 Thread-2
+u0_a184       6443  7054 Binder:6443_3
+u0_a184       6443  7055 pool-1-thread-1
+u0_a184       6443  7071 TCPUDPServer
+u0_a184       6443  7072 pool-1-thread-2
+u0_a184       6443  7074 pool-1-thread-3
+u0_a184       6443  7077 HeytapConnectMa
+u0_a184       6443  7090 Oms-HT.CC#1
+u0_a184       6443  7091 MessageHandlerP
+u0_a184       6443  7104 push_message
+u0_a184       6443  7109 work_calendar
+u0_a184       6443  7137 Database thread
+u0_a184       6443  7296 Thread-Notifica
+u0_a184       6443  7305 Thread-Ble-Noti
+u0_a184       6443  7314 process reaper
+u0_a184       6443  7394 ConnectivityThr
+u0_a184       6443  7396 Oms-HT.Node#1
+u0_a93        6458  6458 id.printspooler
+u0_a93        6458  6873 Jit thread pool
+u0_a93        6458  6878 Signal Catcher
+u0_a93        6458  6879 ADB-JDWP Connec
+u0_a93        6458  6880 HeapTaskDaemon
+u0_a93        6458  6881 ReferenceQueueD
+u0_a93        6458  6882 FinalizerDaemon
+u0_a93        6458  6883 FinalizerWatchd
+u0_a93        6458  6884 Binder:6458_1
+u0_a93        6458  6888 Binder:6458_2
+u0_a93        6458  6905 Binder:6458_3
+u0_a93        6458  6969 Profile Saver
+u0_a93        6458  8602 AsyncTask #1
+u0_a93        6458  8606 Binder:6458_4
+u0_a93        6458  8607 queued-work-loo
+u0_a193       6468  6468 loros.shortcuts
+u0_a193       6468  6940 Jit thread pool
+u0_a193       6468  6945 Signal Catcher
+u0_a193       6468  6947 ADB-JDWP Connec
+u0_a193       6468  6948 HeapTaskDaemon
+u0_a193       6468  6949 ReferenceQueueD
+u0_a193       6468  6950 FinalizerDaemon
+u0_a193       6468  6951 FinalizerWatchd
+u0_a193       6468  6952 Binder:6468_1
+u0_a193       6468  6959 Binder:6468_2
+u0_a193       6468  7037 Profile Saver
+u0_a193       6468  7084 IO-handler
+u0_a193       6468  7101 pool-1-thread-1
+u0_a193       6468  7102 pool-1-thread-2
+u0_a193       6468  7116 Binder:6468_3
+u0_a193       6468  7118 MapSDK Thread
+u0_a193       6468  7128 pool-2-thread-1
+u0_a193       6468  7131 pool-1-thread-3
+u0_a193       6468  7132 pool-1-thread-4
+u0_a193       6468  7133 pool-4-thread-1
+u0_a193       6468  7192 queued-work-loo
+u0_a193       6468  7223 pool-5-thread-1
+u0_a193       6468  7224 pool-7-thread-1
+u0_a193       6468  7235 TcmReceiver
+u0_a193       6468  7245 OkHttp Connecti
+u0_a193       6468  7304 Okio Watchdog
+u0_a77        6469  6469 com.ted.number
+u0_a77        6469  7422 Jit thread pool
+u0_a77        6469  7427 Signal Catcher
+u0_a77        6469  7429 ADB-JDWP Connec
+u0_a77        6469  7430 HeapTaskDaemon
+u0_a77        6469  7431 ReferenceQueueD
+u0_a77        6469  7432 FinalizerDaemon
+u0_a77        6469  7433 FinalizerWatchd
+u0_a77        6469  7437 Binder:6469_1
+u0_a77        6469  7442 Binder:6469_2
+u0_a77        6469  7484 Profile Saver
+u0_a77        6469  7492 HwBinder:6469_1
+u0_a77        6469  7502 NumDicThread
+u0_a77        6469  7529 cts.yellow_page
+u0_a77        6469  7531 cts.yellow_page
+u0_a77        6469  7534 cts.yellow_page
+u0_a77        6469  7535 cts.yellow_page
+u0_a77        6469  7546 ConnectivityThr
+u0_a77        6469  7610 AsyncTask #3
+system        6488  6488 oros.activation
+system        6488  8360 Jit thread pool
+system        6488  8365 Signal Catcher
+system        6488  8366 ADB-JDWP Connec
+system        6488  8367 HeapTaskDaemon
+system        6488  8368 ReferenceQueueD
+system        6488  8369 FinalizerDaemon
+system        6488  8370 FinalizerWatchd
+system        6488  8371 Binder:6488_1
+system        6488  8373 Binder:6488_2
+system        6488  8377 Binder:6488_3
+system        6488  8427 Profile Saver
+system        6488  8433 HwBinder:6488_1
+system        6488  8525 ActivationContr
+system        6488  8530 queued-work-loo
+system        6492  6492 loros.securepay
+system        6492  6962 Jit thread pool
+system        6492  6967 Signal Catcher
+system        6492  6972 ADB-JDWP Connec
+system        6492  6973 HeapTaskDaemon
+system        6492  6974 ReferenceQueueD
+system        6492  6975 FinalizerDaemon
+system        6492  6976 FinalizerWatchd
+system        6492  6977 Binder:6492_1
+system        6492  6981 Binder:6492_2
+system        6492  6993 Binder:6492_3
+system        6492  7038 Profile Saver
+system        6492  7048 HwBinder:6492_1
+system        6492  7050 SecurePay-threa
+u0_a235       6507  6507 q:mini_internal
+u0_a235       6507  9530 Jit thread pool
+u0_a235       6507  9535 Signal Catcher
+u0_a235       6507  9536 ADB-JDWP Connec
+u0_a235       6507  9537 HeapTaskDaemon
+u0_a235       6507  9538 ReferenceQueueD
+u0_a235       6507  9539 FinalizerDaemon
+u0_a235       6507  9540 FinalizerWatchd
+u0_a235       6507  9542 Binder:6507_1
+u0_a235       6507  9543 Binder:6507_2
+u0_a235       6507  9546 Binder:6507_3
+u0_a235       6507  9768 Profile Saver
+u0_a235       6507  9790 logWriteThread
+u0_a235       6507  9804 QQ_DISPATCHER
+u0_a235       6507  9809 QQ_SUB
+u0_a235       6507  9818 QQ_FILE_RW
+u0_a235       6507  9821 CheckNetFlowSta
+u0_a235       6507  9918 beacon-thread-1
+u0_a235       6507  9942 beacon-thread-2
+u0_a235       6507  9944 beacon-thread-3
+u0_a235       6507  9950 BuglyThread-1
+u0_a235       6507  9951 BuglyThread-2
+u0_a235       6507  9952 FileObserver
+u0_a235       6507  9953 BuglyThread-3
+u0_a235       6507  9966 TbsHandlerThrea
+u0_a235       6507  9977 MsfServiceTimeo
+u0_a235       6507  9979 AppNetHandlerTh
+u0_a235       6507  9984 ConnectivityThr
+u0_a235       6507 10000 ServletForward
+u0_a235       6507 10042 TaskFlow
+u0_a235       6507 10045 miniapp-start
+u0_a235       6507 10093 MSF-Receiver
+u0_a235       6507 10094 NotificationRep
+u0_a235       6507 10121 Normal_HandlerT
+u0_a235       6507 10123 qzone_thread_mo
+u0_a235       6507 10132 mini_program_re
+u0_a235       6507 10159 FileTracer
+u0_a235       6507 10188 TaskFlow
+u0_a235       6507 10406 MonitorSocketSt
+u0_a235       6507 10440 Binder:6507_4
+u0_a235       6507 10593 HandlerThread
+u0_a235       6507 10808 RefQueueWorker@
+u0_a235       6507 10810 download_async
+u0_a235       6507 10819 smart-check-thr
+u0_a235       6507 10822 resolver_thread
+u0_a235       6507 11045 Binder:6507_5
+u0_a235       6507 11049 Binder:6507_6
+u0_a235       6507 11204 HandlerThread
+root          6515  6515 rutilsdaemon
+root          6515  6599 rutilsdaemon
+root          6515  6600 Binder:6515_1
+root          6515  6922 Binder:6515_2
+u0_a235       6541  6541 t.mobileqq:mini
+u0_a235       6541  9547 Jit thread pool
+u0_a235       6541  9552 Signal Catcher
+u0_a235       6541  9553 ADB-JDWP Connec
+u0_a235       6541  9554 HeapTaskDaemon
+u0_a235       6541  9555 ReferenceQueueD
+u0_a235       6541  9556 FinalizerDaemon
+u0_a235       6541  9557 FinalizerWatchd
+u0_a235       6541  9558 Binder:6541_1
+u0_a235       6541  9561 Binder:6541_2
+u0_a235       6541  9819 Profile Saver
+u0_a235       6541  9864 logWriteThread
+u0_a235       6541  9873 QQ_DISPATCHER
+u0_a235       6541  9875 QQ_SUB
+u0_a235       6541  9878 QQ_FILE_RW
+u0_a235       6541  9879 CheckNetFlowSta
+u0_a235       6541  9990 beacon-thread-1
+u0_a235       6541 10008 BuglyThread-1
+u0_a235       6541 10009 BuglyThread-2
+u0_a235       6541 10010 FileObserver
+u0_a235       6541 10011 BuglyThread-3
+u0_a235       6541 10015 beacon-thread-2
+u0_a235       6541 10031 beacon-thread-3
+u0_a235       6541 10041 TbsHandlerThrea
+u0_a235       6541 10058 MsfServiceTimeo
+u0_a235       6541 10062 AppNetHandlerTh
+u0_a235       6541 10066 ConnectivityThr
+u0_a235       6541 10071 ServletForward
+u0_a235       6541 10087 TaskFlow
+u0_a235       6541 10089 miniapp-start
+u0_a235       6541 10168 MSF-Receiver
+u0_a235       6541 10169 NotificationRep
+u0_a235       6541 10189 Normal_HandlerT
+u0_a235       6541 10194 qzone_thread_mo
+u0_a235       6541 10199 mini_program_re
+u0_a235       6541 10230 Binder:6541_3
+u0_a235       6541 10233 FileTracer
+u0_a235       6541 10306 TaskFlow
+u0_a235       6541 10446 Binder:6541_4
+u0_a235       6541 10460 MonitorSocketSt
+u0_a235       6541 10614 HandlerThread
+u0_a235       6541 10844 RefQueueWorker@
+u0_a235       6541 10858 download_async
+u0_a235       6541 10864 smart-check-thr
+u0_a235       6541 10874 resolver_thread
+u0_a235       6541 11026 Binder:6541_5
+u0_a235       6541 11043 Binder:6541_6
+u0_a235       6541 11048 Binder:6541_7
+u0_a235       6541 11213 HandlerThread
+system        6546  6546 ndroid.keychain
+system        6546  7017 Jit thread pool
+system        6546  7018 Runtime worker 
+system        6546  7019 Runtime worker 
+system        6546  7020 Runtime worker 
+system        6546  7021 Runtime worker 
+system        6546  7022 Signal Catcher
+system        6546  7026 ADB-JDWP Connec
+system        6546  7028 HeapTaskDaemon
+system        6546  7029 ReferenceQueueD
+system        6546  7030 FinalizerDaemon
+system        6546  7031 FinalizerWatchd
+system        6546  7032 Binder:6546_1
+system        6546  7036 Binder:6546_2
+system        6546  7092 HwBinder:6546_1
+system        6546  7130 queued-work-loo
+system        6546  8658 Binder:6546_3
+system        6546  8665 Binder:6546_4
+u0_a235       6572  6572 .mobileqq:mini3
+u0_a235       6572  9562 Jit thread pool
+u0_a235       6572  9567 Signal Catcher
+u0_a235       6572  9569 ADB-JDWP Connec
+u0_a235       6572  9570 HeapTaskDaemon
+u0_a235       6572  9571 ReferenceQueueD
+u0_a235       6572  9572 FinalizerDaemon
+u0_a235       6572  9573 FinalizerWatchd
+u0_a235       6572  9574 Binder:6572_1
+u0_a235       6572  9576 Binder:6572_2
+u0_a235       6572  9608 Binder:6572_3
+u0_a235       6572  9772 Profile Saver
+u0_a235       6572  9796 logWriteThread
+u0_a235       6572  9807 QQ_DISPATCHER
+u0_a235       6572  9815 QQ_SUB
+u0_a235       6572  9820 QQ_FILE_RW
+u0_a235       6572  9824 CheckNetFlowSta
+u0_a235       6572  9905 beacon-thread-1
+u0_a235       6572  9931 beacon-thread-2
+u0_a235       6572  9932 beacon-thread-3
+u0_a235       6572  9938 BuglyThread-1
+u0_a235       6572  9939 BuglyThread-2
+u0_a235       6572  9940 FileObserver
+u0_a235       6572  9941 BuglyThread-3
+u0_a235       6572  9981 TbsHandlerThrea
+u0_a235       6572  9989 MsfServiceTimeo
+u0_a235       6572  9991 AppNetHandlerTh
+u0_a235       6572  9992 ConnectivityThr
+u0_a235       6572 10001 ServletForward
+u0_a235       6572 10043 TaskFlow
+u0_a235       6572 10047 miniapp-start
+u0_a235       6572 10097 MSF-Receiver
+u0_a235       6572 10098 NotificationRep
+u0_a235       6572 10128 Normal_HandlerT
+u0_a235       6572 10133 qzone_thread_mo
+u0_a235       6572 10138 mini_program_re
+u0_a235       6572 10141 TaskFlow
+u0_a235       6572 10146 TaskFlow
+u0_a235       6572 10154 TTIOThread
+u0_a235       6572 10171 FileTracer
+u0_a235       6572 10322 TTIOThread
+u0_a235       6572 10323 TTIOThread
+u0_a235       6572 10334 JSThread_93
+u0_a235       6572 10340 V8 WorkerThread
+u0_a235       6572 10341 V8 WorkerThread
+u0_a235       6572 10342 V8 WorkerThread
+u0_a235       6572 10343 V8 WorkerThread
+u0_a235       6572 10344 V8 WorkerThread
+u0_a235       6572 10345 V8 WorkerThread
+u0_a235       6572 10346 V8 WorkerThread
+u0_a235       6572 10408 MonitorSocketSt
+u0_a235       6572 10441 Binder:6572_4
+u0_a235       6572 11028 Binder:6572_5
+u0_a235       6572 11050 Binder:6572_6
+system        6643  6643 upport.services
+system        6643  7153 Jit thread pool
+system        6643  7161 Signal Catcher
+system        6643  7165 ADB-JDWP Connec
+system        6643  7169 HeapTaskDaemon
+system        6643  7173 ReferenceQueueD
+system        6643  7176 FinalizerDaemon
+system        6643  7178 FinalizerWatchd
+system        6643  7179 Binder:6643_1
+system        6643  7181 Binder:6643_2
+system        6643  7228 Profile Saver
+system        6643  7251 HwBinder:6643_1
+u0_a184       6711  6711 m.heytap.health
+u0_a184       6711  7166 Jit thread pool
+u0_a184       6711  7177 Signal Catcher
+u0_a184       6711  7184 ADB-JDWP Connec
+u0_a184       6711  7185 HeapTaskDaemon
+u0_a184       6711  7186 ReferenceQueueD
+u0_a184       6711  7188 FinalizerDaemon
+u0_a184       6711  7189 FinalizerWatchd
+u0_a184       6711  7191 Binder:6711_1
+u0_a184       6711  7200 Binder:6711_2
+u0_a184       6711  7201 Binder:6711_3
+u0_a184       6711  7222 Profile Saver
+u0_a184       6711  7309 AppHandlerThrea
+u0_a184       6711  7321 Thread-3
+u0_a184       6711  7323 .1, thread No.1
+u0_a184       6711  7349 RxSchedulerPurg
+u0_a184       6711  7350 RxCachedWorkerP
+u0_a184       6711  7351 RxCachedThreadS
+u0_a184       6711  7379 queued-work-loo
+u0_a184       6711  7383 RxSingleSchedul
+u0_a184       6711  7398 process reaper
+u0_a184       6711  7400 HeytapConnectMa
+u0_a184       6711  7402 Binder:6711_4
+u0_a184       6711  7405 Oms-HT.CC#1
+u0_a184       6711  7406 MessageHandlerP
+u0_a184       6711  7444 cmn_net_1
+u0_a184       6711  7445 cmn_io_1
+u0_a184       6711  7446 cmn_net_2
+u0_a184       6711  7448 cmn_io_2
+u0_a184       6711  7456 SportHealthServ
+u0_a184       6711  7466 RxCachedThreadS
+u0_a184       6711  7474 Timer-0
+u0_a184       6711  7477 pool-3-thread-1
+u0_a184       6711  7478 Timer-1
+u0_a184       6711  7479 Timer-2
+u0_a184       6711  7481 Oms-HT.Node#1
+u0_a184       6711  7513 r.AbilityEngine
+u0_a184       6711  7516 pool-4-thread-1
+u0_a184       6711  7683 OkHttp Connecti
+u0_a184       6711  7688 Okio Watchdog
+u0_a184       6711  7781 AsyncTask #1
+u0_a184       6711  7783 TcmReceiver
+u0_a184       6711  7843 CrAsyncTask #1
+u0_a184       6711  7936 Chrome_ProcessL
+u0_a184       6711  7945 CrAsyncTask #2
+u0_a184       6711  7947 GoogleApiHandle
+u0_a184       6711  8027 TaskSchedulerSe
+u0_a184       6711  8028 TaskSchedulerFo
+u0_a184       6711  8029 Chrome_IOThread
+u0_a184       6711  8034 TaskSchedulerFo
+u0_a184       6711  8047 AudioThread
+u0_a184       6711  8056 TaskSchedulerSi
+u0_a184       6711  8057 TaskSchedulerFo
+u0_a184       6711  8060 PlatformService
+u0_a184       6711  8063 TaskSchedulerSi
+u0_a184       6711  8067 GAC_Executor[0]
+u0_a184       6711  8086 GAC_Executor[1]
+u0_a184       6711  8181 OkHttp Connecti
+system        6726  6726 irelesssettings
+system        6726  7269 Jit thread pool
+system        6726  7275 Signal Catcher
+system        6726  7277 ADB-JDWP Connec
+system        6726  7278 HeapTaskDaemon
+system        6726  7279 ReferenceQueueD
+system        6726  7280 FinalizerDaemon
+system        6726  7281 FinalizerWatchd
+system        6726  7282 Binder:6726_1
+system        6726  7283 Binder:6726_2
+system        6726  7355 Profile Saver
+system        6726  7374 HwBinder:6726_1
+system        6726  7386 wireless_wifi
+u0_a155       6731  6731 e.process.gapps
+u0_a155       6731  7289 Jit thread pool
+u0_a155       6731  7294 Signal Catcher
+u0_a155       6731  7297 ADB-JDWP Connec
+u0_a155       6731  7299 HeapTaskDaemon
+u0_a155       6731  7300 ReferenceQueueD
+u0_a155       6731  7301 FinalizerDaemon
+u0_a155       6731  7302 FinalizerWatchd
+u0_a155       6731  7303 Binder:6731_1
+u0_a155       6731  7308 Binder:6731_2
+u0_a155       6731  7324 Profile Saver
+u0_a155       6731  7330 HwBinder:6731_1
+u0_a155       6731  7360 RefQueueWorker@
+u0_a155       6731  7397 Binder:6731_3
+u0_a155       6731  9273 Binder:6731_4
+u0_a155       6731  9456 Binder:6731_5
+system        6739  6739 .localtransport
+system        6739  7362 Jit thread pool
+system        6739  7367 Signal Catcher
+system        6739  7369 ADB-JDWP Connec
+system        6739  7370 HeapTaskDaemon
+system        6739  7371 ReferenceQueueD
+system        6739  7372 FinalizerDaemon
+system        6739  7373 FinalizerWatchd
+system        6739  7375 Binder:6739_1
+system        6739  7377 Binder:6739_2
+system        6739  7387 Profile Saver
+system        6739  7392 HwBinder:6739_1
+system        6739  7410 Binder:6739_3
+system        6739  7413 queued-work-loo
+root          6886  6886 adbd
+root          6886  6903 usb ffs open
+root          6886  6912 UsbFfs-monitor
+root          6886  7002 UsbFfs-worker
+root          6886 11167 shell svc 11163
+root          6886 11215 shell svc 11214
+u0_a235       6890  6890 .mobileqq:mini7
+u0_a235       6890  9578 Jit thread pool
+u0_a235       6890  9583 Signal Catcher
+u0_a235       6890  9586 ADB-JDWP Connec
+u0_a235       6890  9587 HeapTaskDaemon
+u0_a235       6890  9588 ReferenceQueueD
+u0_a235       6890  9589 FinalizerDaemon
+u0_a235       6890  9590 FinalizerWatchd
+u0_a235       6890  9591 Binder:6890_1
+u0_a235       6890  9594 Binder:6890_2
+u0_a235       6890  9604 Binder:6890_3
+u0_a235       6890  9761 Profile Saver
+u0_a235       6890  9783 logWriteThread
+u0_a235       6890  9797 QQ_DISPATCHER
+u0_a235       6890  9801 QQ_SUB
+u0_a235       6890  9816 QQ_FILE_RW
+u0_a235       6890  9823 CheckNetFlowSta
+u0_a235       6890  9892 beacon-thread-1
+u0_a235       6890  9900 beacon-thread-2
+u0_a235       6890  9902 beacon-thread-3
+u0_a235       6890  9909 BuglyThread-1
+u0_a235       6890  9910 BuglyThread-2
+u0_a235       6890  9911 FileObserver
+u0_a235       6890  9912 BuglyThread-3
+u0_a235       6890  9961 TbsHandlerThrea
+u0_a235       6890  9978 MsfServiceTimeo
+u0_a235       6890  9982 AppNetHandlerTh
+u0_a235       6890  9986 ConnectivityThr
+u0_a235       6890  9997 ServletForward
+u0_a235       6890 10019 TaskFlow
+u0_a235       6890 10028 miniapp-start
+u0_a235       6890 10081 MSF-Receiver
+u0_a235       6890 10082 NotificationRep
+u0_a235       6890 10100 Normal_HandlerT
+u0_a235       6890 10104 qzone_thread_mo
+u0_a235       6890 10185 FileTracer
+u0_a235       6890 10392 MonitorSocketSt
+u0_a235       6890 10449 Binder:6890_4
+u0_a235       6890 11042 Binder:6890_5
+u0_a235       6890 11052 Binder:6890_6
+root          6897  6897 usap32
+root          6898  6898 usap32
+root          6902  6902 usap32
+root          6906  6906 usap32
+root          7012  7012 iptables-restor
+u0_a184       7034  7034 rtDaemonService
+u0_a184       7034  7486 Jit thread pool
+u0_a184       7034  7491 Signal Catcher
+u0_a184       7034  7494 ADB-JDWP Connec
+u0_a184       7034  7495 HeapTaskDaemon
+u0_a184       7034  7496 ReferenceQueueD
+u0_a184       7034  7497 FinalizerDaemon
+u0_a184       7034  7498 FinalizerWatchd
+u0_a184       7034  7499 Binder:7034_1
+u0_a184       7034  7518 Binder:7034_2
+u0_a184       7034  7539 Profile Saver
+u0_a184       7034  7564 AppHandlerThrea
+u0_a184       7034  7586 .1, thread No.1
+u0_a184       7034  7587 Thread-2
+u0_a184       7034  7591 process reaper
+u0_a184       7034  7596 process reaper
+u0_a184       7034  7601 queued-work-loo
+u0_a184       7034  7603 cmn_net_1
+u0_a184       7034  7604 cmn_io_1
+u0_a184       7034  7605 cmn_net_2
+u0_a184       7034  7607 cmn_io_2
+u0_a184       7034  7618 Binder:7034_3
+u0_a184       7034  7619 Timer-0
+u0_a184       7034  7626 Timer-1
+u0_a184       7034  7627 Timer-2
+u0_a184       7034  7666 r.AbilityEngine
+u0_a184       7034  7667 pool-3-thread-1
+u0_a180       7067  7067 ros.gamespaceui
+u0_a180       7067  7553 Jit thread pool
+u0_a180       7067  7558 Signal Catcher
+u0_a180       7067  7565 ADB-JDWP Connec
+u0_a180       7067  7566 HeapTaskDaemon
+u0_a180       7067  7567 ReferenceQueueD
+u0_a180       7067  7568 FinalizerDaemon
+u0_a180       7067  7569 FinalizerWatchd
+u0_a180       7067  7570 Binder:7067_1
+u0_a180       7067  7573 Binder:7067_2
+u0_a180       7067  7617 Profile Saver
+u0_a180       7067  7634 queued-work-loo
+u0_a180       7067  7637 GameBoxBaseActi
+u0_a180       7067 10287 Binder:7067_3
+u0_a180       7067 10327 AsyncTask #1
+u0_a151       7082  7082 d.carrierconfig
+u0_a151       7082  7670 Jit thread pool
+u0_a151       7082  7675 Signal Catcher
+u0_a151       7082  7677 ADB-JDWP Connec
+u0_a151       7082  7678 HeapTaskDaemon
+u0_a151       7082  7680 ReferenceQueueD
+u0_a151       7082  7681 FinalizerDaemon
+u0_a151       7082  7682 FinalizerWatchd
+u0_a151       7082  7684 Binder:7082_1
+u0_a151       7082  7695 Binder:7082_2
+u0_a151       7082  7735 Profile Saver
+u0_a151       7082  7739 HwBinder:7082_1
+u0_a151       7082  7750 Binder:7082_3
+u0_a151       7082  7754 queued-work-loo
+system        7129  7129 stant:edgepanel
+system        7129  7844 Jit thread pool
+system        7129  7849 Signal Catcher
+system        7129  7850 ADB-JDWP Connec
+system        7129  7851 HeapTaskDaemon
+system        7129  7852 ReferenceQueueD
+system        7129  7853 FinalizerDaemon
+system        7129  7854 FinalizerWatchd
+system        7129  7855 Binder:7129_1
+system        7129  7859 Binder:7129_2
+system        7129  7863 Binder:7129_3
+system        7129  7910 Profile Saver
+system        7129  7916 HwBinder:7129_1
+system        7129  7942 queued-work-loo
+system        7129  7952 AsyncHandler
+system        7129  8009 ZoomWindowHelpe
+system        7129  8023 ProtectAppHelpe
+system        7129  8037 EdgePanelFileUt
+system        7129  8066 RenderThread
+system        7129  8069 onPool-worker-1
+system        7129  8071 onPool-worker-3
+system        7129  8102 HWC release
+system        7129  8104 GPU completion
+system        7187  7187 droid.dynsystem
+system        7187  7878 Jit thread pool
+system        7187  7884 Signal Catcher
+system        7187  7891 ADB-JDWP Connec
+system        7187  7892 HeapTaskDaemon
+system        7187  7893 ReferenceQueueD
+system        7187  7894 FinalizerDaemon
+system        7187  7895 FinalizerWatchd
+system        7187  7897 Binder:7187_1
+system        7187  7901 Binder:7187_2
+system        7187  7911 Binder:7187_3
+system        7187  7934 Profile Saver
+system        7187  7941 HwBinder:7187_1
+u0_a86        7368  7368 gedprovisioning
+u0_a86        7368  7967 Jit thread pool
+u0_a86        7368  7972 Signal Catcher
+u0_a86        7368  7977 ADB-JDWP Connec
+u0_a86        7368  7978 HeapTaskDaemon
+u0_a86        7368  7980 ReferenceQueueD
+u0_a86        7368  7981 FinalizerDaemon
+u0_a86        7368  8000 FinalizerWatchd
+u0_a86        7368  8002 Binder:7368_1
+u0_a86        7368  8006 Binder:7368_2
+u0_a86        7368  8012 Binder:7368_3
+u0_a86        7368  8033 Profile Saver
+u0_a86        7368  8053 HwBinder:7368_1
+u0_a53        7391  7391 ssioncontroller
+u0_a53        7391  8072 Jit thread pool
+u0_a53        7391  8077 Signal Catcher
+u0_a53        7391  8080 ADB-JDWP Connec
+u0_a53        7391  8081 HeapTaskDaemon
+u0_a53        7391  8082 ReferenceQueueD
+u0_a53        7391  8083 FinalizerDaemon
+u0_a53        7391  8084 FinalizerWatchd
+u0_a53        7391  8085 Binder:7391_1
+u0_a53        7391  8087 Binder:7391_2
+u0_a53        7391  8089 Binder:7391_3
+u0_a53        7391  8131 Profile Saver
+u0_a53        7391  8174 HwBinder:7391_1
+u0_a74        7403  7403 viders.calendar
+u0_a74        7403  8189 Jit thread pool
+u0_a74        7403  8194 Signal Catcher
+u0_a74        7403  8197 ADB-JDWP Connec
+u0_a74        7403  8198 HeapTaskDaemon
+u0_a74        7403  8199 ReferenceQueueD
+u0_a74        7403  8200 FinalizerDaemon
+u0_a74        7403  8201 FinalizerWatchd
+u0_a74        7403  8202 Binder:7403_1
+u0_a74        7403  8204 Binder:7403_2
+u0_a74        7403  8225 Profile Saver
+u0_a74        7403  8240 HwBinder:7403_1
+u0_a74        7403  8298 pool-1-thread-1
+u0_a74        7403  8633 queued-work-loo
+u0_a240       7412  7412 tencent.mm:push
+u0_a240       7412  8273 Jit thread pool
+u0_a240       7412  8278 Signal Catcher
+u0_a240       7412  8281 ADB-JDWP Connec
+u0_a240       7412  8282 HeapTaskDaemon
+u0_a240       7412  8283 ReferenceQueueD
+u0_a240       7412  8284 FinalizerDaemon
+u0_a240       7412  8285 FinalizerWatchd
+u0_a240       7412  8286 Binder:7412_1
+u0_a240       7412  8289 Binder:7412_2
+u0_a240       7412  8295 Binder:7412_3
+u0_a240       7412  8403 Profile Saver
+u0_a240       7412  8631 matrix_time_upd
+u0_a240       7412  8650 Vending-LogicTh
+u0_a240       7412  8651 Vending-HeavyWo
+u0_a240       7412  8673 tencent.mm:push
+u0_a240       7412  8674 tencent.mm:push
+u0_a240       7412  8675 tencent.mm:push
+u0_a240       7412  8676 tencent.mm:push
+u0_a240       7412  8720 VFS.Maintenance
+u0_a240       7412  8769 parallels-0
+u0_a240       7412  8770 parallels-1
+u0_a240       7412  8771 parallels-2
+u0_a240       7412  8772 parallels-3
+u0_a240       7412  8773 parallels-4
+u0_a240       7412  8774 parallels-5
+u0_a240       7412  8801 FileObserver
+u0_a240       7412  9033 parallels-0
+u0_a240       7412  9037 parallels-0
+u0_a240       7412  9045 parallels-0
+u0_a240       7412  9052 [GT]OrderWorker
+u0_a240       7412  9054 [GT]HandlerThre
+u0_a240       7412  9068 IPCBridgeThread
+u0_a240       7412  9085 Thread-2
+u0_a240       7412  9086 mmt_fHCPerfMana
+u0_a240       7412  9087 Thread-3
+u0_a240       7412  9088 [GT]HandlerThre
+u0_a240       7412  9096 default_matrix_
+u0_a240       7412  9097 mmt_hhellhound_
+u0_a240       7412  9101 mmt_fhellhound-
+u0_a240       7412  9108 parallels-4
+u0_a240       7412  9148 [GT]NormsgWorke
+u0_a240       7412  9233 [GT]pending-sta
+u0_a240       7412  9244 audio_mix_contr
+u0_a240       7412  9250 ThreadCaller#Wo
+u0_a240       7412  9251 [GT]SubCoreAppB
+u0_a240       7412  9259 [GT]ThreadPoolP
+u0_a240       7412  9262 ThreadPool#Inne
+u0_a240       7412  9263 ThreadPool#Work
+u0_a240       7412  9264 [GT]dignostic-f
+u0_a240       7412  9270 ThreadPool#Thre
+u0_a240       7412  9335 mmt_hSIRWorker
+u0_a240       7412  9336 mmt_hkv_report
+u0_a240       7412  9340 [GT]AppBrandSim
+u0_a240       7412  9352 WxaCgiServiceWC
+u0_a240       7412  9412 tencent.mm:push
+u0_a240       7412  9415 mars::9415
+u0_a240       7412  9416 ConnectivityThr
+u0_a240       7412  9418 tencent.mm:push
+u0_a240       7412  9427 mars::mmext
+u0_a240       7412  9432 tencent.mm:push
+u0_a240       7412  9433 mars::cdn
+u0_a240       7412  9434 tencent.mm:push
+u0_a240       7412  9435 mars::webnet
+u0_a240       7412  9464 queued-work-loo
+u0_a240       7412  9503 luckmoney
+u0_a240       7412  9508 AsyncTask #1
+u0_a240       7412  9514 Binder:7412_4
+u0_a240       7412  9527 mmt_fProcessDet
+u0_a240       7412 10589 [GT]HandlerThre
+u0_a240       7412 10652 mars::10652
+u0_a155       7458  7458 id.gms.unstable
+u0_a155       7458  8337 Jit thread pool
+u0_a155       7458  8342 Signal Catcher
+u0_a155       7458  8343 ADB-JDWP Connec
+u0_a155       7458  8344 HeapTaskDaemon
+u0_a155       7458  8345 ReferenceQueueD
+u0_a155       7458  8346 FinalizerDaemon
+u0_a155       7458  8347 FinalizerWatchd
+u0_a155       7458  8348 Binder:7458_1
+u0_a155       7458  8349 Binder:7458_2
+u0_a155       7458  8376 Profile Saver
+u0_a155       7458  8378 HwBinder:7458_1
+u0_a155       7458  8400 FileObserver
+u0_a155       7458  8414 GlobalDispatchi
+u0_a155       7458  8428 GoogleApiHandle
+u0_a155       7458  8438 lowpool[0]
+u0_a155       7458  8439 Binder:7458_3
+u0_a155       7458  8447 TcmReceiver
+u0_a155       7458  8523 OkHttp Connecti
+u0_a155       7458  8643 Binder:7458_4
+u0_a155       7458 10393 queued-work-loo
+system        7649  7649 sh
+system        7656  7656 logcat
+system        7839  7839 hans
+system        7839  7862 hans
+system        7839  7866 Binder:7839_1
+u0_a118       7896  7896 earme.romupdate
+u0_a118       7896  8615 Jit thread pool
+u0_a118       7896  8621 Signal Catcher
+u0_a118       7896  8623 ADB-JDWP Connec
+u0_a118       7896  8624 HeapTaskDaemon
+u0_a118       7896  8625 ReferenceQueueD
+u0_a118       7896  8626 FinalizerDaemon
+u0_a118       7896  8627 FinalizerWatchd
+u0_a118       7896  8628 Binder:7896_1
+u0_a118       7896  8629 Binder:7896_2
+u0_a118       7896  8652 Profile Saver
+u0_a118       7896  8666 HwBinder:7896_1
+u0_a118       7896  8682 pool-1-thread-1
+u0_a118       7896  8683 pool-1-thread-2
+u0_a118       7896  8711 queued-work-loo
+u0_a167       7917  7917 lcomm.telephony
+u0_a167       7917  8849 Jit thread pool
+u0_a167       7917  8854 Signal Catcher
+u0_a167       7917  8858 ADB-JDWP Connec
+u0_a167       7917  8859 HeapTaskDaemon
+u0_a167       7917  8860 ReferenceQueueD
+u0_a167       7917  8861 FinalizerDaemon
+u0_a167       7917  8862 FinalizerWatchd
+u0_a167       7917  8863 Binder:7917_1
+u0_a167       7917  8864 Binder:7917_2
+u0_a167       7917  8880 Binder:7917_3
+u0_a167       7917  8930 Profile Saver
+u0_a167       7917  8940 HwBinder:7917_1
+u0_a167       7917  8959 Thread-2
+u0_a167       7917  8960 CTSA Inject Thr
+u0_a167       7917  8962 queued-work-loo
+radio         7924  7924 ualcomm.qti.lpa
+radio         7924  8973 Jit thread pool
+radio         7924  8978 Signal Catcher
+radio         7924  8979 ADB-JDWP Connec
+radio         7924  8980 HeapTaskDaemon
+radio         7924  8981 ReferenceQueueD
+radio         7924  8982 FinalizerDaemon
+radio         7924  8983 FinalizerWatchd
+radio         7924  8985 Binder:7924_1
+radio         7924  8990 Binder:7924_2
+radio         7924  8996 Binder:7924_3
+radio         7924  9040 Profile Saver
+radio         7924  9050 HwBinder:7924_1
+u0_i9000      7959  7959 ProcessService0
+u0_i9000      7959  7983 Jit thread pool
+u0_i9000      7959  7984 Runtime worker 
+u0_i9000      7959  7985 Runtime worker 
+u0_i9000      7959  7986 Runtime worker 
+u0_i9000      7959  7987 Runtime worker 
+u0_i9000      7959  7988 Signal Catcher
+u0_i9000      7959  7990 ADB-JDWP Connec
+u0_i9000      7959  7992 HeapTaskDaemon
+u0_i9000      7959  7993 ReferenceQueueD
+u0_i9000      7959  7995 FinalizerDaemon
+u0_i9000      7959  7996 FinalizerWatchd
+u0_i9000      7959  7999 Binder:7959_1
+u0_i9000      7959  8001 Binder:7959_2
+u0_i9000      7959  8031 ChildProcessMai
+system        8355  8355 alarm@1.0-servi
+system        8358  8358 kloadclassifier
+system        8358  9071 Jit thread pool
+system        8358  9076 Signal Catcher
+system        8358  9077 ADB-JDWP Connec
+system        8358  9078 HeapTaskDaemon
+system        8358  9079 ReferenceQueueD
+system        8358  9080 FinalizerDaemon
+system        8358  9081 FinalizerWatchd
+system        8358  9082 Binder:8358_1
+system        8358  9084 Binder:8358_2
+system        8358  9111 Profile Saver
+system        8358  9117 HwBinder:8358_1
+system        8358  9156 queued-work-loo
+u0_a178       8374  8374 m.android.email
+u0_a178       8374  9131 Jit thread pool
+u0_a178       8374  9136 Signal Catcher
+u0_a178       8374  9137 ADB-JDWP Connec
+u0_a178       8374  9138 HeapTaskDaemon
+u0_a178       8374  9139 ReferenceQueueD
+u0_a178       8374  9140 FinalizerDaemon
+u0_a178       8374  9141 FinalizerWatchd
+u0_a178       8374  9142 Binder:8374_1
+u0_a178       8374  9143 Binder:8374_2
+u0_a178       8374  9225 Profile Saver
+u0_a178       8374  9279 Binder:8374_3
+u0_a178       8374  9316 AsyncTask #2
+u0_a178       8374  9665 queued-work-loo
+u0_a178       8374  9987 v
+u0_a240       8380  8380 nt.mm:appbrand1
+u0_a240       8380  9167 Jit thread pool
+u0_a240       8380  9172 Signal Catcher
+u0_a240       8380  9173 ADB-JDWP Connec
+u0_a240       8380  9175 HeapTaskDaemon
+u0_a240       8380  9176 ReferenceQueueD
+u0_a240       8380  9177 FinalizerDaemon
+u0_a240       8380  9178 FinalizerWatchd
+u0_a240       8380  9179 Binder:8380_1
+u0_a240       8380  9180 Binder:8380_2
+u0_a240       8380  9193 Binder:8380_3
+u0_a240       8380  9281 Profile Saver
+u0_a240       8380  9764 matrix_time_upd
+u0_a240       8380  9785 Vending-LogicTh
+u0_a240       8380  9788 Vending-HeavyWo
+u0_a240       8380  9825 nt.mm:appbrand1
+u0_a240       8380  9826 nt.mm:appbrand1
+u0_a240       8380  9827 nt.mm:appbrand1
+u0_a240       8380  9848 nt.mm:appbrand1
+u0_a240       8380  9980 VFS.Maintenance
+u0_a240       8380 10020 parallels-0
+u0_a240       8380 10021 parallels-1
+u0_a240       8380 10022 parallels-2
+u0_a240       8380 10023 parallels-3
+u0_a240       8380 10024 parallels-4
+u0_a240       8380 10025 parallels-5
+u0_a240       8380 10035 TbsHandlerThrea
+u0_a240       8380 10055 Thread-3
+u0_a240       8380 10056 TBSOneThread
+u0_a240       8380 10186 [GT]OrderWorker
+u0_a240       8380 10187 nd1_ANRWatchDog
+u0_a240       8380 10196 parallels-3
+u0_a240       8380 10200 parallels-3
+u0_a240       8380 10202 [GT]HandlerThre
+u0_a240       8380 10203 mmt_hkv_report
+u0_a240       8380 10224 Thread-4
+u0_a240       8380 10225 mmt_fHCPerfMana
+u0_a240       8380 10235 Thread-5
+u0_a240       8380 10236 [GT]HandlerThre
+u0_a240       8380 10249 IPCBridgeThread
+u0_a240       8380 10254 default_matrix_
+u0_a240       8380 10256 mmt_hhellhound_
+u0_a240       8380 10258 mmt_fhellhound-
+u0_a240       8380 10264 queued-work-loo
+u0_a240       8380 10265 parallels-5
+u0_a240       8380 10282 [GT]NormsgWorke
+u0_a240       8380 10298 [GT]pending-sta
+u0_a240       8380 10311 [GT]ThreadPoolP
+u0_a240       8380 10312 audio_mix_contr
+u0_a240       8380 10315 [GT]SubCoreAppB
+u0_a240       8380 10325 [GT]dignostic-f
+u0_a240       8380 10338 [GT]AppBrandSim
+u0_a240       8380 10349 WxaCgiServiceWC
+u0_a240       8380 10367 mars::cdn
+u0_a240       8380 10368 parallels-2
+u0_a240       8380 10369 cronet
+u0_a240       8380 10370 mars::webnet
+u0_a240       8380 10380 ThreadPool#Inne
+u0_a240       8380 10381 ThreadPool#Work
+u0_a240       8380 10395 ThreadPool#Thre
+u0_a240       8380 10458 [GT]HandlerThre
+u0_a240       8380 10463 [GT]HandlerThre
+u0_a240       8380 10466 pool-1-thread-1
+u0_a240       8380 10501 CrAsyncTask #1
+u0_a240       8380 10533 Chrome_ProcessL
+u0_a240       8380 10557 CrAsyncTask #2
+u0_a240       8380 10562 GoogleApiHandle
+u0_a240       8380 10599 TaskSchedulerSe
+u0_a240       8380 10600 TaskSchedulerFo
+u0_a240       8380 10601 Chrome_IOThread
+u0_a240       8380 10603 TaskSchedulerFo
+u0_a240       8380 10607 JSRuntimeLooper
+u0_a240       8380 10608 AudioThread
+u0_a240       8380 10622 ThreadPool#Thre
+u0_a240       8380 10627 TaskSchedulerSi
+u0_a240       8380 10628 TaskSchedulerFo
+u0_a240       8380 10629 PlatformService
+u0_a240       8380 10630 TaskSchedulerFo
+u0_a240       8380 10631 TaskSchedulerFo
+u0_a240       8380 10635 TaskSchedulerSi
+u0_a240       8380 10640 GAC_Executor[0]
+u0_a240       8380 10642 V8 DefaultWorke
+u0_a240       8380 10643 V8 DefaultWorke
+u0_a240       8380 10644 V8 DefaultWorke
+u0_a240       8380 10645 V8 DefaultWorke
+u0_a240       8380 10646 V8 DefaultWorke
+u0_a240       8380 10647 V8 DefaultWorke
+u0_a240       8380 10648 V8 DefaultWorke
+u0_a240       8380 10653 GAC_Executor[1]
+u0_a240       8380 10816 MB.GLThread#0
+u0_a240       8387  8387 nt.mm:appbrand0
+u0_a240       8387  9181 Jit thread pool
+u0_a240       8387  9186 Signal Catcher
+u0_a240       8387  9188 ADB-JDWP Connec
+u0_a240       8387  9189 HeapTaskDaemon
+u0_a240       8387  9190 ReferenceQueueD
+u0_a240       8387  9191 FinalizerDaemon
+u0_a240       8387  9192 FinalizerWatchd
+u0_a240       8387  9196 Binder:8387_1
+u0_a240       8387  9204 Binder:8387_2
+u0_a240       8387  9218 Binder:8387_3
+u0_a240       8387  9375 Profile Saver
+u0_a240       8387  9869 matrix_time_upd
+u0_a240       8387  9885 Vending-LogicTh
+u0_a240       8387  9887 Vending-HeavyWo
+u0_a240       8387  9933 nt.mm:appbrand0
+u0_a240       8387  9934 nt.mm:appbrand0
+u0_a240       8387  9935 nt.mm:appbrand0
+u0_a240       8387  9954 nt.mm:appbrand0
+u0_a240       8387 10065 VFS.Maintenance
+u0_a240       8387 10108 parallels-0
+u0_a240       8387 10109 parallels-1
+u0_a240       8387 10110 parallels-2
+u0_a240       8387 10111 parallels-3
+u0_a240       8387 10112 parallels-4
+u0_a240       8387 10113 parallels-5
+u0_a240       8387 10140 TbsHandlerThrea
+u0_a240       8387 10164 Thread-3
+u0_a240       8387 10165 TBSOneThread
+u0_a240       8387 10278 [GT]OrderWorker
+u0_a240       8387 10279 nd0_ANRWatchDog
+u0_a240       8387 10281 parallels-1
+u0_a240       8387 10284 [GT]HandlerThre
+u0_a240       8387 10285 mmt_hkv_report
+u0_a240       8387 10286 parallels-1
+u0_a240       8387 10318 Thread-4
+u0_a240       8387 10321 mmt_fHCPerfMana
+u0_a240       8387 10324 Thread-5
+u0_a240       8387 10328 [GT]HandlerThre
+u0_a240       8387 10350 IPCBridgeThread
+u0_a240       8387 10353 default_matrix_
+u0_a240       8387 10374 mmt_hhellhound_
+u0_a240       8387 10375 mmt_fhellhound-
+u0_a240       8387 10378 queued-work-loo
+u0_a240       8387 10383 parallels-2
+u0_a240       8387 10402 [GT]NormsgWorke
+u0_a240       8387 10411 [GT]pending-sta
+u0_a240       8387 10415 [GT]SubCoreAppB
+u0_a240       8387 10419 [GT]ThreadPoolP
+u0_a240       8387 10420 audio_mix_contr
+u0_a240       8387 10422 [GT]dignostic-f
+u0_a240       8387 10431 [GT]AppBrandSim
+u0_a240       8387 10434 WxaCgiServiceWC
+u0_a240       8387 10443 mars::cdn
+u0_a240       8387 10444 parallels-5
+u0_a240       8387 10445 cronet
+u0_a240       8387 10447 mars::webnet
+u0_a240       8387 10452 ThreadPool#Inne
+u0_a240       8387 10453 ThreadPool#Work
+u0_a240       8387 10459 ThreadPool#Thre
+u0_a240       8387 10471 [GT]HandlerThre
+u0_a240       8387 10472 [GT]HandlerThre
+u0_a240       8387 10475 pool-1-thread-1
+u0_a240       8387 10509 CrAsyncTask #1
+u0_a240       8387 10522 Chrome_ProcessL
+u0_a240       8387 10525 CrAsyncTask #2
+u0_a240       8387 10552 GoogleApiHandle
+u0_a240       8387 10553 ThreadPool#Thre
+u0_a240       8387 10558 TaskSchedulerSe
+u0_a240       8387 10559 TaskSchedulerFo
+u0_a240       8387 10560 Chrome_IOThread
+u0_a240       8387 10561 TaskSchedulerFo
+u0_a240       8387 10566 AudioThread
+u0_a240       8387 10567 TaskSchedulerFo
+u0_a240       8387 10569 TaskSchedulerSi
+u0_a240       8387 10570 PlatformService
+u0_a240       8387 10571 TaskSchedulerFo
+u0_a240       8387 10573 TaskSchedulerSi
+u0_a240       8387 10576 TaskSchedulerFo
+u0_a240       8387 10577 GAC_Executor[0]
+u0_a240       8387 10595 GAC_Executor[1]
+u0_a240       8387 10651 JSRuntimeLooper
+u0_a240       8387 10666 V8 DefaultWorke
+u0_a240       8387 10667 V8 DefaultWorke
+u0_a240       8387 10668 V8 DefaultWorke
+u0_a240       8387 10669 V8 DefaultWorke
+u0_a240       8387 10670 V8 DefaultWorke
+u0_a240       8387 10671 V8 DefaultWorke
+u0_a240       8387 10672 V8 DefaultWorke
+u0_a240       8387 10774 AsyncTask #1
+u0_a240       8387 10813 MB.GLThread#0
+u0_a240       8387 10835 Chrome_IOThread
+u0_a240       8387 10845 TaskSchedulerSe
+u0_a240       8387 10846 TaskSchedulerBa
+u0_a240       8387 10847 TaskSchedulerBa
+u0_a240       8387 10848 TaskSchedulerFo
+u0_a240       8387 10849 TaskSchedulerFo
+u0_a240       8387 10852 TaskSchedulerSi
+u0_a240       8387 10853 AudioThread
+u0_a240       8387 10860 TaskSchedulerSi
+u0_a240       8387 10861 TaskSchedulerFo
+u0_a240       8387 10862 TaskSchedulerBa
+u0_a240       8387 10880 XMemoryDumpStat
+u0_a240       8387 10890 ConnectivityThr
+u0_a240       8387 10895 leanupReference
+u0_a240       8387 10918 CompositorTileW
+u0_a240       8387 10935 AppBrandAsyncJS
+u0_a240       8387 10986 XProfileWorkThr
+u0_a240       8387 11010 Chrome_InProcGp
+u0_a240       8387 11014 Chrome_InProcRe
+u0_a240       8387 11016 TaskSchedulerFo
+u0_a240       8387 11031 Chrome_ChildIOT
+u0_a240       8387 11038 Chrome_ChildIOT
+u0_a240       8387 11039 GpuMemoryThread
+u0_a240       8387 11073 Compositor
+u0_a240       8387 11075 CompositorTileW
+u0_a240       8387 11080 CompositorTileW
+u0_a240       8387 11109 TaskSchedulerFo
+system        8391  8391 ter.soterserver
+system        8391  9198 Jit thread pool
+system        8391  9203 Signal Catcher
+system        8391  9205 ADB-JDWP Connec
+system        8391  9206 HeapTaskDaemon
+system        8391  9207 ReferenceQueueD
+system        8391  9208 FinalizerDaemon
+system        8391  9209 FinalizerWatchd
+system        8391  9210 Binder:8391_1
+system        8391  9213 Binder:8391_2
+system        8391  9215 Binder:8391_3
+system        8391  9265 Profile Saver
+system        8391  9269 HwBinder:8391_1
+u0_i9001      8457  8457 ProcessService0
+u0_i9001      8457  8467 Jit thread pool
+u0_i9001      8457  8468 Runtime worker 
+u0_i9001      8457  8469 Runtime worker 
+u0_i9001      8457  8470 Runtime worker 
+u0_i9001      8457  8471 Runtime worker 
+u0_i9001      8457  8472 Signal Catcher
+u0_i9001      8457  8481 ADB-JDWP Connec
+u0_i9001      8457  8489 HeapTaskDaemon
+u0_i9001      8457  8490 ReferenceQueueD
+u0_i9001      8457  8491 FinalizerDaemon
+u0_i9001      8457  8492 FinalizerWatchd
+u0_i9001      8457  8493 Binder:8457_1
+u0_i9001      8457  8496 Binder:8457_2
+u0_i9001      8457  8500 Binder:8457_3
+u0_i9001      8457  8521 ChildProcessMai
+u0_a166       8993  8993 mm.embms:remote
+u0_a166       8993  9724 Jit thread pool
+u0_a166       8993  9729 Signal Catcher
+u0_a166       8993  9730 ADB-JDWP Connec
+u0_a166       8993  9731 HeapTaskDaemon
+u0_a166       8993  9732 ReferenceQueueD
+u0_a166       8993  9733 FinalizerDaemon
+u0_a166       8993  9734 FinalizerWatchd
+u0_a166       8993  9735 Binder:8993_1
+u0_a166       8993  9737 Binder:8993_2
+u0_a166       8993  9780 Profile Saver
+u0_a166       8993  9787 HwBinder:8993_1
+u0_a166       8993  9814 Binder:8993_3
+u0_a166       8993  9830 AsyncTask #1
+u0_a166       8993  9976 queued-work-loo
+u0_a166       8993 10454 Binder:8993_4
+system        8997  8997 loros.gamespace
+system        8997 10354 Jit thread pool
+system        8997 10355 Runtime worker 
+system        8997 10356 Runtime worker 
+system        8997 10357 Runtime worker 
+system        8997 10358 Runtime worker 
+system        8997 10359 Signal Catcher
+system        8997 10360 ADB-JDWP Connec
+system        8997 10361 HeapTaskDaemon
+system        8997 10362 ReferenceQueueD
+system        8997 10363 FinalizerDaemon
+system        8997 10364 FinalizerWatchd
+system        8997 10365 Binder:8997_1
+system        8997 10371 Binder:8997_2
+system        8997 10421 HwBinder:8997_1
+u0_a240       9000  9000 cent.mm:toolsmp
+u0_a240       9000 10775 Jit thread pool
+u0_a240       9000 10776 Runtime worker 
+u0_a240       9000 10777 Runtime worker 
+u0_a240       9000 10778 Runtime worker 
+u0_a240       9000 10779 Runtime worker 
+u0_a240       9000 10780 Signal Catcher
+u0_a240       9000 10781 ADB-JDWP Connec
+u0_a240       9000 10782 HeapTaskDaemon
+u0_a240       9000 10783 ReferenceQueueD
+u0_a240       9000 10784 FinalizerDaemon
+u0_a240       9000 10785 FinalizerWatchd
+u0_a240       9000 10786 Binder:9000_1
+u0_a240       9000 10787 Binder:9000_2
+u0_a240       9000 10854 Profile Saver
+u0_a240       9000 11024 matrix_time_upd
+u0_a240       9000 11041 Vending-LogicTh
+u0_a240       9000 11044 Vending-HeavyWo
+u0_a240       9000 11063 cent.mm:toolsmp
+u0_a240       9000 11064 cent.mm:toolsmp
+u0_a240       9000 11065 cent.mm:toolsmp
+u0_a240       9000 11069 cent.mm:toolsmp
+u0_a240       9000 11130 VFS.Maintenance
+u0_a240       9000 11145 parallels-0
+u0_a240       9000 11146 parallels-1
+u0_a240       9000 11147 parallels-2
+u0_a240       9000 11148 parallels-3
+u0_a240       9000 11149 parallels-4
+u0_a240       9000 11150 parallels-5
+u0_a240       9000 11164 TbsHandlerThrea
+u0_a240       9000 11180 Thread-3
+u0_a240       9000 11181 TBSOneThread
+system        9023  9023 ping
+root          9212  9212 usap64
+root          9216  9216 usap64
+root          9229  9229 usap64
+root          9236  9236 usap64
+root          9249  9249 usap64
+root          9575  9575 usap32
+root          9577  9577 usap32
+root          9593  9593 usap32
+root          9595  9595 usap32
+root          9597  9597 usap32
+u0_i9002     10532 10532 ProcessService0
+u0_i9002     10532 10539 Jit thread pool
+u0_i9002     10532 10540 Runtime worker 
+u0_i9002     10532 10541 Runtime worker 
+u0_i9002     10532 10542 Runtime worker 
+u0_i9002     10532 10543 Runtime worker 
+u0_i9002     10532 10544 Signal Catcher
+u0_i9002     10532 10545 ADB-JDWP Connec
+u0_i9002     10532 10546 HeapTaskDaemon
+u0_i9002     10532 10547 ReferenceQueueD
+u0_i9002     10532 10548 FinalizerDaemon
+u0_i9002     10532 10549 FinalizerWatchd
+u0_i9002     10532 10551 Binder:10532_1
+u0_i9002     10532 10563 Binder:10532_2
+u0_i9002     10532 10580 ChildProcessMai
+u0_i9002     10532 10581 Binder:10532_3
+root         10788 10788 usap64
+root         10791 10791 usap64
+root         10793 10793 usap64
+root         10795 10795 usap64
+root         10797 10797 usap64
+root         11163 11163 sh
+root         11166 11166 sh
+root         11189 11189 ps
+root         11214 11214 sh
+root         11217 11217 xargs

@@ -7,6 +7,10 @@
 
 一旦你修改了源码，就需要重新执行 python setup.py build 和 python setup.py install
 
+# 备注
+
+**Systrace 文件在抓取的时候需要加 --no-compress 参数，才可以正常进行解析**
+
 # 使用案例
 
 ## 计算 Running 的进程时间

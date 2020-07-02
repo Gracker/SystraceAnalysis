@@ -1,0 +1,23 @@
+duration,pid,process_name,task_name,tid
+1.2219999999842912,2738,d.process.acore,Binder:2738_3,4120
+59.577000000032854,2738,d.process.acore,d.process.acore,2738
+0.8939999999739712,2738,d.process.acore,Binder:2738_2,4114
+0.049000000004184585,2738,d.process.acore,Binder:2738_1,4113
+27.22100000009675,2738,d.process.acore,Binder:2738_4,6047
+395.6829999998348,2738,d.process.acore,ContactsProvide,6128
+994.6349999998461,2738,d.process.acore,AffiliatedThrea,6129
+319.5539999999113,2738,d.process.acore,HeapTaskDaemon,4107
+29.324999999971624,2738,d.process.acore,Worker-1,6138
+1.8519999999853098,2738,d.process.acore,ReferenceQueueD,4108
+1.8789999999739848,2738,d.process.acore,FinalizerDaemon,4109
+2.6299999999821466,2738,d.process.acore,Worker-1,6211
+309.9579999999946,2738,d.process.acore,Jit thread pool,4100
+4.874999999998408,2738,d.process.acore,Profile Saver,4139
+1.5600000000119962,2738,d.process.acore,ADB-JDWP Connec,4106
+48.92999999994174,2738,d.process.acore,ContactsProvide,6970
+4.470999999966807,2738,d.process.acore,AffiliatedThrea,6971
+2.850000000009345,2738,d.process.acore,pool-4-thread-1,7335
+3.596999999999184,2738,d.process.acore,queued-work-loo,7336
+13.595000000051982,2738,d.process.acore,pool-6-thread-1,7356
+4.918000000074585,2738,d.process.acore,Worker-1,7515
+3.387999999986846,2738,d.process.acore,Worker-1,10267
