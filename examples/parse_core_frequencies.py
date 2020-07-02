@@ -123,7 +123,7 @@ for cpu in ALL_CPUS:
 print df_freq.to_string()
 
 now = time.strftime("%Y-%m-%d-%H_%M_%S",time.localtime(time.time())) 
-fname= now + r"_cpu_frequency_intervals.csv"
+fname= "./" + now + r"_cpu_frequency_intervals.csv"
 df_freq.to_csv(fname,index=False)
 # df_freq.to_csv("lock_to_launcher_2020_3_23_freq.csv")
 print 'freq parse end'

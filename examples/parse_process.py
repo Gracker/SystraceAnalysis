@@ -142,7 +142,7 @@ class ProcessInfoParse:
       df.sort_values("duration",inplace=True, ascending=False)
 
       now = time.strftime("%Y-%m-%d-%H_%M_%S",time.localtime(time.time())) 
-      fname= now+r"_result_sort_by_pid.csv"
+      fname= "./" + now+r"_result_sort_by_pid.csv"
       df.to_csv(fname,index=False)
 
   def print_result_sort_by_process(self):
@@ -153,7 +153,7 @@ class ProcessInfoParse:
       df = pd.DataFrame(result_list_process, columns=['duration','pid','process_name','task_name','tid'])
       df.sort_values("duration",inplace=True , ascending=False)
       now = time.strftime("%Y-%m-%d-%H_%M_%S",time.localtime(time.time())) 
-      fname= now+r"_result_sort_by_process.csv"
+      fname= "./" + now+r"_result_sort_by_process.csv"
       df.to_csv(fname,index=False)
 
   def print_result_sort_by_all(self):
