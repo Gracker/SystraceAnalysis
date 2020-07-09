@@ -18,5 +18,4 @@ trace = Ftrace(args.file)
 print 'parse trace end'
 
 lunch_info = trace.android.app_launch_latencies(task='com.androidperformance.inputmonitorexample')
-
 print lunch_info

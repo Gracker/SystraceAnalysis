@@ -9,7 +9,6 @@ from ftrace import Ftrace, Interval
 
 THERMAL_TIMELINE_RESOLUTION = '200L' # Resample to this Milliseconds
 
-
 LITTLE_CLUSTER_MASK = 0x0F
 BIG_CLUSTER_MASK = 0xF0
 

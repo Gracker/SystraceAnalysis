@@ -5,7 +5,6 @@ from pandas import DataFrame
 from ftrace.task import TaskState
 from parse_process import ProcessInfoParse
 import time
-import numpy as np
 
 LITTLE_CLUSTER_MASK = 0x0F
 BIG_CLUSTER_MASK = 0xF0
@@ -13,7 +12,7 @@ BIG_CLUSTER_MASK = 0xF0
 LITTLE_CPUS = ftrace.common.unpack_bitmap(LITTLE_CLUSTER_MASK)
 BIG_CPUS = ftrace.common.unpack_bitmap(BIG_CLUSTER_MASK)
 ALL_CPUS = LITTLE_CPUS.union(BIG_CPUS)
-FREQ_ALL_CORES=[]
+FREQ_ALL_CORES = []
 
 print 'parse argument start'
 parser = argparse.ArgumentParser(description='Per-core frequencies')
@@ -23,9 +22,9 @@ parser.add_argument('-f', '--file', dest='file',
 parser.add_argument('-pf', '--process file', dest='process_file',
                     help='Process file to parse')
 parser.add_argument('-pid', '--process pid', dest='process_pid',
-                    help='Process pid')          
+                    help='Process pid')
 parser.add_argument('-pn', '--process name', dest='process_name',
-                    help='Process name')   
+                    help='Process name')
 args = parser.parse_args()
 print 'parse argument end'
 
@@ -51,7 +50,8 @@ for busy_interval_item in task_interval:
             task_pid = process_info.get_pid(task_tid)
             task_name = process_info.get_taskname_by_tid(task_tid)
             process_name = process_info.get_taskname_by_pid(task_pid)
-            process_info.save_running_info_to_pid_list(task_pid ,task_tid , process_name,task_name , busy_interval_item.interval.duration)
+            process_info.save_running_info_to_pid_list(task_pid, task_tid, process_name, task_name,
+                                                       busy_interval_item.interval.duration)
 total_time = process_info.get_total_running_time()
 print 'Total running time = ' + str(total_time)
 process_info.cal_percentage(total_time)
@@ -73,7 +73,8 @@ if args.process_pid is not None:
                     task_name = process_info.get_taskname_by_tid(task_tid)
                     if process_name is None:
                         process_name = process_info.get_taskname_by_pid(task_pid)
-                    process_info.get_process_running_info(task_pid ,task_tid , process_name,task_name , busy_interval_item.interval.duration)
+                    process_info.get_process_running_info(task_pid, task_tid, process_name, task_name,
+                                                          busy_interval_item.interval.duration)
     process_info.print_result_sort_by_process()
     print 'target process parse by process pid end'
 
@@ -93,7 +94,8 @@ if args.process_name is not None:
                         task_name = process_info.get_taskname_by_tid(task_tid)
                         if process_name is None:
                             process_name = process_info.get_taskname_by_pid(task_pid)
-                        process_info.get_process_running_info(task_pid ,task_tid , process_name,task_name , busy_interval_item.interval.duration)
+                        process_info.get_process_running_info(task_pid, task_tid, process_name, task_name,
+                                                              busy_interval_item.interval.duration)
         process_info.print_result_sort_by_process()
     print 'target process parse by process name end'
 # print "Total trace time = " + str(trace.duration)
@@ -112,7 +114,7 @@ print FREQ_ALL_CORES
 print 'freq level parse end'
 
 print 'freq parse start'
-df_freq = DataFrame( index = ALL_CPUS, columns=FREQ_ALL_CORES)
+df_freq = DataFrame(index=ALL_CPUS, columns=FREQ_ALL_CORES)
 df_freq.fillna(0, inplace=True)
 for cpu in ALL_CPUS:
     for busy_interval in trace.cpu.busy_intervals(cpu=cpu):
@@ -122,9 +124,9 @@ for cpu in ALL_CPUS:
             df_freq.loc[cpu, freq.frequency] += freq.interval.duration
 print df_freq.to_string()
 
-now = time.strftime("%Y-%m-%d-%H_%M_%S",time.localtime(time.time())) 
-fname= now + r"_cpu_frequency_intervals.csv"
-df_freq.to_csv(fname,index=False)
+now = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
+fname = now + r"_cpu_frequency_intervals.csv"
+df_freq.to_csv(fname, index=False)
 # df_freq.to_csv("lock_to_launcher_2020_3_23_freq.csv")
 print 'freq parse end'
 

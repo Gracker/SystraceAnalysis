@@ -442,7 +442,7 @@ class Android(FTraceComponent):
         if launched_event:
             interval = Interval(0, launched_event.timestamp)
             return self._trace.cpu.task_intervals(task=launched_event.task,
-                interval=interval)[0].interval.start
+                interval = interval)[0].interval.start
 
     @requires('tracing_mark_write')
     @memoize
