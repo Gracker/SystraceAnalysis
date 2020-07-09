@@ -100,9 +100,6 @@ if args.process_name is not None:
     print 'target process parse by process name end'
 # print "Total trace time = " + str(trace.duration)
 
-# process_info.print_result_sort_by_all()
-# process_info.print_result_sort_by_tid()
-
 print 'freq level parse start'
 for cpu in ALL_CPUS:
     for busy_interval in trace.cpu.busy_intervals(cpu=cpu):
