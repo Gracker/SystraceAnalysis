@@ -1,0 +1,22 @@
+duration,pid,process_name,task_name,tid
+199.7700000000151,4850,d.process.media,d.process.media,4850
+0.12100000000714317,4850,d.process.media,Signal Catcher,6021
+89.77399999996294,4850,d.process.media,Jit thread pool,6016
+2.7209999999513457,4850,d.process.media,ADB-JDWP Connec,6023
+33.21100000006538,4850,d.process.media,Binder:4850_1,6028
+0.18199999999524152,4850,d.process.media,FinalizerWatchd,6027
+22.061999999991144,4850,d.process.media,FinalizerDaemon,6026
+389.3140000000699,4850,d.process.media,ReferenceQueueD,6025
+1445.869000000117,4850,d.process.media,HeapTaskDaemon,6024
+4.3320000000051095,4850,d.process.media,Binder:4850_2,6030
+4.886999999996533,4850,d.process.media,Profile Saver,6102
+5876.322999999565,4850,d.process.media,IntentService[M,6364
+16.738999999915904,4850,d.process.media,Binder:4850_3,6359
+2.8020000000026357,4850,d.process.media,queued-work-loo,6369
+0.6490000000098917,4850,d.process.media,MtpDatabase,6934
+6.649000000010119,4850,d.process.media,MtpServer,6961
+16.294999999971083,4850,d.process.media,pool-2-thread-1,7908
+40.05499999998108,4850,d.process.media,android.bg,10388
+2.434000000008041,4850,d.process.media,MediaStorage-tr,10464
+0.44799999999156626,4850,d.process.media,ent.InfoHandler,11015
+0.6430000000108294,4850,d.process.media,nt.EventHandler,11018
